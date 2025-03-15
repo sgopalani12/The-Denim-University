@@ -1,6 +1,12 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin: 0;
+    padding:0;
+}
+
 .container{
     margin: auto;
-    display: grid;
 }
 
 .main-title{
@@ -17,20 +23,22 @@
 }
 
 .navbar{
-    background-color: rgb(10, 10, 96);
-    text-align: center;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 100%;
-    padding-left: 5%;
-    padding-right: 10%;
+    height: 50px;
+    z-index: 999;
 }
 
 .navbar-option{
-    color: white;
+    color: rgb(214, 233, 66);
     font-family: "Roboto", sans-serif;
     font-size: large;
     text-decoration: none;
-    padding: 390px;
     padding-left: 15px;
+    font-size: 20px;
 }
 
 .footer{
@@ -41,4 +49,16 @@
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin: 0 auto;
+}
+
+.to-the-right{
+    display: flex;
+    padding: 0 10px;
 }
