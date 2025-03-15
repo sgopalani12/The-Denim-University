@@ -18,12 +18,17 @@
 
 .navbar{
     background-color: rgb(10, 10, 96);
+    text-align: center;
+    width: 100%;
+    
 }
 
 .navbar-option{
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+ 
+
 }
 
 .footer{
