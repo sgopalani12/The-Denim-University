@@ -2,11 +2,12 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: relative;
     margin: 0;
-    padding:0;
+    padding:0; 
 }
 
 .container{
     margin: auto;
+    background-color: aqua;
 }
 
 .main-title{
@@ -56,9 +57,11 @@
     justify-content: space-between;
     width: 110%;
     margin: 0 auto;
+    padding: 25px;
 }
 
 .to-the-right{
     display: flex;
     padding: 0 10px;
+    gap: 20px;
 }
