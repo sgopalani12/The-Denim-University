@@ -25,3 +25,13 @@
     font-family: "Roboto", sans-serif;
     text-decoration: none;
 }
+
+.footer{
+    background-color: rgb(10, 10, 96);
+}
+
+.footer-option{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
