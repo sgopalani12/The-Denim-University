@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    display: grid;
+}
+
+.main-title{
+    color: blue;
+    font-size: 90px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.first-image{
+    width: 600px;
+    height:400px;
+    margin: auto;
+}
