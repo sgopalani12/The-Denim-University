@@ -20,15 +20,17 @@
     background-color: rgb(10, 10, 96);
     text-align: center;
     width: 100%;
-    
+    padding-left: 5%;
+    padding-right: 10%;
 }
 
 .navbar-option{
     color: white;
     font-family: "Roboto", sans-serif;
+    font-size: large;
     text-decoration: none;
- 
-
+    padding: 390px;
+    padding-left: 15px;
 }
 
 .footer{
