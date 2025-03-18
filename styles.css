@@ -1,29 +1,31 @@
-*{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     margin: 0;
-    padding:0; 
+    padding: 0;
+
 }
 
-.container{
+.container {
     margin: auto;
     background-color: aqua;
+    padding-bottom: 187px;
 }
 
-.main-title{
+.main-title {
     color: blue;
     font-size: 90px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
 }
 
-.first-image{
+.first-image {
     width: 600px;
-    height:400px;
+    height: 400px;
     margin: auto;
 }
 
-.navbar{
+.navbar {
     background-color: blue;
     justify-content: center;
     align-items: center;
@@ -34,10 +36,11 @@
     justify-content: space-between;
     width: 98%;
     margin: 0 auto;
+    overflow: hidden;
     padding: 25px;
 }
 
-.navbar-option{
+.navbar-option {
     color: rgb(214, 233, 66);
     font-family: "Roboto", sans-serif;
     font-size: large;
@@ -46,7 +49,7 @@
     font-size: 20px;
 }
 
-.footer{
+.footer {
     background-color: rgb(10, 10, 96);
     justify-content: center;
     display: flex;
@@ -59,16 +62,19 @@
     left: 0;
     position: fixed;
     font-size: small;
-    width:100%;
+    width: 100%;
+    flex-direction: column;
+
 }
 
-.footer-option{
+.footer-option {
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+
 }
 
-.to-the-right{
+.to-the-right {
     display: flex;
-    
+
 }
