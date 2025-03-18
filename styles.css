@@ -54,27 +54,24 @@
     justify-content: center;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     text-align: center;
     bottom: 0;
-    color: #707070;
-    height: 2em;
+    height: 6em;
     left: 0;
     position: fixed;
     font-size: small;
     width: 100%;
     flex-direction: column;
-
 }
 
 .footer-option {
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-
 }
-
 .to-the-right {
     display: flex;
-
+}
+.footer-option-bottom{
+    
 }
