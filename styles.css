@@ -23,6 +23,10 @@
     width: 600px;
     height: 400px;
     margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .navbar {
@@ -54,24 +58,30 @@
     justify-content: center;
     display: flex;
     justify-content: space-between;
-    text-align: center;
     bottom: 0;
     height: 6em;
-    left: 0;
     position: fixed;
     font-size: small;
     width: 100%;
-    flex-direction: column;
+    padding: .5em;
+    gap: 20px;
 }
 
 .footer-option {
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    display: flexbox;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
+
 .to-the-right {
     display: flex;
 }
-.footer-option-bottom{
-    
+
+.footer-option-bottom {
+    display: flexbox;
+    margin: auto;  
 }
