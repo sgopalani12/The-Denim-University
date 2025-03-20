@@ -60,12 +60,9 @@
     display: flexbox;
     justify-content: space-between;
     bottom: 0;
-    height: 6em;
     position: fixed;
-    font-size: small;
     width: 100%;
-    padding: .5em;
-    grid-template-columns: auto auto auto auto;
+    padding: .6em; 
 }
 
 .footer-option {
@@ -73,23 +70,31 @@
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: block;
-    text-align: center;
+    margin-right: 15px;
+    flex-direction: row;
 }
 
 .to-the-right {
     display: flex;
 }
+.footer-top-row{
+    display: flex;
+    justify-content: center;
+}
 
 .footer-option-bottom {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+.footer-bottom-row{
     display: flex;
-    margin: auto;  
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: block;
-    color: rgb(232, 37, 232);
-    padding-top: 5px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.second-image{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
 }
