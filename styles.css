@@ -9,7 +9,7 @@
 .container {
     margin: auto;
     background-color: aqua;
-    padding-bottom: 187px;
+    padding-bottom: 500px;
 }
 
 .main-title {
@@ -62,7 +62,7 @@
     bottom: 0;
     position: fixed;
     width: 100%;
-    padding: .6em; 
+    padding: .6em;
 }
 
 .footer-option {
@@ -73,27 +73,37 @@
     margin-right: 15px;
     flex-direction: row;
 }
-
 .to-the-right {
-    display: flex;
+    display: flex; /* Keeps the layout */
+    gap: 1rem; /* Adds spacing between items */
 }
-.footer-top-row{
+.to-the-right span {
+    font-size: 20px; /* Initial font size */
+    transition: font-size 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.to-the-right span:hover {
+    font-size: 25px; /* Slightly increase the font size */
+    transform: scale(1.1); /* Enhances the effect smoothly */
+    text-decoration: underline;
+}
+.footer-top-row {
     display: flex;
     justify-content: center;
 }
-
 .footer-option-bottom {
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
 }
-.footer-bottom-row{
+
+.footer-bottom-row {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
-.second-image{
+
+.second-image {
     width: 15px;
     height: 15px;
     padding-right: 5px;
