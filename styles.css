@@ -7,7 +7,7 @@
 .container {
     margin: auto;
     background-color: aqua;
-    padding-bottom: 500px;
+    padding-bottom: auto;
     position: relative;
 }
 .main-title {
