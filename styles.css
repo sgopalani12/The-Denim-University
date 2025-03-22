@@ -19,8 +19,8 @@
     position: absolute;
     z-index: 10;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); /* Centering the element */
+    top: 2%;
+    transform: translate(-50%, 0%); /* Centering the element */
 }
 .first-image {
     width: 600px;
