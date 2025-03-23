@@ -26,7 +26,6 @@
     width: 600px;
     height: 100vh;
     display: flex;
-    width: 100%;
     position: relative;
     object-fit: cover;
 }
@@ -40,10 +39,9 @@
     z-index: 999;
     display: flex;
     justify-content: space-between;
-    width: 98%;
-    margin: 0 auto;
     overflow: hidden;
-    padding: 25px;
+    margin: auto;
+    max-width: 100%;
 }
 
 .navbar-option {
@@ -61,7 +59,6 @@
     display: flexbox;
     justify-content: space-between;
     bottom: 0;
-    position: fixed;
     width: 100%;
     padding: .6em;
 }
