@@ -70,15 +70,16 @@
     margin-right: 15px;
     flex-direction: row;
 }
-.to-the-right {
+.navbar-right {
     display: flex; /* Keeps the layout */
     gap: 1rem; /* Adds spacing between items */
+    padding-right: 40px;
 }
-.to-the-right span {
+.navbar-right span {
     font-size: 20px; /* Initial font size */
     transition: font-size 0.4s ease-in-out, padding 0.3s ease-in-out;
 }
-.to-the-right span:hover {
+.navbar-right span:hover {
     font-size: 25px; /* Slightly increase the font size */
     transform: scale(1.1); /* Enhances the effect smoothly */
     text-decoration: underline;
