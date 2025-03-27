@@ -31,7 +31,7 @@
 }
 
 .navbar {
-    background-color: blue;
+    background-color: #F9EEDB;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -45,14 +45,16 @@
 }
 
 .navbar-option {
-    color: rgb(214, 233, 66);
-    font-family: "Roboto", sans-serif;
+    color: black;
     font-size: large;
     text-decoration: none;
     padding-left: 15px;
     font-size: 20px;
+    text-transform: uppercase;
 }
-
+.navbar-option span{
+    font-family:Arial, Helvetica, sans-serif;
+}
 .footer {
     background-color: rgb(10, 10, 96);
     justify-content: center;
