@@ -8,10 +8,10 @@
     margin: auto;
     padding-bottom: auto;
     position: relative;
-    background-color: beige;
+    background-color: black;
 }
 .main-title {
-    color: blue;
+    color: rgb(255, 247, 204);
     font-size: 95px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -21,6 +21,18 @@
     left: 50%;
     top: 2%;
     transform: translate(-50%, 0%); /* Centering the element */
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.description{
+    color: rgb(255, 247, 204);
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    z-index: 10;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 900%);
 }
 .first-image {
     width: 600px;
@@ -28,7 +40,7 @@
     display: flex;
     position: relative;
     object-fit: cover;
-    opacity: 80%;
+    opacity: 60%;
 }
 .navbar {
     background-color: #F9EEDB;
