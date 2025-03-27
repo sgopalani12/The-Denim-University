@@ -34,8 +34,15 @@
     top: 2%;
     transform: translate(-50%, 900%);
 }
-.button{
+button{
+    color: Black;
+    font-size: 30px;
     text-align: center;
+    z-index: 10;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%, 1000%);
+    padding: 15px 15px;
 }
 .first-image {
     width: 600px;
