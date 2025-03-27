@@ -6,9 +6,9 @@
 }
 .container {
     margin: auto;
-    background-color: aqua;
     padding-bottom: auto;
     position: relative;
+    background-color: beige;
 }
 .main-title {
     color: blue;
@@ -28,8 +28,8 @@
     display: flex;
     position: relative;
     object-fit: cover;
+    opacity: 80%;
 }
-
 .navbar {
     background-color: #F9EEDB;
     justify-content: center;
