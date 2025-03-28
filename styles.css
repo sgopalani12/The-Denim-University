@@ -4,54 +4,56 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     margin: auto;
-    padding-bottom: auto;
+    /* padding-bottom: auto; */
     position: relative;
-    background-color: black;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/jeansimage1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .main-title {
     color: rgb(255, 247, 204);
     font-size: 95px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
-    position: absolute;
-    z-index: 10;
-    left: 50%;
-    top: 2%;
-    transform: translate(-50%, 0%); /* Centering the element */
-    text-transform: uppercase;
-    padding-top: 40px;
 }
-.description{
+
+.description {
     color: rgb(255, 247, 204);
     font-size: 35px;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    z-index: 10;
-    left: 50%;
-    top: 2%;
-    transform: translate(-50%, 900%);
 }
-button{
+
+.shop-button {
     color: Black;
     font-size: 30px;
     text-align: center;
-    z-index: 10;
-    left: 50%;
-    top: 6%;
-    transform: translate(-50%, 1000%);
     padding: 15px 15px;
+    text-transform: uppercase;
 }
+
+.shop-botton-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .first-image {
-    width: 600px;
-    height: 100vh;
+    width: 100%;
     display: flex;
     position: relative;
     object-fit: cover;
     opacity: 60%;
 }
+
 .navbar {
     background-color: #F9EEDB;
     justify-content: center;
@@ -74,9 +76,11 @@ button{
     font-size: 20px;
     text-transform: uppercase;
 }
-.navbar-option span{
-    font-family:Arial, Helvetica, sans-serif;
+
+.navbar-option span {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .footer {
     background-color: rgb(10, 10, 96);
     justify-content: center;
@@ -86,6 +90,7 @@ button{
     width: 100%;
     padding: 12px 0;
 }
+
 .footer-option {
     color: white;
     font-family: "Roboto", sans-serif;
@@ -94,24 +99,34 @@ button{
     margin-right: 15px;
     flex-direction: row;
 }
+
 .navbar-right {
-    display: flex; /* Keeps the layout */
-    gap: 1rem; /* Adds spacing between items */
+    display: flex;
+    /* Keeps the layout */
+    gap: 1rem;
+    /* Adds spacing between items */
     padding-right: 40px;
 }
+
 .navbar-right span {
-    font-size: 20px; /* Initial font size */
+    font-size: 20px;
+    /* Initial font size */
     transition: font-size 0.4s ease-in-out, padding 0.3s ease-in-out;
 }
+
 .navbar-right span:hover {
-    font-size: 25px; /* Slightly increase the font size */
-    transform: scale(1.1); /* Enhances the effect smoothly */
+    font-size: 25px;
+    /* Slightly increase the font size */
+    transform: scale(1.1);
+    /* Enhances the effect smoothly */
     text-decoration: underline;
 }
+
 .footer-top-row {
     display: flex;
     justify-content: center;
 }
+
 .footer-option-bottom {
     color: white;
     text-decoration: none;
@@ -130,7 +145,8 @@ button{
     height: 15px;
     padding-right: 5px;
 }
-.logo{
+
+.logo {
     width: 45px;
     height: 45px;
 }
