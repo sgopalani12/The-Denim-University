@@ -147,6 +147,12 @@
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
+}
+
+.hero-content{
+    display: flexbox;
+    justify-content: center;
+    padding: 15%;
 }
