@@ -4,34 +4,85 @@
     margin: 0;
     padding: 0;
 }
-.container {
-    margin: auto;
-    background-color: aqua;
-    padding-bottom: auto;
-    position: relative;
+
+body{
+    background-color: black;
+
 }
+
+.container {
+    position: relative;
+    background-image: url(images/jeansimage1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
 .main-title {
-    color: blue;
+    color: rgb(255, 247, 204);
     font-size: 95px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
-    position: absolute;
-    z-index: 10;
-    left: 50%;
-    top: 2%;
-    transform: translate(-50%, 0%); /* Centering the element */
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
-.first-image {
-    width: 600px;
-    height: 100vh;
+
+.description {
+    color: rgb(255, 247, 204);
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.shop-button {
+    color: Black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.shop-botton-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+/* .first-image {
+    width: 100%;
     display: flex;
     position: relative;
     object-fit: cover;
+    opacity: 60%;
+} */
+
+.promo-code{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.promo-container {
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.email-icon {
+    width: 18px;
+    height: 12px;
+    padding-right: 5px;
+    color: black;
 }
 
 .navbar {
-    background-color: blue;
+    background-color: #F9EEDB;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -45,12 +96,16 @@
 }
 
 .navbar-option {
-    color: rgb(214, 233, 66);
-    font-family: "Roboto", sans-serif;
+    color: black;
     font-size: large;
     text-decoration: none;
     padding-left: 15px;
     font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-option span {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
@@ -62,6 +117,7 @@
     width: 100%;
     padding: 12px 0;
 }
+
 .footer-option {
     color: white;
     font-family: "Roboto", sans-serif;
@@ -70,24 +126,34 @@
     margin-right: 15px;
     flex-direction: row;
 }
+
 .navbar-right {
-    display: flex; /* Keeps the layout */
-    gap: 1rem; /* Adds spacing between items */
+    display: flex;
+    /* Keeps the layout */
+    gap: 1rem;
+    /* Adds spacing between items */
     padding-right: 40px;
 }
+
 .navbar-right span {
-    font-size: 20px; /* Initial font size */
+    font-size: 20px;
+    /* Initial font size */
     transition: font-size 0.4s ease-in-out, padding 0.3s ease-in-out;
 }
+
 .navbar-right span:hover {
-    font-size: 25px; /* Slightly increase the font size */
-    transform: scale(1.1); /* Enhances the effect smoothly */
+    font-size: 25px;
+    /* Slightly increase the font size */
+    transform: scale(1.1);
+    /* Enhances the effect smoothly */
     text-decoration: underline;
 }
+
 .footer-top-row {
     display: flex;
     justify-content: center;
 }
+
 .footer-option-bottom {
     color: white;
     text-decoration: none;
@@ -106,3 +172,37 @@
     height: 15px;
     padding-right: 5px;
 }
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.promo-code{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
