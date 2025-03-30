@@ -23,6 +23,7 @@
     font-weight: 500;
     text-align: center;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .description {
@@ -35,10 +36,12 @@
 
 .shop-button {
     color: Black;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding: 10px 10px;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 .shop-botton-wrapper{
@@ -53,6 +56,25 @@
     position: relative;
     object-fit: cover;
     opacity: 60%;
+}
+
+.promo-code{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.promo-container {
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.email-icon {
+    width: 18px;
+    height: 12px;
+    padding-right: 5px;
+    color: black;
 }
 
 .navbar {
@@ -162,3 +184,10 @@
     opacity: 70%;
     height: 100%;
 }
+
+.promo-code{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
