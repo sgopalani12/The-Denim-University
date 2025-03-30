@@ -7,9 +7,7 @@
 
 .container {
     margin: auto;
-    /* padding-bottom: auto; */
     position: relative;
-    /* background-color: black; */
     justify-content: center;
     align-items: center;
     background-image: url(images/jeansimage1.jpg);
@@ -24,6 +22,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .description {
@@ -31,19 +30,21 @@
     font-size: 35px;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .shop-button {
     color: Black;
     font-size: 30px;
     text-align: center;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-transform: uppercase;
 }
 
 .shop-botton-wrapper{
     display: flex;
     justify-content: center;
+    padding-top: 5%;
 }
 
 .first-image {
@@ -152,7 +153,12 @@
 }
 
 .hero-content{
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 15%;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    opacity: 70%;
+    height: 100%;
 }
