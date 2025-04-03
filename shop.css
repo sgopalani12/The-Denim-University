@@ -2,13 +2,12 @@
     background-color: white;
 }
 
-.black-denim-pic{
-    height: 20%;
+.img-with-text1 img {
     width: 20%;
-    padding: 70px 0 0 100px;
+    padding: 30px 0 0 45px;
 }
 
-.black-jeans-title{
+.img-with-text1 {
     color: black;
-    font-size: 25px;
+    text-align: justify;
 }
