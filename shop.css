@@ -9,11 +9,29 @@
 }
 
 .shop-item {
-    color: black;
     margin-right: 10px;
+}
+
+.shop-item p{
+    font-family: "Roboto", sans-serif;
+    color: black;
 }
 
 .shop-image {
     height: 200px;
     width: 150px;
+}
+
+.shop-item-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.shop-item-size {
+    font-size: 10px;
+}
+
+.shop-item-price {
+    font-size: 12px;
+    font-weight: bold;
 }
