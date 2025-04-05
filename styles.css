@@ -40,13 +40,22 @@ body{
 }
 
 .shop-button {
-    color: Black;
+    display: inline-block;         /* Makes it look like a button */
+    color: black;                  /* Ensures the font is black */
     font-size: 20px;
     text-align: center;
     padding: 10px 10px;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    text-decoration: none;         /* Removes the underline */
+    background-color: #eee;        /* Optional: gives button look */
+    border: 1px solid #ccc;        /* Optional: button border */
+    border-radius: 4px;            /* Optional: rounded corners */
+}
+
+.shop-button:hover {
+    background-color: #ddd;        /* Optional: hover effect */
 }
 
 .shop-botton-wrapper{
