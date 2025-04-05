@@ -3,13 +3,13 @@
 }
 
 .shop-items {
-    border: solid 1px black;
+    border: solid 2p x black;
     display: flex;
     justify-content: center;
 }
 
 .shop-item {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .shop-item p{
