@@ -39,6 +39,17 @@ body{
     padding-bottom: 10px;
 }
 
+/* .shop-button {
+    color: Black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
 .shop-button {
     display: inline-block;         /* Makes it look like a button */
     color: black;                  /* Ensures the font is black */
