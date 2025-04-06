@@ -2,6 +2,12 @@
     background-color: white;
 }
 
+.denim-banner-img{
+ justify-content: center;
+ width: 100%;
+ height: 75px;
+}
+
 .shop-items {
     border: solid 2p x black;
     display: flex;
