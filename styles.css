@@ -131,7 +131,7 @@ body{
 
 .footer {
     background-color: rgb(10, 10, 96);
-    background-image: linear-gradient(blue, rgb(109, 109, 248));
+    background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245));
     justify-content: center;
     display: flexbox;
     justify-content: space-between;
@@ -229,8 +229,14 @@ body{
 }
 
 .shopcart-icon {
+    width: 45px;
+    height: 25px;
+    color: black;
+    margin-left: 8%;
+}
+
+.shopcart-icon:hover{
+    transform: scale(1.1);
     width: 50px;
     height: 30px;
-    padding-right: 5px;
-    color: black;
 }
