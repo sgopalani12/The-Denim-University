@@ -44,4 +44,6 @@
 label{
     color: black;
     font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
