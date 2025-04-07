@@ -13,6 +13,20 @@
     justify-content: center;
 }
 
+.dropdown {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 40px;
+    min-width: 150px;
+    border: 1px solid black; /*keep for now, remove later*/
+}
+
+.dropdown-filter {
+    /* border: 1px solid black; keep for now, will remove later */
+}
+
 .shop-item {
     margin-right: 30px;
 }
@@ -39,11 +53,4 @@
 .shop-item-price {
     font-size: 12px;
     font-weight: bold;
-}
-
-label{
-    color: black;
-    font-weight: bold;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
 }
