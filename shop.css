@@ -8,7 +8,7 @@
     width: 100%;
 }
 .shop-items {
-    border: solid 1px black;
+    /* border: solid 1px black; keep for now, removove later */
     display: flex;
     justify-content: center;
 }
@@ -20,7 +20,7 @@
     padding: 20px;
     margin-right: 40px;
     min-width: 150px;
-    border: 1px solid black; /*keep for now, remove later*/
+    /* border: 1px solid black; keep for now, remove later */
 }
 
 .dropdown-filter {
