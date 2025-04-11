@@ -1,12 +1,13 @@
-.shop-body{
+.shop-body {
     background-color: white;
 }
 
-.denim-banner-img{
+.denim-banner-img {
     background-image: url(/images/denim-banner.png);
     height: 160px;
     width: 100%;
 }
+
 .shop-items {
     /* border: solid 1px black; keep for now, removove later */
     display: flex;
@@ -18,12 +19,13 @@
     flex-direction: column;
     padding: 20px;
     margin-right: 40px;
-    min-width: 150px;
-    border: 1px solid black; /*keep for now, remove later*/
+    min-width: 100px;
+    border: 1px solid black;
+    /*keep for now, remove later*/
     font-family: "Roboto", sans-serif;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     font-family: "Roboto", sans-serif;
     list-style-type: none;
 }
@@ -33,9 +35,13 @@
     justify-content: space-between;
 }
 
-.dropdown-arrow{
+.dropdown-arrow {
     height: 20px;
     width: 20px;
+}
+
+.line {
+    width: 200px;
 }
 
 .dropdown-filter {
@@ -46,13 +52,15 @@
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .shop-item {
     margin-right: 30px;
 }
 
-.shop-item p{
+.shop-item p {
     font-family: "Roboto", sans-serif;
     color: black;
 }
