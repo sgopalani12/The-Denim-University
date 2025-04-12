@@ -53,6 +53,7 @@
     font-family: "Roboto", sans-serif;
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
 }
 
 .shop-item-row2 {
