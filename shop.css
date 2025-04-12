@@ -50,11 +50,26 @@
     /* border: 1px solid black; keep for now, will remove later */
 }
 
+.dropdown-menu li{
+    justify-content: center;
+}
+
 .dropdown-menu label,
 .dropdown-menu input {
     font-family: "Roboto", sans-serif;
+    margin-bottom: 7px;
+    margin-left: 2px;
 }
 
+.dropdown-label {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+}
 .shop-item-container {
     display: flex;
     flex-direction: column;

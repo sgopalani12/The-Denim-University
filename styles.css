@@ -131,7 +131,7 @@ body{
 
 .footer {
     background-color: rgb(10, 10, 96);
-    background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245));
+    /* background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245)); */
     justify-content: center;
     display: flexbox;
     justify-content: space-between;
