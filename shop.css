@@ -11,6 +11,7 @@
 .shop-items {
     /* border: solid 1px black;  */
     display: flex;
+    justify-content: center;
 }
 
 .dropdown {
@@ -49,17 +50,25 @@
     /* border: 1px solid black; keep for now, will remove later */
 }
 
-.shop-item-row1 {
+.dropdown-menu label,
+.dropdown-menu input {
     font-family: "Roboto", sans-serif;
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
 }
 
-.shop-item-row2 {
+.shop-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.shop-item-row {
     font-family: "Roboto", sans-serif;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
 .shop-item {
@@ -72,8 +81,8 @@
 }
 
 .shop-image {
-    height: 225px;
-    width: 175px;
+    height: 300px;
+    width: 250px;
     justify-content: center;
 }
 
