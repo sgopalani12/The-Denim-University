@@ -1,25 +1,115 @@
-.shop-body{
+.shop-body {
     background-color: white;
 }
 
+.denim-banner-img {
+    background-image: url(/images/denim-banner.png);
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
 .shop-items {
-    border: solid 2p x black;
+    /* border: solid 1px black;  */
     display: flex;
     justify-content: center;
+}
+
+.dropdown {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 40px;
+    min-width: 100px;
+    /* border: 1px solid black; */
+    /*keep for now, remove later*/
+    font-family: "Roboto", sans-serif;
+}
+
+.dropdown-menu {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+}
+
+.dropdown-arrow-aligned {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-arrow {
+    height: 20px;
+    width: 20px;
+}
+
+.line {
+    width: 150px;
+    min-width: 50px;
+}
+
+.dropdown-filter {
+    /* border: 1px solid black; keep for now, will remove later */
+}
+
+.dropdown-menu li{
+    justify-content: center;
+}
+
+.dropdown-menu label{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu input {
+    width: 9px;
+    height: 9px;
+    margin: 0;
+}
+
+.dropdown-label {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+}
+.shop-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.shop-item-row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
 .shop-item {
     margin-right: 30px;
 }
 
-.shop-item p{
+.shop-item p {
     font-family: "Roboto", sans-serif;
     color: black;
 }
 
 .shop-image {
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
 }
 
 .shop-item-title {
@@ -34,4 +124,10 @@
 .shop-item-price {
     font-size: 12px;
     font-weight: bold;
+}
+
+.line-arrow {
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: inline-block;
 }
