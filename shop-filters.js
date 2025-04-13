@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const waistFilters = document.querySelectorAll('input[name="waist"]')
     const lengthFilters = document.querySelectorAll('input[name="length"]')
-    const colorFilters = document.querySelectorAll('input[name="color"')
+    const colorFilters = document.querySelectorAll('input[name="color"]')
 
     waistFilters.forEach((input) => {
         console.log(`these are my waist values ${input.value}`)
@@ -55,12 +55,12 @@ function filterItems() {
   
       // Extract color
       const colorMatch = item.textContent.match(/Color:\s*(\w+)/i);
-      const color = colorMatch ? colorMatch[1].toLowerCase() : null;
+      const color = colorMatch ? colorMatch[1].toUpperCase() : null;
   
       // Match logic
       const waistMatch = selectedWaists.length === 0 || selectedWaists.includes(waist);
       const lengthMatch = selectedLengths.length === 0 || selectedLengths.includes(length);
-      const colorMatchCheck = selectedColor.length === 0 || (color && selectedColor.includes(color));
+      const colorMatchCheck = selectedColor.length === 0 || color && selectedColor.includes(color);
   
       if (waistMatch && lengthMatch && colorMatchCheck) {
         item.style.display = 'block';
@@ -72,6 +72,10 @@ function filterItems() {
   
   // Add change listeners for all filters (waist, length, color)
   document.querySelectorAll('input[name="waist"], input[name="length"], input[name="color"]').forEach(checkbox => {
-    checkbox.addEventListener('change', filterItems);
+    checkbox.addEventListener('change', () => {
+        console.log('Filter triggered');
+        filterItems();
+      });
+      
   });
   
