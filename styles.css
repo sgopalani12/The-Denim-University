@@ -200,6 +200,16 @@ body{
     height: 45px;
 }
 
+.mag-logo {
+    width: 17px;
+    height: 17px;
+}
+
+input{
+    width: 300px;
+    justify-content: center;
+}
+
 .hero-content{
     display: flex;
     flex-direction: column;
