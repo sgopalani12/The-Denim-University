@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jeans Inventory</h1>
+    <ul id="jeans-list"></ul>
+
+    <script>
+        fetch('http://localhost:4000/jeans')
+        .then(response => response.json())
+        .then(data => {
+            const list = document.getElementById("jeans-list")
+            data.forEach(jean => {
+                const item = document.createElement('li')
+                item.textContent = `title:${jean.title}, size:${jean.waist}x${jean.height}, color:${jean.color}, price:${jean.price}`
+                list.appendChild(item)
+            })
+        })
+        .catch(error => {
+            console.error('Error fetching jeans: ', error)
+        })
+    </script>
+</body>
+</html>
