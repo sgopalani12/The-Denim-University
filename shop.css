@@ -131,3 +131,8 @@ input[type="checkbox"] {
     justify-content: center;
     display: inline-block;
 }
+
+.mag-logo {
+    width: 17px;
+    height: 17px;
+}
