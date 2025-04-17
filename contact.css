@@ -1,3 +1,15 @@
 body {
     background-color: navy;
 }
+
+.contact-title{
+    text-align: center;
+    font-size: 60px;;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+.contact-description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
