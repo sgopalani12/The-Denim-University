@@ -7,6 +7,7 @@ body {
     font-size: 60px;
     ;
     font-family: Roboto, 'Times New Roman', Times, serif;
+    z-index: 2;
 }
 
 .contact-container {
@@ -16,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+ 
 }
 
 .contact-description {
@@ -58,6 +60,9 @@ body {
 }
 
 .user-message {
-    width: 300px;
-    height: 100px;
+    /* width: 300px;
+    height: 100px; */
+    padding-bottom: 50px;
+    text-align: left;
+    vertical-align: top;
 }
