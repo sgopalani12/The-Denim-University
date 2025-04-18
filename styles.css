@@ -252,15 +252,10 @@ input{
 }
 
 .company-descriptions {
-    /* border: 2px solid white; keep for now, to see box layout */
+    border: 2px solid white;
     text-align: right;
     padding-right: 30px;
     
-}
-
-.company-description2 {
-   justify-content: center;
-   text-align: center;
 }
 
 .map-icon {
@@ -271,5 +266,5 @@ input{
 
 .social-media-links {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
