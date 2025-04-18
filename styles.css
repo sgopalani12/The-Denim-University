@@ -250,3 +250,13 @@ input{
     width: 50px;
     height: 30px;
 }
+
+.company-address {
+    /* border: 2px solid white; keep for now, to see box layout */
+    text-align: right;
+}
+
+.map-icon {
+    width: 30px;
+    height: 30px;
+}
