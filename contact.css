@@ -59,10 +59,12 @@ body {
     /* Optional: hover effect */
 }
 
-.user-message {
+.message {
     /* width: 300px;
     height: 100px; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px;
     text-align: left;
-    vertical-align: top;
+    vertical-align: top; */
+    height: 80px;
+    width: 50%;
 }
