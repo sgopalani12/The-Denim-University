@@ -8,6 +8,8 @@ body {
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
+
+
 .contact-container{
     background-image: url(/images/contact-page.backgroun.png);
     position: relative;
@@ -23,5 +25,28 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0; 
+    height: 100%;
+    width: 100%;
+}
+
+.submit-button {
+    display: inline-block;         /* Makes it look like a button */
+    color: black;                  /* Ensures the font is black */
+    font-size: 15px;
+    padding: 5px 5px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;         /* Removes the underline */
+    background-color: #eee;        /* Optional: gives button look */
+    border: 1px solid #000000;        /* Optional: button border */
+    border-radius: 4px;         
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #ddd;        /* Optional: hover effect */
 }
