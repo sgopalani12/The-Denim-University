@@ -1,5 +1,5 @@
 body {
-    background-color: navy;
+    background-color: blue;
 }
 
 .contact-title{
@@ -8,8 +8,20 @@ body {
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
+.contact-container{
+    background-image: url(/images/contact-page.backgroun.png);
+    position: relative;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .contact-description{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
