@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
     color: white;
 
@@ -51,25 +51,32 @@ body{
 } */
 
 .shop-button {
-    display: inline-block;         /* Makes it look like a button */
-    color: black;                  /* Ensures the font is black */
+    display: inline-block;
+    /* Makes it look like a button */
+    color: black;
+    /* Ensures the font is black */
     font-size: 20px;
     text-align: center;
     padding: 10px 10px;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-decoration: none;         /* Removes the underline */
-    background-color: #eee;        /* Optional: gives button look */
-    border: 1px solid #ccc;        /* Optional: button border */
-    border-radius: 4px;            /* Optional: rounded corners */
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: #eee;
+    /* Optional: gives button look */
+    border: 1px solid #ccc;
+    /* Optional: button border */
+    border-radius: 4px;
+    /* Optional: rounded corners */
 }
 
 .shop-button:hover {
-    background-color: #ddd;        /* Optional: hover effect */
+    background-color: #ddd;
+    /* Optional: hover effect */
 }
 
-.shop-botton-wrapper{
+.shop-botton-wrapper {
     display: flex;
     justify-content: center;
     padding-top: 5%;
@@ -83,7 +90,7 @@ body{
     opacity: 60%;
 } */
 
-.promo-code{
+.promo-code {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
@@ -205,12 +212,12 @@ body{
     height: 17px;
 }
 
-input{
+input {
     width: 300px;
     justify-content: center;
 }
 
-.hero-content{
+.hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,7 +227,7 @@ input{
     color: white;
 }
 
-.promo-code{
+.promo-code {
     background-color: black;
     color: white;
     text-align: center;
@@ -245,7 +252,7 @@ input{
     margin-left: 8%;
 }
 
-.shopcart-icon:hover{
+.shopcart-icon:hover {
     transform: scale(1.1);
     width: 50px;
     height: 30px;
@@ -255,7 +262,7 @@ input{
     border: 2px solid white;
     text-align: right;
     padding-right: 30px;
-    
+
 }
 
 .map-icon {
@@ -267,4 +274,15 @@ input{
 .social-media-links {
     text-align: center;
     padding-bottom: 5px;
+}
+
+._blank {
+    width: 10px;
+}
+
+.ig-icon {
+    display: block;
+    margin: 10px auto;
+    width: 30px;
+    height: 30px;
 }
