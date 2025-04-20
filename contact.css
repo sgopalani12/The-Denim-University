@@ -68,3 +68,15 @@ body {
     height: 80px;
     width: 50%;
 }
+
+p {
+    z-index: 2;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cs-message {
+    z-index: 2;
+    text-align: center;
+    padding-top: 20px;    
+}
