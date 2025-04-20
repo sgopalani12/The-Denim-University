@@ -139,12 +139,13 @@ body {
 .footer {
     background-color: rgb(10, 10, 96);
     /* background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245)); */
-    justify-content: center;
+    /* justify-content: center; */
     display: flexbox;
     justify-content: space-between;
     bottom: 0;
     width: 100%;
     padding: 12px 0;
+    align-items: flex-start;
 }
 
 .footer-option {
@@ -259,10 +260,10 @@ input {
 }
 
 .company-descriptions {
+    display: flex;
     border: 2px solid white;
-    text-align: right;
-    padding-right: 30px;
-
+    /* text-align: right; */
+    justify-content: right;
 }
 
 .map-icon {
@@ -273,16 +274,24 @@ input {
 
 .social-media-links {
     text-align: center;
-    padding-bottom: 5px;
-}
-
-._blank {
-    width: 10px;
+    border: 2px solid white;
 }
 
 .ig-icon {
     display: block;
     margin: 10px auto;
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.social-media-container {
+    border: 2px solid white;
+}
+
+.company-address-container {
+    border: 2px solid white;
+    float: right;
+    margin-right: 10px;
 }
