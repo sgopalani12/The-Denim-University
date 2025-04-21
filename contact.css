@@ -1,0 +1,82 @@
+body {
+    background-color: blue;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 60px;
+    ;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+
+.contact-container {
+    background-image: url(/images/contact-page.backgroun.png);
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    gap: 25px;
+}
+
+.submit-button {
+    display: inline-block;
+    /* Makes it look like a button */
+    color: black;
+    /* Ensures the font is black */
+    font-size: 15px;
+    padding: 5px 5px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: #eee;
+    /* Optional: gives button look */
+    border: 1px solid #000000;
+    /* Optional: button border */
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #ddd;
+    /* Optional: hover effect */
+}
+
+.message {
+    /* width: 300px;
+    height: 100px; */
+    /* padding-bottom: 50px;
+    text-align: left;
+    vertical-align: top; */
+    height: 80px;
+    width: 50%;
+}
+
+p {
+    z-index: 2;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cs-message {
+    z-index: 2;
+    text-align: center;
+    padding-top: 20px;    
+}

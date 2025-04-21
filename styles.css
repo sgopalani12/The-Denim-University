@@ -196,8 +196,18 @@ body{
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: x;
+    height: 55px;
+}
+
+.mag-logo {
+    width: 17px;
+    height: 17px;
+}
+
+input{
+    width: 300px;
+    justify-content: center;
 }
 
 .hero-content{
