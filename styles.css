@@ -136,6 +136,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.search-box input[type="text"] {
+    padding-right: 30px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.search-box .search-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.search-box .mag-logo {
+    width: 16px;
+    height: 16px;
+}
+
 .footer {
     background-color: rgb(10, 10, 96);
     /* background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245)); */
