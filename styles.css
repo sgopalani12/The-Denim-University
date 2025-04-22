@@ -308,9 +308,10 @@ input {
 }
 
 .ig-icon svg {
-    width: 20px; /* Ensure icon is visible and sized appropriately */
+    width: 20px;
+    /* Ensure icon is visible and sized appropriately */
     height: 20px;
-  }
+}
 
 .social-media-container {
     display: flex;
