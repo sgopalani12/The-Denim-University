@@ -289,6 +289,13 @@ input {
     width: 100%;
 }
 
+.company-descriptions2{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-right: 40%;
+}
+
 .map-icon {
     width: 30px;
     height: 30px;
