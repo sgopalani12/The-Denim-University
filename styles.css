@@ -207,6 +207,7 @@ body {
 }
 
 .footer-option-bottom {
+    border: 3px solid white;
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -283,6 +284,7 @@ input {
 }
 
 .company-descriptions {
+    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -291,6 +293,7 @@ input {
 }
 
 .company-descriptions2 {
+    border: 2px solid green;
     display: flex;
     /* border: 2px solid white; */
     flex-direction: column;
@@ -302,6 +305,7 @@ input {
 }
 
 .company-descriptions3 {
+    border: 2px solid purple;
     display: flex;
     /* border: 2px solid white; */
     flex-direction: column;
@@ -330,21 +334,23 @@ input {
 }
 
 .ig-icon svg {
-    width: 20px;
+    width: 35px;
     /* Ensure icon is visible and sized appropriately */
-    height: 20px;
+    height: 35px;
 }
 
 .social-media-container {
+    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 23px;
 }
 
 .company-address-container {
+    border: 2px solid pink;
     float: right;
-    margin-right: 10px;
+    margin-right: 23px;
 }
