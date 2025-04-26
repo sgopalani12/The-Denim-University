@@ -168,6 +168,7 @@ body {
     width: 100%;
     padding: 12px 0;
     align-items: flex-start;
+    font-family: "Roboto", sans-serif;
 }
 
 .footer-option {
@@ -285,7 +286,7 @@ input {
 }
 
 .company-descriptions {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -294,24 +295,25 @@ input {
 }
 
 .company-descriptions2 {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     display: flex;
     flex-direction: column;
     float: left;
-
+    font-family: "Roboto", sans-serif;
     text-align: center;
     align-items: center;
     gap: 10px;
 }
 
 .company-descriptions3 {
-    /* border: 2px solid purple; */
+    border: 2px solid purple;
     display: flex;
     flex-direction: column;
     float: right;
     text-align: center;
     align-items: center;
     gap: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 .map-icon {
@@ -328,7 +330,7 @@ input {
 }
 
 .sm-icons {
-    /* border: 2px solid white; */
+    border: 2px solid white;
     display: flex;
 }
 .ig-icon {
@@ -353,19 +355,27 @@ input {
 }
 
 .social-media-container {
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
     margin-left: 23px;
+    font-family: "Roboto", sans-serif;
 }
 
 .company-address-container {
-    /* border: 2px solid pink; */
+    border: 2px solid pink;
     float: right;
     margin-right: 2px;
     font-size: 18px;
-    
+}
+
+.company-address-title {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
 }
