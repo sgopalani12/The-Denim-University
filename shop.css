@@ -14,7 +14,8 @@
 .shop-items {
     /* border: solid 1px black;  */
     display: flex;
-    justify-content: center;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
 }
 
 .dropdown {
@@ -27,6 +28,8 @@
     /* border: 1px solid black; */
     /*keep for now, remove later*/
     font-family: "Roboto", sans-serif;
+    width: 250px;
+    flex-shrink:0;
 }
 
 .dropdown-menu {
