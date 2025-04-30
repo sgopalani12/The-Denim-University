@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const colorFilter = document.querySelectorAll('input[name="color"]');
     const searchBar = document.querySelector('input[type="text"]');
     const shopItems = document.querySelectorAll('.shop-item');
     const noResultsMessage = document.getElementById("no-results");
@@ -13,12 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
             if (searchValue === "" || itemText.includes(searchValue)) {
                 item.style.display = "block";
                 visibleCount++;
+                console.log(`visibleCount: ${visibleCount}`)
             } else {
                 item.style.display = "none";
             }
         });
 
-        // Show or hide the "No results found" message
+        // Show or hide the message
         if (visibleCount === 0) {
             noResultsMessage.style.display = "block";
         } else {
