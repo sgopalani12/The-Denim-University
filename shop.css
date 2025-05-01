@@ -50,14 +50,15 @@
 }
 
 .dropdown-filter {
-    /* border: 1px solid black; keep for now, will remove later */
+    border: 1px solid black;
+
 }
 
-.dropdown-menu li{
+.dropdown-menu li {
     justify-content: center;
 }
 
-.dropdown-menu label{
+.dropdown-menu label {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -81,17 +82,19 @@ input[type="checkbox"] {
     width: 10px;
     height: 10px;
 }
+
 .shop-item-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
+    width: 50%;
 }
 
 .shop-item-row {
     font-family: "Roboto", sans-serif;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 30px;
     margin-bottom: 40px;
@@ -135,4 +138,12 @@ input[type="checkbox"] {
 .mag-logo {
     width: 17px;
     height: 17px;
+}
+
+#no-results {
+    text-align: center; 
+    font-size: 1.2rem; 
+    margin-top: 2rem;
+    color: black;
+    display: none;
 }
