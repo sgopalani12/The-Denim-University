@@ -1,48 +1,16 @@
-.navbar {
-    background-color: #F9EEDB;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    margin: auto;
-    max-width: 100%;
+.order-status-body {
+    position: relative;
+    background-image: url(/images/tdu-cargo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.navbar-option {
-    color: black;
-    font-size: large;
-    text-decoration: none;
-    padding-left: 15px;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.navbar-option span {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.search-box input[type="text"] {
-    padding-right: 30px;
-    height: 32px;
-    font-size: 14px;
-}
-
-.search-box .search-btn {
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
-.search-box .mag-logo {
-    width: 16px;
-    height: 16px;
+.order-status-title {
+    text-align: center;
+    font-size: 60px;
+    ;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    z-index: 7;
 }
