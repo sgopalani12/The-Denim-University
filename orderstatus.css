@@ -1,16 +1,63 @@
 .order-status-body {
+    display: flex;
+    justify-content: center;
     position: relative;
     background-image: url(/images/tdu-cargo.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .order-status-title {
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    z-index: 3;
+    justify-content: center;
+}
+
+.order-status-message {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 60px;
-    ;
-    font-family: Roboto, 'Times New Roman', Times, serif;
-    z-index: 7;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.input-order-status {
+    margin-top:40px;
+}
+
+.submit-button {
+    display: inline-block;
+    /* Makes it look like a button */
+    color: black;
+    /* Ensures the font is black */
+    font-size: 15px;
+    padding: 5px 5px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: #eee;
+    /* Optional: gives button look */
+    border: 1px solid #000000;
+    /* Optional: button border */
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.status-number {
+    border: 2px solid blue;
 }
