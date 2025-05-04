@@ -14,7 +14,7 @@
     padding-top: 100px;
     font-size: 70px;
     font-family: "Roboto", sans-serif;
-    z-index: 3;
+    z-index: 8;
     justify-content: center;
 }
 
@@ -33,14 +33,15 @@
     font-size: 30px;
 }
 
-.input-order-status {
-    margin-top:40px;
+.input-text {
+    z-index: 10;
+    margin-top: 30px;
 }
 
 .submit-button {
     display: inline-block;
     /* Makes it look like a button */
-    color: black;
+    color: white;
     /* Ensures the font is black */
     font-size: 15px;
     padding: 5px 5px;
@@ -49,15 +50,25 @@
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: #eee;
+    background-color: blue;
     /* Optional: gives button look */
     border: 1px solid #000000;
     /* Optional: button border */
     border-radius: 4px;
-    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    order: none;
+    padding: 5px 10px;
+    z-index: 10; /*allows the button to be clickable */
+    cursor: pointer; /*when you hover over the button, it becomes pointer */
 }
 
 
 .status-number {
     border: 2px solid blue;
+}
+
+.info-status {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
 }
