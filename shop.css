@@ -83,67 +83,69 @@ input[type="checkbox"] {
     height: 10px;
 }
 
-.shop-item-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 30px;
-    width: 50%;
-}
 
-.shop-item-row {
-    font-family: "Roboto", sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
-}
+@media screen and (min-width: 100rem) {
+    .shop-item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        width: 50%;
+    }
 
-.shop-item {
-    margin-right: 30px;
-}
+    .shop-item-row {
+        font-family: "Roboto", sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
 
-.shop-item p {
-    font-family: "Roboto", sans-serif;
-    color: black;
-}
+    .shop-item {
+        margin-right: 30px;
+    }
 
-.shop-image {
-    height: 300px;
-    width: 250px;
-    justify-content: center;
-}
+    .shop-item p {
+        font-family: "Roboto", sans-serif;
+        color: black;
+    }
 
-.shop-item-title {
-    font-size: 13px;
-    font-weight: bold;
-}
+    .shop-image {
+        height: 300px;
+        width: 250px;
+        justify-content: center;
+    }
 
-.shop-item-size {
-    font-size: 10px;
-}
+    .shop-item-title {
+        font-size: 13px;
+        font-weight: bold;
+    }
 
-.shop-item-price {
-    font-size: 12px;
-    font-weight: bold;
-}
+    .shop-item-size {
+        font-size: 10px;
+    }
 
-.line-arrow {
-    /* border: 1px solid black; */
-    justify-content: center;
-    display: inline-block;
-}
+    .shop-item-price {
+        font-size: 12px;
+        font-weight: bold;
+    }
 
-.mag-logo {
-    width: 17px;
-    height: 17px;
-}
+    .line-arrow {
+        /* border: 1px solid black; */
+        justify-content: center;
+        display: inline-block;
+    }
 
-#no-results {
-    text-align: center; 
-    font-size: 1.2rem; 
-    margin-top: 2rem;
-    color: black;
-    display: none;
-}
+    .mag-logo {
+        width: 17px;
+        height: 17px;
+    }
+
+    #no-results {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        color: black;
+        display: none;
+    }
