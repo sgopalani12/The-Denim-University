@@ -72,3 +72,9 @@
     font-size: 18px;
     padding-top: 15px;
 }
+
+.sample-image-os {
+    background-image: url(/images/order-status-img.png);
+    border: 2px solid red;
+    z-index: 9;
+}
