@@ -91,6 +91,8 @@ input[type="checkbox"] {
         justify-content: center;
         margin-top: 30px;
         width: 50%;
+        max-width: 100%;
+        object-fit: cover;
     }
 
     .shop-item-row {
@@ -112,11 +114,12 @@ input[type="checkbox"] {
     }
 
     .shop-image {
-        height: 300px;
-        width: 250px;
-        justify-content: center;
-    }
-
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+      }
+      
     .shop-item-title {
         font-size: 13px;
         font-weight: bold;
@@ -148,4 +151,4 @@ input[type="checkbox"] {
         margin-top: 2rem;
         color: black;
         display: none;
-    }
+    }}
