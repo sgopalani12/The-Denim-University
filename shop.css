@@ -12,7 +12,7 @@
 }
 
 .shop-items {
-    /* border: solid 1px black;  */
+    /* border: solid 10px black;  */
     display: flex;
     justify-content: center;
 }
@@ -84,71 +84,71 @@ input[type="checkbox"] {
 }
 
 
-@media screen and (min-width: 100rem) {
-    .shop-item-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 30px;
-        width: 50%;
-        max-width: 100%;
-        object-fit: cover;
-    }
+.shop-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    width: 60%;
+    height: 40%;
+    max-width: 100%;
+    object-fit: cover;
+}
 
-    .shop-item-row {
-        font-family: "Roboto", sans-serif;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        gap: 30px;
-        margin-bottom: 40px;
-    }
+.shop-item-row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
 
-    .shop-item {
-        margin-right: 30px;
-    }
+.shop-item {
+    margin-right: 30px;
+}
 
-    .shop-item p {
-        font-family: "Roboto", sans-serif;
-        color: black;
-    }
+.shop-item p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
 
-    .shop-image {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-        display: block;
-      }
-      
-    .shop-item-title {
-        font-size: 13px;
-        font-weight: bold;
-    }
+.shop-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
 
-    .shop-item-size {
-        font-size: 10px;
-    }
+.shop-item-title {
+    font-size: 13px;
+    font-weight: bold;
+}
 
-    .shop-item-price {
-        font-size: 12px;
-        font-weight: bold;
-    }
+.shop-item-size {
+    font-size: 10px;
+}
 
-    .line-arrow {
-        /* border: 1px solid black; */
-        justify-content: center;
-        display: inline-block;
-    }
+.shop-item-price {
+    font-size: 12px;
+    font-weight: bold;
+}
 
-    .mag-logo {
-        width: 17px;
-        height: 17px;
-    }
+.line-arrow {
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: inline-block;
+}
 
-    #no-results {
-        text-align: center;
-        font-size: 1.2rem;
-        margin-top: 2rem;
-        color: black;
-        display: none;
-    }}
+.mag-logo {
+    width: 17px;
+    height: 17px;
+}
+
+#no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: black;
+    display: none;
+}
