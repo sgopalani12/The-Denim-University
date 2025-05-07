@@ -95,13 +95,17 @@ input[type="checkbox"] {
     object-fit: cover;
 }
 
-.shop-item-row {
-    font-family: "Roboto", sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
+@media only screen and (min-width: 480px) {
+
+    .shop-item-row {
+        font-family: "Roboto", sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+        border: 3px solid yellow;
+    }
 }
 
 .shop-item {
