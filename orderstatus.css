@@ -17,7 +17,7 @@
     font-size: 70px;
     font-family: "Roboto", sans-serif;
     z-index: 8;
-    align-items: center;
+    text-align: center ;
 }
 
 .order-status-message {
@@ -71,13 +71,13 @@
 }
 
 .info-status {
+    border: 2px solid blue;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    padding-top: 15px;
 }
 
 .sample-image-os {
-    background-image: url(/images/order-status-img.png);
     border: 3px solid red;
     z-index: 6;
+    padding-top: 20%;
 }
