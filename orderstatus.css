@@ -20,6 +20,20 @@
     text-align: center ;
 }
 
+@media only screen and (max-width: 390px) {
+    .order-status-title {
+        font-size: 30px;
+
+    }
+    .sample-image-os {
+        border: 3px solid red;
+        z-index: 6;
+        padding-top: 20%;
+        height: 60px;
+        width: 60px;
+    }
+}
+
 .order-status-message {
     border: 2px solid blue;
     display: flex;
