@@ -1,97 +1,90 @@
 .order-status-body {
-    border: 2px solid white;
     display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
     background-image: url(/images/tdu-cargo.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: "Roboto", sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .order-status-title {
-    border: 2px solid yellow;
-    padding-top: 100px;
-    font-size: 70px;
-    font-family: "Roboto", sans-serif;
-    z-index: 8;
-    text-align: center ;
-}
-
-@media only screen and (max-width: 390px) {
-    .order-status-title {
-        font-size: 30px;
-
-    }
-    .sample-image-os {
-        border: 3px solid red;
-        z-index: 6;
-        padding-top: 20%;
-        height: 60px;
-        width: 60px;
-    }
-}
-
-.order-status-message {
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, .6);
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-}
-
-.input-text {
-    z-index: 10;
-    margin-top: 30px;
-}
-
-.submit-button {
-    display: inline-block;
-    /* Makes it look like a button */
     color: white;
-    /* Ensures the font is black */
-    font-size: 15px;
-    padding: 5px 5px;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    /* Removes the underline */
-    background-color: blue;
-    /* Optional: gives button look */
-    border: 1px solid #000000;
-    /* Optional: button border */
-    border-radius: 4px;
-    margin-top: 10px;
-    order: none;
-    padding: 5px 10px;
-    z-index: 10; /*allows the button to be clickable */
-    cursor: pointer; /*when you hover over the button, it becomes pointer */
+    font-size: 5vw;
+    max-width: 90%;
+    z-index: 8;
+    margin-bottom: 20px;
 }
 
-
-.status-number {
-    border: 2px solid blue;
-}
-
-.info-status {
-    border: 2px solid blue;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
+.order-status-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .sample-image-os {
+    max-width: 100%;
+    height: auto;
     border: 3px solid red;
-    z-index: 6;
-    padding-top: 20%;
+}
+
+.order-status-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.input-text {
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .order-status-title {
+        font-size: 8vw;
+    }
+
+    .order-status-message {
+        font-size: 1rem;
+    }
+}
+
+.order-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
