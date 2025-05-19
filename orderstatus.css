@@ -9,9 +9,18 @@
     background-size: cover;
     background-position: center;
     font-family: "Roboto", sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
+
 }
+
+/* Apply full-page background
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/images/tdu-cargo.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif; */ */
 
 .order-status-title {
     text-align: center;
@@ -55,8 +64,7 @@
     /* width: 90%;
     box-sizing: border-box;
     font-size: 1.5rem;
-    border-radius: 10px;
-    z-index: 8; */
+    border-radius: 10px; */
 
 }
 
