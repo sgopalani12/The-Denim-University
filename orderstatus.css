@@ -1,3 +1,4 @@
+
 .order-status-body {
     display: flex;
     justify-content: center;
@@ -30,22 +31,26 @@
 .sample-image-os {
     max-width: 100%;
     height: auto;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .order-status-message {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.8rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto", sans-serif;
+    /* background-color: rgba(0, 0, 0, 0.6); */
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
-    width: 90%;
+    max-width: 900px; 
+    /* width: 90%;
     box-sizing: border-box;
     font-size: 1.5rem;
     border-radius: 10px;
+    z-index: 8; */
+
 }
 
 .input-text {
