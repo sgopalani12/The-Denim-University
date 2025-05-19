@@ -34,6 +34,13 @@
     /* border: 3px solid red; */
 }
 
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    .sample-image-os {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .order-status-message {
     display: flex;
     flex-direction: column;
@@ -74,13 +81,13 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
     .order-status-title {
         font-size: 8vw;
     }
 
     .order-status-message {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
 
