@@ -1,7 +1,6 @@
 
 .order-status-body {
-    border: 3px solid red;;
-    font-size: 8vw;
+    font-size: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,16 +26,17 @@ body {
     background-position: center;
     font-family: "Roboto", sans-serif; */ */
 
-/* .order-status-title {
+.order-status-title {
     text-align: center;
     color: white;
-    font-size: 50%;
+    font-size: 5%;
     max-width: 90%;
     z-index: 8;
     margin-bottom: 20px;
-} */
+} 
 
 .order-status-image {
+    
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -59,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-align: center;
     font-family: "Roboto", sans-serif;
     /* background-color: rgba(0, 0, 0, 0.6); */
@@ -100,13 +100,13 @@ body {
     }
 
     .order-status-message {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
 .order-status-container {
     display: flex;
-
+    flex-direction: column;
     align-items: center;
     text-align: center;
     width: 100%;
