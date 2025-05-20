@@ -13,22 +13,24 @@
     flex-direction: column;
     font-size: 20px;
     padding-left: 8px;
+    margin-top: 15px;
 }
 
 .returns-title {
     display: flex;
     /* border: 2px solid red; */
-    font-size: 70px;
+    font-size: 65px;
     font-family: "Roboto", sans-serif;
     justify-content: center;
 }
 
 ol {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 10px;
-    gap: 40%;
+    margin-top: 10px;
+
 }
