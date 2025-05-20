@@ -1,6 +1,9 @@
 
 .order-status-body {
+    border: 3px solid red;;
+    font-size: 8vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(/images/tdu-cargo.png);
@@ -8,6 +11,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
 
 }
@@ -22,14 +27,14 @@ body {
     background-position: center;
     font-family: "Roboto", sans-serif; */ */
 
-.order-status-title {
+/* .order-status-title {
     text-align: center;
     color: white;
-    font-size: 5vw;
+    font-size: 50%;
     max-width: 90%;
     z-index: 8;
     margin-bottom: 20px;
-}
+} */
 
 .order-status-image {
     display: flex;
@@ -101,7 +106,7 @@ body {
 
 .order-status-container {
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     text-align: center;
     width: 100%;
