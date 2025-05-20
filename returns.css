@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .returns-img {
     background-image: url(/images/denim-banner.png);
     height: 185px;
@@ -33,4 +38,9 @@ ol {
     padding-bottom: 10px;
     margin-top: 10px;
 
+}
+
+.returns-instructions1 {
+    /* border: 2px solid blue; */
+    margin-bottom: 15px;
 }
