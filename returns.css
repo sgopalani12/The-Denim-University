@@ -27,6 +27,7 @@ body {
     font-size: 65px;
     font-family: "Roboto", sans-serif;
     justify-content: center;
+    padding-top: 20px;
 }
 
 ol {
@@ -35,7 +36,7 @@ ol {
     font-family: "Roboto", sans-serif;
     padding-left: 30px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-top: 10px;
 
 }
