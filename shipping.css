@@ -3,8 +3,22 @@ body {
     flex-direction: column;
 }
 
+.shipping-body-container {
+    border: 2px solid blue;
+}
+
 .shipping-title {
     border: 2px solid red;
     font-size: 60px;
     text-align: center;
 }
+
+.shipping-info {
+    border: 2px solid yellow;
+}
+
+.shipping-info-2 {
+    border: 2px solid green;
+
+}
+
