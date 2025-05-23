@@ -4,21 +4,38 @@ body {
 }
 
 .shipping-body-container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .shipping-title {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 60px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .shipping-info {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .shipping-info-2 {
-    border: 2px solid green;
-
+    /* border: 2px solid green; */
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
 }
 
+.contact-us-msg {
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: blue;
+    width: 600px;
+}
