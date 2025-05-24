@@ -29,13 +29,12 @@ body {
 }
 
 .contact-us-msg {
-
-    display: flex;
     justify-content: center;
     margin: auto;
     margin-bottom: 25px;
     padding: 25px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(43, 186, 222);
     width: 600px;
+    color: black;
 }
