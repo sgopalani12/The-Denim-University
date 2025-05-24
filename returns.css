@@ -1,8 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
+.returns-container {
+    background-color: white;
+    color: black;
+}
 .returns-img {
     background-image: url(/images/denim-banner.png);
     height: 185px;
@@ -19,6 +24,7 @@ body {
     font-size: 20px;
     padding-left: 8px;
     margin-top: 15px;
+    font-family: "Roboto", sans-serif;
 }
 
 .returns-title {
@@ -44,4 +50,27 @@ ol {
 .returns-instructions1 {
     /* border: 2px solid blue; */
     margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.returns-instructions2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.returns-instructions3 {
+    font-family: "Roboto", sans-serif;
+    /* border: 2px solid black; */
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 500px;
+    color: black;
+    gap: 3px;
+}
+
+.contact-us-msg {
+    font-family: "Roboto", sans-serif;
+    padding-top: 15px;
 }

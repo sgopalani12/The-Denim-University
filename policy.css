@@ -1,5 +1,5 @@
 .pp-body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #333;
   margin: 0;
@@ -7,23 +7,27 @@
 }
 
 .pp-container {
+  font-family: "Roboto", sans-serif;
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem 2rem;
 }
 
 .pp-title {
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
   color: #1a1a1a;
   margin-bottom: 1rem;
 }
 
 .pp-updated {
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   margin-bottom: 1rem;
 }
 
 .pp-section-title {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   margin-top: 2rem;
   color: #222;
@@ -32,25 +36,38 @@
 .pp-subsection-title {
   font-size: 1.25rem;
   margin-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .pp-subsubsection-title {
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   margin-top: 1rem;
   font-weight: bold;
 }
 
 .pp-text {
+  font-family: "Roboto", sans-serif;
   margin: 1rem 0;
   line-height: 1.6;
 }
 
 .pp-list {
+  font-family: "Roboto", sans-serif;
   margin-left: 2rem;
   padding-left: 1rem;
 }
 
+.pp-list li {
+  font-family: "Roboto", sans-serif;
+}
+
+.pp-list strong {
+  font-family: "Roboto", sans-serif;
+}
+
 .pp-link {
+  font-family: "Roboto", sans-serif;
   color: #0066cc;
   text-decoration: none;
 }
