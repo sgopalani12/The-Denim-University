@@ -38,3 +38,9 @@ body {
     width: 600px;
     color: black;
 }
+
+@media (max-width: 760px) {
+    .contact-us-msg {
+        width: 300px;
+    }
+}
