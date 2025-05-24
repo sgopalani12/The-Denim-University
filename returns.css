@@ -2,11 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    background-color: white;
 }
 
 .returns-container {
     background-color: white;
     color: black;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
 }
 .returns-img {
     background-image: url(/images/denim-banner.png);
@@ -68,6 +71,8 @@ ol {
     width: 500px;
     color: black;
     gap: 3px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
 }
 
 .contact-us-msg {
