@@ -75,7 +75,37 @@ ol {
     padding: 1rem 2rem;
 }
 
+.returns-info{
+    font-family: "Roboto", sans-serif;
+    border: 2px solid black;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 500px;
+    color: black;
+    /* gap: 3px; */
+    /* margin: 2rem auto;
+    padding: 1rem 2rem; */
+}
+
+
 .contact-us-msg {
     font-family: "Roboto", sans-serif;
     padding-top: 15px;
+}
+
+.returns-policy {
+    color: black;
+    gap: 3px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.list-of-instructions-return {
+    border: 2px solid red;
+    font-family: "Roboto", sans-serif;
 }
