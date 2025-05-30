@@ -4,13 +4,26 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: white;
 }
+/* @media (max-width: 880px) {
+    body {
+        width: 70%;
 
+    }
+} */
 .returns-container {
-    background-color: white;
+    border: 2px solid green;
+    /* background-color: white; */
     color: black;
     margin: 2rem auto;
     padding: 1rem 2rem;
 }
+
+@media (max-width: 880px) {
+    .returns-container {
+        width: 70%;
+    }
+}
+
 .returns-img {
     background-image: url(/images/denim-banner.png);
     height: 185px;
@@ -37,6 +50,14 @@ body {
     font-family: "Roboto", sans-serif;
     justify-content: center;
     padding-top: 20px;
+}
+
+.list-of-instructions-return {
+    /* border: 2px solid red; */
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding-top: 30px;
+    text-align: left;
 }
 
 ol {
@@ -75,7 +96,13 @@ ol {
     padding: 1rem 2rem;
 }
 
-.returns-info{
+@media (max-width: 880px) {
+    .returns-instructions3 {
+        width: 70%;
+    }
+}
+
+.returns-info {
     font-family: "Roboto", sans-serif;
     /* border: 2px solid black; */
     justify-content: center;
@@ -86,10 +113,16 @@ ol {
     width: 800px;
     color: black;
     margin: 2rem auto;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     display: block;
     font-size: 1.2rem;
- 
+
+}
+
+@media (max-width: 880px) {
+    .returns-info{
+        width: 60%;
+    }
 }
 
 
@@ -105,11 +138,4 @@ ol {
     padding: 1rem 2rem;
     font-family: "Roboto", sans-serif;
 
-}
-
-.list-of-instructions-return {
-    border: 2px solid red;
-    font-family: "Roboto", sans-serif;
-    list-style-type: none;
-    padding-top: 30px;
 }
