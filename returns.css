@@ -82,11 +82,13 @@ ol {
     margin: auto;
     margin-bottom: 25px;
     padding: 25px;
-    text-align: center;
-    width: 500px;
+    text-align: left;
+    width: 800px;
     color: black;
     margin: 2rem auto;
     padding: 1rem 2rem; 
+    display: block;
+ 
 }
 
 
