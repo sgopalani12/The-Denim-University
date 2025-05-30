@@ -85,9 +85,8 @@ ol {
     text-align: center;
     width: 500px;
     color: black;
-    /* gap: 3px; */
-    /* margin: 2rem auto;
-    padding: 1rem 2rem; */
+    margin: 2rem auto;
+    padding: 1rem 2rem; 
 }
 
 
@@ -108,4 +107,6 @@ ol {
 .list-of-instructions-return {
     border: 2px solid red;
     font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding-top: 30px;
 }
