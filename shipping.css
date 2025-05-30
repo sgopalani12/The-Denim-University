@@ -26,6 +26,12 @@ body {
     /* border: 2px solid green; */
     margin-left: 15px;
     font-family: "Roboto", sans-serif;
+    border: 2px solid green;
+    /* background-color: white; */
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
 }
 
 .contact-us-msg {
