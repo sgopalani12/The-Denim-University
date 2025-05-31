@@ -14,10 +14,11 @@ body {
     font-family: "Roboto", sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
+    border: 2px solid yellow;
 }
 
 .shipping-info {
-    /* border: 2px solid yellow; */
+    border: 2px solid red;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
@@ -32,9 +33,11 @@ body {
     padding: 1rem 2rem;
     font-family: "Roboto", sans-serif;
     line-height: 1.6;
+    width: 500%;
 }
 
 .contact-us-msg {
+    border: 2px solid blue;
     justify-content: center;
     margin: auto;
     margin-bottom: 25px;
