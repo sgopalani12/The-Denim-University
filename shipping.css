@@ -48,3 +48,12 @@ body {
         width: 400px;
     }
 }
+
+.shipping-img {
+    background-image: url(/images/denim-banner.png);
+    height: 185px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
