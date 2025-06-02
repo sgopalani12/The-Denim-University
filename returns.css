@@ -5,12 +5,7 @@ body {
     background-color: white;
 }
 
-/* @media (max-width: 880px) {
-    body {
-        width: 70%;
 
-    }
-} */
 .returns-container {
     border: 2px solid green;
     /* background-color: white; */
@@ -150,3 +145,15 @@ ol {
 h3 {
     font-family: "Roboto", sans-serif;
 }
+
+.contact-us-msg {
+    border: 2px solid blue;     
+     margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(43, 186, 222);
+    width: 600px;
+    color: black;
+}
+
