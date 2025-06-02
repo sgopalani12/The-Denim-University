@@ -91,7 +91,7 @@ ol {
     margin-bottom: 25px;
     padding: 25px;
     text-align: center;
-    width: 500px;
+    width: 800px;
     color: black;
     gap: 3px;
     margin: 2rem auto;
@@ -100,7 +100,7 @@ ol {
 
 @media (max-width: 880px) {
     .returns-instructions3 {
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -123,7 +123,7 @@ ol {
 
 @media (max-width: 880px) {
     .returns-info {
-        width: 60%;
+        width: 90%;
     }
 }
 
@@ -148,12 +148,15 @@ h3 {
 
 .contact-us-msg {
     border: 2px solid blue;     
-     margin: auto;
+    margin: auto;
     margin-bottom: 25px;
     padding: 25px;
-    text-align: center;
     background-color: rgb(43, 186, 222);
     width: 600px;
-    color: black;
 }
 
+@media (max-width: 880px) {
+    .contact-us-msg {
+        width: 90%;
+    }
+}
