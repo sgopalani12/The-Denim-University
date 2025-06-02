@@ -4,16 +4,21 @@ body {
     background: white;
 }
 
-
+.shipping-container-body {
+    border: 2px solid green;
+    color: black;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
 
 .shipping-title {
     color: black;
     font-size: 60px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    /* border: 2px solid yellow; */
+    /* border: 2px solid red; */
 }
 
 .shipping-info-2 {
@@ -57,3 +62,4 @@ body {
     object-position: center;
     display: block;
 }
+
