@@ -5,7 +5,6 @@ body {
 }
 
 .shipping-container-body {
-    /* border: 2px solid green; */
     color: black;
     margin: 2rem auto;
     padding: 1rem 2rem;
@@ -64,7 +63,16 @@ body {
 }
 
 @media (max-width: 880px) {
-    .returns-container {
-        width: 70%;
+    .shipping-container-body {
+        width: 400px;
+    }
+    .shipping-info-2 {
+        width: 400px;
+    }
+}
+
+@media (max-width: 880px) {
+    .shipping-img {
+        width: 100%;
     }
 }
