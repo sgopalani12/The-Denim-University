@@ -45,11 +45,11 @@
           </div>
         </div>
         <ul class="dropdown-menu">
-          <li><label><input type="checkbox" name="color" value="blue"> Blue</label></li>
+          <!-- <li><label><input type="checkbox" name="color" value="blue"> Blue</label></li>
           <li><label><input type="checkbox" name="color" value="black"> Black</label></li>
           <li><label><input type="checkbox" name="color" value="navy blue"> Navy Blue</label></li>
           <li><label><input type="checkbox" name="color" value="bleached"> Bleached</label></li>
-          <li><label><input type="checkbox" name="color" value="gray"> Gray</label></li>
+          <li><label><input type="checkbox" name="color" value="gray"> Gray</label></li> -->
         </ul>
         <div class="line-arrow">
           <img class="line" src="/images/line.png">
@@ -202,6 +202,13 @@
     </script>
     <script src="shop-filters.js"></script>
     <script src="searchbar-filter.js"></script>
+    <script type="module">
+      import { getColors, populateColorDropdown} from './filter-data.js'
+      window.addEventListener('DOMContentLoaded', async() => {
+        const colors = await getColors()
+        populateColorDropdown(colors)
+      })
+    </script>
 
 </body>
 
