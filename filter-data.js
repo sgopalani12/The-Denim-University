@@ -1,36 +1,44 @@
-export async function getColors() {
+  export async function getJeans() {
     try {
-      const response = await fetch('https://tdu-backend.vercel.app/jeans/all-jeans');
-      const jeans = await response.json();
-  
-      const getColors = [
-        ...new Set(
-          jeans
-            .filter(item => item.color) // remove undefined/null
-            .map(item => item.color.trim())
-        ),
-      ];
-  
-      return getColors;
-    } catch (error) {
-      console.error('❌ Failed to fetch colors:', error);
+        const response = await fetch('https://tdu-backend.vercel.app/jeans/all-jeans');
+        const jeans = await response.json();
+        return jeans
+    } catch(error) {
+        console.error('❌ Failed to fetch jeans:', error);
       return [];
     }
   }
   
-  export function populateColorDropdown(colors) {
-    const colorMenu = document.querySelectorAll('.dropdown-menu')[0];
-    if (!colorMenu) return;
+  export function renderShopItems(jeans) {
+    const container = document.querySelector('.shop-item-container');
+    const noResults = document.getElementById('no-results');
+    const existingRows = container.querySelectorAll('.shop-item-row');
+    existingRows.forEach(row => row.remove()); // Clear previous items
   
-    colorMenu.innerHTML = ''; // Clear existing items
+    if (jeans.length === 0) {
+      noResults.style.display = 'block';
+      return;
+    }
   
-    colors.forEach(color => {
-      const li = document.createElement('li');
-      li.innerHTML = `
-        <label>
-          <input type="checkbox" name="color" value="${color.toLowerCase()}"> ${color}
-        </label>
-      `;
-      colorMenu.appendChild(li);
-    });
+    noResults.style.display = 'none';
+  
+    // Chunk jeans into rows of 3
+    for (let i = 0; i < jeans.length; i += 3) {
+      const row = document.createElement('div');
+      row.className = 'shop-item-row';
+  
+      jeans.slice(i, i + 3).forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'shop-item';
+        div.innerHTML = `
+          <img class="shop-image" src="/images/default-denim.png" alt="${item.color}-jeans">
+          <p class="shop-item-title">${item.title}</p>
+          <p class="shop-item-size">Size: ${item.waist}x${item.length}</p>
+          <p class="shop-item-price">$${item.price}</p>
+        `;
+        row.appendChild(div);
+      });
+  
+      container.appendChild(row);
+    }
   }
