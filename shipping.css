@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.shipping-container-body {
+    color: black;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+
+.shipping-title {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    /* border: 2px solid red; */
+}
+
+.shipping-info-2 {
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: left;
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    display: block;
+    font-size: 1.2rem;
+    color: black
+}
+
+.contact-us-msg {
+    /* border: 2px solid blue; */
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(43, 186, 222);
+    width: 600px;
+    color: black;
+}
+
+@media (max-width: 760px) {
+    .contact-us-msg {
+        width: 400px;
+    }
+}
+
+.shipping-img {
+    background-image: url(/images/denim-banner.png);
+    height: 185px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 880px) {
+    .shipping-container-body {
+        width: 400px;
+    }
+    .shipping-info-2 {
+        width: 400px;
+    }
+}
+
+@media (max-width: 880px) {
+    .shipping-img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,115 @@
+
+.order-status-body {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/tdu-cargo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Apply full-page background
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/images/tdu-cargo.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif; */ */
+
+.order-status-title {
+    text-align: center;
+    color: white;
+    font-size: 5%;
+    max-width: 90%;
+    z-index: 8;
+    margin-bottom: 20px;
+} 
+
+.order-status-image {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sample-image-os {
+    max-width: 100%;
+    height: auto;
+    /* border: 3px solid red; */
+}
+
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    .sample-image-os {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.order-status-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; 
+    /* width: 90%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border-radius: 10px; */
+
+}
+
+.input-text {
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    .order-status-title {
+        font-size: 8vw;
+    }
+
+    .order-status-message {
+        font-size: 1.1rem;
+    }
+}
+
+.order-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}

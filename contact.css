@@ -5,9 +5,8 @@ body {
 .contact-title {
     text-align: center;
     font-size: 60px;
-    ;
     font-family: Roboto, 'Times New Roman', Times, serif;
-    z-index: 2;
+    z-index: 1;
 }
 
 .contact-container {
@@ -21,6 +20,7 @@ body {
 }
 
 .contact-description {
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     text-align: center;

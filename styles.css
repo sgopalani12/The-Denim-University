@@ -162,7 +162,7 @@ body {
     background-color: rgb(10, 10, 96);
     /* background-image: linear-gradient(rgb(0, 0, 132), rgb(8, 8, 245)); */
     /* justify-content: center; */
-    display: flexbox;
+    /* display: flexbox; */
     justify-content: space-between;
     bottom: 0;
     width: 100%;
@@ -378,6 +378,7 @@ input {
 
 .company-address-title {
     font-family: "Roboto", sans-serif;
+    color: white;
 }
 
 h2 {
