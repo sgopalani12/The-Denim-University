@@ -7,7 +7,7 @@
         console.error('❌ Failed to fetch jeans:', error);
       return [];
     }
-  }
+  } /*this whole function is 'fetching' the data & everything from line 12 -> will take data and put it in the correct classes, start with hardcode, then you create the backend, then fetch from backend*/
   
   export function renderShopItems(jeans) {
     const container = document.querySelector('.shop-item-container');
@@ -29,9 +29,10 @@
   
       jeans.slice(i, i + 3).forEach(item => {
         const div = document.createElement('div');
+        const imagePath = item.image_link
         div.className = 'shop-item';
         div.innerHTML = `
-          <img class="shop-image" src="/images/default-denim.png" alt="${item.color}-jeans">
+          <img class="shop-image" src="${imagePath}" alt="${item.color}-jeans">
           <p class="shop-item-title">${item.title}</p>
           <p class="shop-item-size">Size: ${item.waist}x${item.length}</p>
           <p class="shop-item-price">$${item.price}</p>
@@ -42,3 +43,9 @@
       container.appendChild(row);
     }
   }
+
+export async function getItemDetails() {
+  try {
+    
+  }
+}
