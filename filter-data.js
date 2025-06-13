@@ -44,8 +44,8 @@
     }
   }
 
-export async function getItemDetails() {
-  try {
+// export async function getItemDetails() {
+//   try {
     
-  }
-}
+//   }
+// }
