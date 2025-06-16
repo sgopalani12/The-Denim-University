@@ -1,3 +1,19 @@
-.item-expand {
+.image-expand {
     border: 2px solid red;
+    width: 50%;
+}
+
+.shop-image {
+    border: 2px solid blue;
+    width: 550px;
+    padding: 50px 0 0 50px;
+}
+
+.grid-image-display {
+    border: 3px solid yellow;
+}
+
+.shop-item-img-container {
+    border: 3px solid green;
+    gap: row;
 }
