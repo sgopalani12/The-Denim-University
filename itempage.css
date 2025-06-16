@@ -83,7 +83,7 @@
 .grid-image-5 {
     border: 3px solid pink;
     display: flex;
-    background-image: url(/images/black-jeans-img-grid1.png);
+    background-image: url(/images/black-jeans-img-grid5.png);
     width: 55%;
     height: 15vh;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 .grid-image-6 {
     border: 3px solid pink;
     display: flex;
-    background-image: url(/images/black-jeans-img-grid1.png);
+    background-image: url(/images/black-jeans-img-grid6.png);
     width: 55%;
     height: 15vh;
     background-repeat: no-repeat;
