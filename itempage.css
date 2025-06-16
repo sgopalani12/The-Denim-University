@@ -13,24 +13,97 @@
 
 .shop-image {
     border: 2px solid blue;
-    width: 550px;
+    width: 650px;
     padding: 50px 0 50px 50px;
 }
 
 .grid-image-display {
     border: 3px solid yellow;
-    display: flex;
+    display: grid;
     left: 15rem;
     width: 60%;
     flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
+    padding: 50px 0 0 0;
 }
 
 .grid-image-1 {
     border: 3px solid pink;
     display: flex;
-    width: 20%;
-    height: 20%;
+    background-image: url(/images/black-jeans-img-grid1.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-image-2 {
+    border: 3px solid pink;
+    display: flex;
+    background-image: url(/images/black-jeans-img-grid2.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-image-3 {
+    border: 3px solid pink;
+    display: flex;
+    background-image: url(/images/black-jeans-img-grid3.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-image-4 {
+    border: 3px solid pink;
+    display: flex;
+    background-image: url(/images/black-jeans-img-grid4.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.grid-image-5 {
+    border: 3px solid pink;
+    display: flex;
+    background-image: url(/images/black-jeans-img-grid1.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.grid-image-6 {
+    border: 3px solid pink;
+    display: flex;
+    background-image: url(/images/black-jeans-img-grid1.png);
+    width: 55%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
