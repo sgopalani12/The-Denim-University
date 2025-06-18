@@ -107,12 +107,17 @@
     justify-content: center;
 }
 
+.item-image-title-price {
+    border: 3px solid red;
+    text-align: center;
+}
+
 .item-color-selection {
     border: 3px solid white;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* allows wrapping on smaller screens */
-    gap: 20px;
+    /* gap: 20px; */
     /* space between each checkbox-label pair */
     padding: 10px;
     align-items: center;
