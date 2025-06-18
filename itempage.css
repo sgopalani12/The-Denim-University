@@ -174,3 +174,29 @@
     border: 3px solid aqua;
     justify-content: center;
 }
+
+.quanity-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem; /* Makes text bigger */
+  }
+  
+  .quanity-option button {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .product-quanity {
+    width: 60px;
+    height: 45px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
