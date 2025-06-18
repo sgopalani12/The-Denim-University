@@ -110,8 +110,10 @@
 .item-color-selection {
     border: 3px solid white;
     display: flex;
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
-    gap: 20px; /* space between each checkbox-label pair */
+    flex-wrap: wrap;
+    /* allows wrapping on smaller screens */
+    gap: 20px;
+    /* space between each checkbox-label pair */
     padding: 10px;
     align-items: center;
 }
@@ -120,22 +122,19 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    white-space: nowrap; /* prevent label text from breaking into multiple lines */
+    white-space: nowrap;
+    /* prevent label text from breaking into multiple lines */
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-}
-
-@media (max-width: 600px) {
-    .item-color-selection {
-        flex-direction: column;
-    }
 }
 
 .item-waist {
     border: 3px solid white;
     display: flex;
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
-    gap: 20px; /* space between each checkbox-label pair */
+    flex-wrap: wrap;
+    /* allows wrapping on smaller screens */
+    gap: 20px;
+    /* space between each checkbox-label pair */
     padding: 10px;
     align-items: center;
 }
@@ -144,7 +143,34 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    white-space: nowrap; /* prevent label text from breaking into multiple lines */
+    white-space: nowrap;
+    /* prevent label text from breaking into multiple lines */
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+}
+
+.item-length {
+    border: 3px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    /* allows wrapping on smaller screens */
+    gap: 20px;
+    /* space between each checkbox-label pair */
+    padding: 10px;
+    align-items: center;
+}
+
+.item-length label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    /* prevent label text from breaking into multiple lines */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.quanity-option {
+    border: 3px solid aqua;
+    justify-content: center;
 }
