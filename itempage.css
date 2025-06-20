@@ -114,7 +114,7 @@
 
 .item-color-selection {
     border: 3px solid white;
-    display: inline-flex;
+    /* display: inline-flex; */
     /* flex-wrap: wrap;  */
     /*this prevents it from stretching out the color option*/
     gap: 5px;
@@ -131,7 +131,7 @@
 
 .item-waist {
     border: 3px solid white;
-    display: inline-flex;
+    /* display: inline-flex; */
     /* flex-wrap: wrap;  */
     /*this prevents it from stretching out the color option*/
     gap: 5px;
@@ -151,7 +151,7 @@
 
 .item-length {
     border: 3px solid white;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
