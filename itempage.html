@@ -33,7 +33,7 @@
     </div>
     <div class="shop-item-img-container">
         <div class="image-expand">
-            <img class="shop-image" src="/images/black-denim-pic.png" alt="black-jeans-pic">
+            <img class="shop-image" alt="jeans pic">
         </div>
         <div class="grid-image-display">
             <div class="grid-image-1"></div>
@@ -43,7 +43,7 @@
             <div class="grid-image-5"></div>
             <div class="grid-image-6"></div>
             <div class="item-image-title-price">
-                <h1>Relaxed Fit Black ($49.99)</h1>
+                <h1>Error</h1>
             </div>
             <div class="item-color-selection">
                 <h2>Color: </h2>
@@ -149,6 +149,38 @@
                 </div>
             </div>
         </div>
+
+        <script type="module">
+            import { getJeans } from './filter-data.js';
+          
+            const urlParams = new URLSearchParams(window.location.search);
+            const id = urlParams.get('id');
+          
+            if (id) {
+              getJeans().then((jeans) => {
+                const item = jeans.find(j => j.id === parseInt(id));
+                if (item) renderItem(item);
+                else console.error('Item not found');
+              });
+            }
+          
+            function renderItem(item) {
+              const image = document.querySelector('.shop-image'); //set the IMAGE variable equal to the .shop-image class on line 36
+              const title = document.querySelector('.item-image-title-price h1');
+          
+              if (image) {
+                image.src = item.image_link;
+                image.alt = `${item.color}-jeans`;
+              }
+          
+              if (title) {
+                title.textContent = `${item.title} ($${item.price})`;
+              }
+            }
+          </script>
+          
+          
+          
 </body>
 
 </html>

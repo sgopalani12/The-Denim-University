@@ -32,10 +32,12 @@
         const imagePath = item.image_link
         div.className = 'shop-item';
         div.innerHTML = `
-          <img class="shop-image" src="${imagePath}" alt="${item.color}-jeans">
-          <p class="shop-item-title">${item.title}</p>
-          <p class="shop-item-size">Size: ${item.waist}x${item.length}</p>
-          <p class="shop-item-price">$${item.price}</p>
+          <a href="itempage.html?id=${item.id}">
+            <img class="shop-image" src="${imagePath}" alt="${item.color}-jeans">
+            <p class="shop-item-title">${item.title}</p>
+            <p class="shop-item-size">Size: ${item.waist}x${item.length}</p>
+            <p class="shop-item-price">$${item.price}</p>
+          <a>
         `;
         row.appendChild(div);
       });
@@ -43,9 +45,3 @@
       container.appendChild(row);
     }
   }
-
-// export async function getItemDetails() {
-//   try {
-    
-//   }
-// }
