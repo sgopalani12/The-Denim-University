@@ -114,33 +114,29 @@
 
 .item-color-selection {
     border: 3px solid white;
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* allows wrapping on smaller screens */
-    /* gap: 20px; */
-    /* space between each checkbox-label pair */
-    padding: 10px;
+    display: inline-flex;
+    /* flex-wrap: wrap;  */
+    /*this prevents it from stretching out the color option*/
+    gap: 5px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
     align-items: center;
 }
 
 .item-color-selection label {
     display: inline-flex;
-    align-items: center;
-    gap: 6px;
     white-space: nowrap;
-    /* prevent label text from breaking into multiple lines */
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
 }
 
 .item-waist {
     border: 3px solid white;
-    display: flex;
-    flex-wrap: wrap;
-    /* allows wrapping on smaller screens */
-    gap: 20px;
-    /* space between each checkbox-label pair */
-    padding: 10px;
+    display: inline-flex;
+    /* flex-wrap: wrap;  */
+    /*this prevents it from stretching out the color option*/
+    gap: 5px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
     align-items: center;
 }
 
@@ -149,7 +145,6 @@
     align-items: center;
     gap: 6px;
     white-space: nowrap;
-    /* prevent label text from breaking into multiple lines */
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
@@ -158,9 +153,7 @@
     border: 3px solid white;
     display: flex;
     flex-wrap: wrap;
-    /* allows wrapping on smaller screens */
     gap: 20px;
-    /* space between each checkbox-label pair */
     padding: 10px;
     align-items: center;
 }
@@ -170,7 +163,6 @@
     align-items: center;
     gap: 6px;
     white-space: nowrap;
-    /* prevent label text from breaking into multiple lines */
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
@@ -184,24 +176,24 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 1.8rem; /* Makes text bigger */
-  }
-  
-  .quanity-option button {
+    font-size: 1.8rem;
+    /* Makes text bigger */
+}
+
+.quanity-option button {
     padding: 10px 15px;
     font-size: 1.5rem;
     cursor: pointer;
     border: 1px solid #ccc;
     background-color: #f5f5f5;
     border-radius: 5px;
-  }
-  
-  .product-quanity {
+}
+
+.product-quanity {
     width: 60px;
     height: 45px;
     font-size: 1.5rem;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
+}
