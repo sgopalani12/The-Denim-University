@@ -35,18 +35,20 @@
         <div class="image-expand">
             <img class="shop-image" alt="jeans pic">
         </div>
-        <div class="grid-image-display">
-            <div class="grid-image-1"></div>
-            <div class="grid-image-2"></div>
-            <div class="grid-image-3"></div>
-            <div class="grid-image-4"></div>
-            <div class="grid-image-5"></div>
-            <div class="grid-image-6"></div>
+        <div class="content-right">
+            <div class="grid-image-display">
+                <div class="grid-image-1"></div>
+                <div class="grid-image-2"></div>
+                <div class="grid-image-3"></div>
+                <div class="grid-image-4"></div>
+                <div class="grid-image-5"></div>
+                <div class="grid-image-6"></div>
+            </div>
             <div class="item-image-title-price">
-                <h1>Error</h1>
+                <h1>YUURRRRR</h1>
             </div>
             <div class="item-color-selection">
-                <h2>Color: </h2>
+                <h2>Color</h2>
                 <label><input type="checkbox" name="color" value="Blue"> Blue</label>
                 <label><input type="checkbox" name="color" value="Navy Blue"> Navy Blue</label>
                 <label><input type="checkbox" name="color" value="Black"> Black</label>
@@ -54,7 +56,6 @@
                 <label><input type="checkbox" name="color" value="Gray"> Gray</label>
                 <label><input type="checkbox" name="color" value="Bleach Gray"> Bleach Gray</label>
             </div>
-
             <div class="item-waist">
                 <h2>Waist: </h2>
                 <label><input type="checkbox" name="waist" value="30"> 30</label>
@@ -85,7 +86,6 @@
                 <button class="buy-now" type="button">BUY NOW</button>
             </div>
         </div>
-    </div>
     </div>
     <div class=" footer">
         <div class="footer-bottom-row">
@@ -152,35 +152,35 @@
         <!--study lines 153 to 180-->
         <script type="module">
             import { getJeans } from './filter-data.js';
-          
+
             const urlParams = new URLSearchParams(window.location.search);
             const id = urlParams.get('id');
-          
+
             if (id) {
-              getJeans().then((jeans) => {
-                const item = jeans.find(j => j.id === parseInt(id));
-                if (item) renderItem(item);
-                else console.error('Item not found');
-              });
+                getJeans().then((jeans) => {
+                    const item = jeans.find(j => j.id === parseInt(id));
+                    if (item) renderItem(item);
+                    else console.error('Item not found');
+                });
             }
-          
+
             function renderItem(item) {
-              const image = document.querySelector('.shop-image'); //set the IMAGE variable equal to the .shop-image class on line 36
-              const title = document.querySelector('.item-image-title-price h1');
-          
-              if (image) {
-                image.src = item.image_link;
-                image.alt = `${item.color}-jeans`;
-              }
-          
-              if (title) {
-                title.textContent = `${item.title} ($${item.price})`;
-              }
+                const image = document.querySelector('.shop-image'); //set the IMAGE variable equal to the .shop-image class on line 36
+                const title = document.querySelector('.item-image-title-price h1');
+
+                if (image) {
+                    image.src = item.image_link;
+                    image.alt = `${item.color}-jeans`;
+                }
+
+                if (title) {
+                    title.textContent = `${item.title} ($${item.price})`;
+                }
             }
-          </script>
-          
-          
-          
+        </script>
+
+
+
 </body>
 
 </html>
