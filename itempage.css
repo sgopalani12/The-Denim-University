@@ -10,6 +10,11 @@
     width: 25%;
 }
 
+.content-right {
+    border: 3px solid purple;
+    align-items: ;
+}
+
 .shop-image {
     border: 2px solid blue;
     width: 650px;
@@ -124,10 +129,12 @@
 }
 
 .item-color-selection label {
-    display: grid;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    /* text-align: center; */
+    font-size: 1rem;
 }
 
 input {
