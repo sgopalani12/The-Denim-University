@@ -2,42 +2,36 @@
     border: 3px solid green;
     gap: column;
     display: flex;
-    align-items: center;
-}
-
-.image-expand {
-    border: 2px solid red;
-    width: 25%;
+    /* align-items: center; */
 }
 
 .content-right {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     justify-content: center;
     align-items: center;
 }
 
 .shop-image {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 630px;
     padding: 50px 0 50px 50px;
 }
 
 .grid-image-display {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     display: grid;
-    left: 15rem;
-    flex-direction: row;
+    left: 1rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 50px 0 0 0;
     gap: 20px;
 }
 
 .grid-image-1 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid1.png);
-    width: 65%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,11 +40,11 @@
 }
 
 .grid-image-2 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid2.png);
-    width: 65%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,11 +53,11 @@
 }
 
 .grid-image-3 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid3.png);
-    width: 55%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,11 +66,11 @@
 }
 
 .grid-image-4 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid4.png);
-    width: 65%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -86,11 +80,11 @@
 }
 
 .grid-image-5 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid5.png);
-    width: 65%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,11 +94,11 @@
 }
 
 .grid-image-6 {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
     display: flex;
     background-image: url(/images/black-jeans-img-grid6.png);
-    width: 65%;
-    height: 15vh;
+    width: 95%;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,4 +211,48 @@ input {
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #ddd;
+    /* Optional: hover effect */
+}
+
+.add-to-cart -wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.buy-now:hover {
+    background-color: #ddd;
+    /* Optional: hover effect */
+}
+
+.buy-now-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.buy-now,
+.add-to-cart {
+    display: inline-block;
+    /* Makes it look like a button */
+    color: black;
+    /* Ensures the font is black */
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: #eee;
+    /* Optional: gives button look */
+    border: 1px solid #ccc;
+    /* Optional: button border */
+    border-radius: 4px;
+    /* Optional: rounded corners */
 }
