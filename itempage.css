@@ -2,7 +2,7 @@
     border: 3px solid green;
     gap: column;
     display: flex;
-    align-items: right;
+    align-items: center;
 }
 
 .image-expand {
@@ -12,12 +12,13 @@
 
 .content-right {
     border: 3px solid purple;
-    align-items: ;
+    justify-content: center;
+    align-items: center;
 }
 
 .shop-image {
     border: 2px solid blue;
-    width: 650px;
+    width: 630px;
     padding: 50px 0 50px 50px;
 }
 
@@ -25,17 +26,17 @@
     border: 3px solid yellow;
     display: grid;
     left: 15rem;
-    width: 60%;
     flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
     padding: 50px 0 0 0;
+    gap: 20px;
 }
 
 .grid-image-1 {
     border: 3px solid pink;
     display: flex;
     background-image: url(/images/black-jeans-img-grid1.png);
-    width: 55%;
+    width: 65%;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +49,7 @@
     border: 3px solid pink;
     display: flex;
     background-image: url(/images/black-jeans-img-grid2.png);
-    width: 55%;
+    width: 65%;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +75,7 @@
     border: 3px solid pink;
     display: flex;
     background-image: url(/images/black-jeans-img-grid4.png);
-    width: 55%;
+    width: 65%;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +89,7 @@
     border: 3px solid pink;
     display: flex;
     background-image: url(/images/black-jeans-img-grid5.png);
-    width: 55%;
+    width: 65%;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +103,7 @@
     border: 3px solid pink;
     display: flex;
     background-image: url(/images/black-jeans-img-grid6.png);
-    width: 55%;
+    width: 65%;
     height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +143,7 @@ input {
     display: flex;
     height: 13px;
     padding: 0;
-    margin:0;
+    margin: 0;
     vertical-align: top;
     position: relative;
     top: 1px;
