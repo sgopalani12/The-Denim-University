@@ -6,9 +6,11 @@
 }
 
 .content-right {
-    /* border: 3px solid purple; */
-    justify-content: center;
-    align-items: center;
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .shop-image {
@@ -115,7 +117,7 @@ h1 {
 }
 
 .item-color-selection {
-    /* border: 3px solid white; */
+    border: 3px solid white;
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -145,7 +147,7 @@ input {
 }
 
 .item-waist {
-    /* border: 3px solid white; */
+    border: 3px solid white;
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -164,7 +166,7 @@ input {
 }
 
 .item-length {
-    /* border: 3px solid white; */
+    border: 3px solid white;
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -189,15 +191,13 @@ h2 {
 .quanity-option {
     border: 3px solid aqua;
     justify-content: center;
-}
-
-.quanity-option {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 1.8rem;
     /* Makes text bigger */
 }
+
 
 .quanity-option button {
     padding: 10px 15px;
@@ -242,12 +242,11 @@ h2 {
 .buy-now,
 .add-to-cart {
     display: inline-block;
-    /* Makes it look like a button */
     color: black;
-    /* Ensures the font is black */
     font-size: 20px;
     text-align: center;
     padding: 10px 10px;
+    /* margin: 0 40%; */
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
