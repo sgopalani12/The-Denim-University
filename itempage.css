@@ -1,12 +1,12 @@
 .shop-item-img-container {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     gap: column;
     display: flex;
     /* align-items: center; */
 }
 
 .content-right {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -117,7 +117,7 @@ h1 {
 }
 
 .item-color-selection {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -147,7 +147,7 @@ input {
 }
 
 .item-waist {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -166,7 +166,7 @@ input {
 }
 
 .item-length {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     text-align: center;
     display: flex;
     /*this prevents it from stretching out the color option*/
@@ -189,7 +189,7 @@ h2 {
 }
 
 .quanity-option {
-    border: 3px solid aqua;
+    /* border: 3px solid aqua; */
     justify-content: center;
     display: flex;
     align-items: center;
@@ -254,8 +254,18 @@ h2 {
     /* Removes the underline */
     background-color: #eee;
     /* Optional: gives button look */
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     /* Optional: button border */
     border-radius: 4px;
     /* Optional: rounded corners */
+}
+
+.add-button,
+.buy-now-button {
+    /* border: 3px solid pink; */
+    align-items: center; /*this allows the button to not be stretched out */
+    display: flex;
+    flex-direction: column; /* this causes the two buttons to be centered */
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
 }
