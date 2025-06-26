@@ -275,4 +275,18 @@ h2 {
 }
 
 .customer-review { 
+    border: 3px solid green;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.customer-feeback-rating {
+    width: 20%;
+    height: 15vh;
+}
+
+.customer-individual {
+    border: 3px solid red;
+    padding-left: 25px;
 }
