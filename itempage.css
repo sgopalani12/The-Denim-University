@@ -1,3 +1,10 @@
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    body {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .shop-item-img-container {
     /* border: 3px solid green; */
     gap: column;
@@ -271,15 +278,17 @@ h2 {
 }
 
 .item-descriiption {
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    font-family: "Roboto", sans-serif;
 }
 
 .customer-review { 
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
 }
 
 .customer-feeback-rating {
@@ -288,6 +297,10 @@ h2 {
 }
 
 .customer-individual {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding-left: 25px;
+}
+
+li {
+    font-family: "Roboto", sans-serif;
 }

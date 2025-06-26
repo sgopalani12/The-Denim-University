@@ -20,10 +20,12 @@
         <a href="index.html" class="navbar-option">
             <img class="logo" src="/images/TDU_Logo.png">
         </a>
-        <div class="search-box">
-            <input type="text" placeholder="Search for...">
-            <img class="mag-logo" src="/images/magnify-pic.png">
-        </div>
+        <form class="search-box" onsubmit="handleSearch(event)">
+            <input type="text" id="searchInput" placeholder="Search for...">
+            <button type="submit" class="search-btn">
+                <img class="mag-logo" src="/images/magnify-pic.png">
+            </button>
+        </form>
         <div class="navbar-right">
             <a href="" class="navbar-option"><span>New</span></a>
             <a href="shop.html" class="navbar-option"><span>Shop</span></a>
