@@ -303,4 +303,6 @@ h2 {
 
 li {
     font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    gap: 30%;
 }
