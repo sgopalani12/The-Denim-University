@@ -139,7 +139,7 @@ h1 {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 input {
@@ -151,6 +151,7 @@ input {
     position: relative;
     top: 1px;
     overflow: hidden;
+    font-size: 50px;
 }
 
 .item-waist {
@@ -169,7 +170,7 @@ input {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 .item-length {
@@ -188,7 +189,7 @@ input {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 h2 {
@@ -304,5 +305,5 @@ h2 {
 li {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
-    gap: 30%;
+    gap: 40px;
 }
