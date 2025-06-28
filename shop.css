@@ -2,6 +2,13 @@
     background-color: white;
 }
 
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    .shop-body {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .denim-banner-img {
     background-image: url(/images/denim-banner.png);
     height: 120px;

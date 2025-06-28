@@ -1,14 +1,22 @@
-@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+@media (max-width: 760px)
+/*from 0px to 760px apply these rules */
+    {
     body {
         max-width: 100%;
         height: auto;
+        background-color: #ccc;
     }
+}
+
+body {
+    background-color: gray;
 }
 
 .shop-item-img-container {
     /* border: 3px solid green; */
     gap: column;
     display: flex;
+    color: black;
     /* align-items: center; */
 }
 
@@ -123,6 +131,14 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+.line {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* color: white; */
+    /* background-color: white;; */
+}
+
 .item-color-selection {
     /* border: 3px solid white; */
     text-align: center;
@@ -131,6 +147,7 @@ h1 {
     /* gap: 5px; */
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 .item-color-selection label {
@@ -139,14 +156,15 @@ h1 {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 input {
     width: 13px;
     display: flex;
     height: 13px;
-    margin: 0px 0px 0px 25px;
+    /* margin: 0px 0px 0px 25px; */
     vertical-align: top;
     position: relative;
     top: 1px;
@@ -162,6 +180,7 @@ input {
     /* gap: 5px; */
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 .item-waist label {
@@ -170,7 +189,8 @@ input {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 .item-length {
@@ -181,6 +201,7 @@ input {
     /* gap: 5px; */
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 .item-length label {
@@ -189,11 +210,12 @@ input {
     gap: 6px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 h2 {
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 .quanity-option {
@@ -203,13 +225,13 @@ h2 {
     align-items: center;
     gap: 10px;
     font-size: 1.8rem;
-    /* Makes text bigger */
+
 }
 
 
 .quanity-option button {
     padding: 10px 15px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     cursor: pointer;
     border: 1px solid #ccc;
     background-color: #f5f5f5;
@@ -271,29 +293,32 @@ h2 {
 .add-button,
 .buy-now-button {
     /* border: 3px solid pink; */
-    align-items: center; /*this allows the button to not be stretched out */
+    align-items: center;
+    /*this allows the button to not be stretched out */
     display: flex;
-    flex-direction: column; /* this causes the two buttons to be centered */
+    flex-direction: column;
+    /* this causes the two buttons to be centered */
     padding: 5px;
     font-family: "Roboto", sans-serif;
 }
 
-.item-descriiption {
+.item-description {
     /* border: 3px solid red; */
     font-family: "Roboto", sans-serif;
+    color: black;
 }
 
-.customer-review { 
+.customer-review {
     /* border: 3px solid green; */
     display: flex;
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: black;
     font-family: "Roboto", sans-serif;
 }
 
 .customer-feeback-rating {
-    width: 20%;
     height: 15vh;
     padding-left: 20px;
 }
@@ -301,10 +326,12 @@ h2 {
 .customer-individual {
     /* border: 3px solid red; */
     padding-left: 25px;
+    color: black;
 }
 
 li {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     padding: 5px 0 5px 10px;
+    color: black;
 }
