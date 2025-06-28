@@ -1,16 +1,35 @@
-@media (max-width: 760px)
-/*from 0px to 760px apply these rules */
+/* @media (max-width: 760px)
+from 0px to 760px apply these rules
     {
     body {
         max-width: 100%;
         height: auto;
         background-color: #ccc;
     }
-}
+} */
 
 body {
     background-color: gray;
 }
+
+@media only screen and (min-width: 480px) {
+
+    .body {
+        font-family: "Roboto", sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+        /* border: 3px solid yellow; */
+    }
+
+    .shop-image {
+        width: 630px;
+        padding: 50px 0 50px 50px;
+    }
+}
+
 
 .shop-item-img-container {
     /* border: 3px solid green; */
@@ -132,9 +151,8 @@ h1 {
 }
 
 .line {
-    width: 100%;
+    width: 120%;
     height: 80%;
-    display: flex;
     /* color: white; */
     /* background-color: white;; */
 }
