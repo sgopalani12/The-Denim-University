@@ -295,6 +295,7 @@ h2 {
 .customer-feeback-rating {
     width: 20%;
     height: 15vh;
+    padding-left: 20px;
 }
 
 .customer-individual {
@@ -305,5 +306,4 @@ h2 {
 li {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
-    gap: 40px;
 }
