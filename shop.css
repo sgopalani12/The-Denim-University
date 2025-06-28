@@ -2,13 +2,6 @@
     background-color: white;
 }
 
-@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
-    .shop-body {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
 .denim-banner-img {
     background-image: url(/images/denim-banner.png);
     height: 120px;
@@ -19,7 +12,7 @@
 }
 
 .shop-items {
-    /* border: solid 1px black;  */
+    /* border: solid 10px black;  */
     display: flex;
     justify-content: center;
 }
@@ -90,21 +83,29 @@ input[type="checkbox"] {
     height: 10px;
 }
 
+
 .shop-item-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
-    width: 50%;
+    width: 60%;
+    height: 40%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
-.shop-item-row {
-    font-family: "Roboto", sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
+@media only screen and (min-width: 480px) {
+
+    .shop-item-row {
+        font-family: "Roboto", sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 40px;
+        /* border: 3px solid yellow; */
+    }
 }
 
 .shop-item {
@@ -117,9 +118,10 @@ input[type="checkbox"] {
 }
 
 .shop-image {
-    height: 300px;
-    width: 250px;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
 
 .shop-item-title {
@@ -148,8 +150,8 @@ input[type="checkbox"] {
 }
 
 #no-results {
-    text-align: center; 
-    font-size: 1.2rem; 
+    text-align: center;
+    font-size: 1.2rem;
     margin-top: 2rem;
     color: black;
     display: none;
