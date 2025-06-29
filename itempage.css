@@ -326,6 +326,10 @@ h2 {
     color: black;
 }
 
+.id-photo {
+    height: 3vh;
+}
+
 .customer-review {
     /* border: 3px solid green; */
     display: flex;
