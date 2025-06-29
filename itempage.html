@@ -18,19 +18,22 @@
 <body>
     <div class="navbar">
         <a href="index.html" class="navbar-option">
-            <img class="logo" src="/images/TDU_Logo.png">
+          <img class="logo" src="/images/TDU_Logo.png">
         </a>
-        <div class="search-box">
-            <input type="text" placeholder="Search for...">
+        <form class="search-box" onsubmit="handleSearch(event)">
+          <input type="text" id="searchInput" placeholder="Search for...">
+          <button type="submit" class="search-btn">
             <img class="mag-logo" src="/images/magnify-pic.png">
-        </div>
+          </button>
+        </form>
+    
         <div class="navbar-right">
-            <a href="" class="navbar-option"><span>New</span></a>
-            <a href="shop.html" class="navbar-option"><span>Shop</span></a>
-            <a href="" class="navbar-option"><span>About</span></a>
-            <img class="shopcart-icon" src="/images/shopcart-icon.png">
+          <a href="" class="navbar-option"><span>New</span></a>
+          <a href="shop.html" class="navbar-option"><span>Shop</span></a>
+          <a href="" class="navbar-option"><span>About</span></a>
+          <img class="shopcart-icon" src="/images/shopcart-icon.png">
         </div>
-    </div>
+      </div>
     <div class="shop-item-img-container">
         <img class="shop-image" alt="jeans pic">
         <div class="content-right">
