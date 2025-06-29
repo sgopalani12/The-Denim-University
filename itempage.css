@@ -332,8 +332,6 @@ h2 {
 
 .customer-review {
     /* border: 3px solid green; */
-    display: flex;
-    flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
     color: black;
