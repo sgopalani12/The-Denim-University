@@ -46,7 +46,3 @@ export function renderShopItems(jeans) {
     container.appendChild(row);
   }
 }
-
-export async function getElementById() {
-  const checkbox = document.getElementsByClassName("item-checkbox");
-}

@@ -18,22 +18,22 @@
 <body>
     <div class="navbar">
         <a href="index.html" class="navbar-option">
-          <img class="logo" src="/images/TDU_Logo.png">
+            <img class="logo" src="/images/TDU_Logo.png">
         </a>
         <form class="search-box" onsubmit="handleSearch(event)">
-          <input type="text" id="searchInput" placeholder="Search for...">
-          <button type="submit" class="search-btn">
-            <img class="mag-logo" src="/images/magnify-pic.png">
-          </button>
+            <input type="text" id="searchInput" placeholder="Search for...">
+            <button type="submit" class="search-btn">
+                <img class="mag-logo" src="/images/magnify-pic.png">
+            </button>
         </form>
-    
+
         <div class="navbar-right">
-          <a href="" class="navbar-option"><span>New</span></a>
-          <a href="shop.html" class="navbar-option"><span>Shop</span></a>
-          <a href="" class="navbar-option"><span>About</span></a>
-          <img class="shopcart-icon" src="/images/shopcart-icon.png">
+            <a href="" class="navbar-option"><span>New</span></a>
+            <a href="shop.html" class="navbar-option"><span>Shop</span></a>
+            <a href="" class="navbar-option"><span>About</span></a>
+            <img class="shopcart-icon" src="/images/shopcart-icon.png">
         </div>
-      </div>
+    </div>
     <div class="shop-item-img-container">
         <img class="shop-image" alt="jeans pic">
         <div class="content-right">
@@ -53,12 +53,12 @@
             </div>
             <div class="item-color-selection">
                 <h2>Color:</h2>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Blue"> Blue</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue"> Navy Blue</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Black"> Black</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Matte Black"> Matte Black</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Grey"> Grey</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Bleach Gray"> Bleach Grey</label>
+                <label><input type="checkbox" class="item-checkbox" value="Blue"> Blue</label>
+                <label><input type="checkbox" class="item-checkbox" value="Navy Blue"> Navy Blue</label>
+                <label><input type="checkbox" class="item-checkbox" value="Black"> Black</label>
+                <label><input type="checkbox" class="item-checkbox" value="Matte Black"> Matte Black</label>
+                <label><input type="checkbox" class="item-checkbox" value="Grey"> Grey</label>
+                <label><input type="checkbox" class="item-checkbox" value="Bleach Gray"> Bleach Grey</label>
             </div>
             <div class="line-arrow">
                 <img class="line" src="/images/line.png">
@@ -66,7 +66,7 @@
             <div class="item-waist">
                 <h2>Waist: </h2>
                 <label><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
-                <label><input type="checkbox" iclass="item-checkbox" name="waist" value="32"> 32</label>
+                <label><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
                 <label><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
                 <label><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
                 <label><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
@@ -137,23 +137,28 @@
                 <img class="customer-feeback-rating" alt="5star-rating" src="/images/customer-feedback-rating.png">
                 <p>
                 <div class="customer-individual">
-                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2" alt="5star-rating" src="/images/customer-feedback-rating.png">
+                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
+                        alt="5star-rating" src="/images/customer-feedback-rating.png">
                     <ol>sgopalani12: "Jeans were delivered in perfect condition!"</ol>
                 </div>
                 <div class="customer-individual">
-                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2" alt="5star-rating" src="/images/customer-feedback-rating.png">
+                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
+                        alt="5star-rating" src="/images/customer-feedback-rating.png">
                     <ol>gent1999: "I mean, it's allright, like... overrated"</ol>
                 </div>
                 <div class="customer-individual">
-                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2" alt="5star-rating" src="/images/customer-feedback-rating.png">
+                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
+                        alt="5star-rating" src="/images/customer-feedback-rating.png">
                     <ol>seyuan111: "Love this brand. Love their clothes."</ol>
                 </div>
                 <div class="customer-individual">
-                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2" alt="5star-rating" src="/images/customer-feedback-rating.png">
+                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
+                        alt="5star-rating" src="/images/customer-feedback-rating.png">
                     <ol>willrnh: "Feels nice and comfy"</ol>
                 </div>
                 <div class="customer-individual">
-                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2" alt="5star-rating" src="/images/customer-feedback-rating.png">
+                    <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
+                        alt="5star-rating" src="/images/customer-feedback-rating.png">
                     <ol>simk209: "I mean, it's allright, like... overrated"</ol>
                 </div>
                 </p>
@@ -223,6 +228,7 @@
                 <!--study lines 153 to 180-->
                 <script type="module">
                     import { getJeans } from './filter-data.js';
+                    import { enforceMutualExclusion } from './filter-data.js';
 
                     const urlParams = new URLSearchParams(window.location.search);
                     const id = urlParams.get('id');
@@ -249,6 +255,22 @@
                         }
                     }
                 </script>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const checkboxes = document.querySelectorAll(".item-checkbox");
+
+                        checkboxes.forEach((checkbox) => {
+                            checkbox.addEventListener("change", function () {
+                                if (this.checked) {
+                                    checkboxes.forEach((cb) => {
+                                        if (cb !== this) cb.checked = false;
+                                    });
+                                }
+                            });
+                        });
+                    });
+                </script>
+
 
             </div>
         </div>
