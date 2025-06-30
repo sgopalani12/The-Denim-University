@@ -12,6 +12,25 @@ body {
     background-color: gray;
 }
 
+@media (min-width: 70px) {
+
+    .grid-image-1,
+    .grid-image-2,
+    .grid-image-3,
+    .grid-image-4,
+    .grid-image-5,
+    .grid-image-6 {
+        width: 95%;
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+}
+
 @media only screen and (min-width: 480px) {
 
     .body {
@@ -45,6 +64,7 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
+
 }
 
 .shop-image {
@@ -151,11 +171,17 @@ h1 {
 }
 
 .line {
-    width: 120%;
-    height: 80%;
+    /* width: 120%;
+    height: 80%; */
     /* color: white; */
     /* background-color: white;; */
+    width: 100%;
+    height: 2px;
+    background-color: black;
 }
+.line-arrow {
+    /* border: 2px dashed red; */
+  }
 
 .item-color-selection {
     /* border: 3px solid white; */
@@ -180,14 +206,14 @@ h1 {
 
 input {
     width: 13px;
-    display: flex;
+    /* display: flex; */
     height: 13px;
     /* margin: 0px 0px 0px 25px; */
-    vertical-align: top;
-    position: relative;
-    top: 1px;
-    overflow: hidden;
-    font-size: 50px;
+    /* vertical-align: top; */
+    /* position: relative; */
+    /* top: 1px; */
+    /* overflow: hidden; */
+    /* font-size: 50px; */
 }
 
 .item-waist {

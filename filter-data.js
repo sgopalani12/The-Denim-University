@@ -47,15 +47,6 @@ export function renderShopItems(jeans) {
   }
 }
 
-export async function getGridImages() {
-  try {
-    const response = await fetch('https://tdu-backend.vercel.app/jeans/all-jeans');
-    const jeans = await response.json();
-    return jeans
-  } catch (error) {
-    console.error('❌ Failed to fetch jeans:', error);
-    return [];
-  }
-} /*this whole function is 'fetching' the data & everything from line 12 -> will take data and put it in the correct classes, 
-start with hardcode, then you create the backend, then fetch from backend*/
-
+export async function getElementById() {
+  const checkbox = document.getElementsByClassName("item-checkbox");
+}
