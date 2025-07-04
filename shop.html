@@ -88,13 +88,13 @@
         No results found.
       </p>
       <div class="shop-item-row">
-        <div class="shop-item">
+        <!-- <div class="shop-item">
           <img class="shop-image" src="/images/black-denim-pic.png" alt="black-jeans-pic">
           <p class="shop-item-title"> Men's Black Denim</p>
-          <p class="shop-item-size">Size: 30x30</p>
-          <p class="shop-item-price">$55.00</p>
-        </div>
-        <div class="shop-item">
+          <p class="shop-item-size">Size: 30x30</p> -->
+          <!-- <p class="shop-item-price">$55.00</p>
+        </div> -->
+        <!-- <div class="shop-item">
           <img class="shop-image" src="/images/blue-denim-pic.png" alt="blue-jeans-pic">
           <p class="shop-item-title"> Men's Blue Denim</p>
           <p class="shop-item-size">Size: 36x32</p>
@@ -125,7 +125,7 @@
           <p class="shop-item-title"> Men's Bleached Denim</p>
           <p class="shop-item-size">Size: 36x32</p>
           <p class="shop-item-price">$70.00</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -202,6 +202,13 @@
     </script>
     <script src="shop-filters.js"></script>
     <script src="searchbar-filter.js"></script>
+    <script type="module">
+      import {getJeans, renderShopItems} from './filter-data.js'
+      window.addEventListener('DOMContentLoaded', async() => {
+        const jeans = await getJeans()
+        renderShopItems(jeans)
+      })
+    </script>
 
 </body>
 
