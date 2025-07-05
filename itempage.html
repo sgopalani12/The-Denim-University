@@ -228,52 +228,36 @@
                 <!--study lines 153 to 180-->
                 <script type="module">
                     import { getJeans } from './filter-data.js';
-                  
+
                     const urlParams = new URLSearchParams(window.location.search);
                     const id = urlParams.get('id');
                     console.log("🔍 URL id param:", id); // Debug: show id in console
-                  
-                    if (id) {
-                      getJeans().then((jeans) => {
-                        console.log("🟢 Jeans fetched:", jeans); // Debug: see all data
-                        const item = jeans.find(j => j.id === parseInt(id));
-                        console.log("🎯 Matched item:", item); // Debug: see selected item
-                  
-                        if (item) renderItem(item);
-                        else console.error('❌ Item not found');
-                      });
-                    }
-                  
-                    function renderItem(item) {
-                      const image = document.querySelector('.shop-image');
-                      const title = document.querySelector('.item-image-title-price h1');
-                  
-                      if (image) {
-                        image.src = item.image_link;
-                        image.alt = `${item.color}-jeans`;
-                      }
-                  
-                      if (title) {
-                        title.textContent = `${item.title} ($${item.price})`;
-                      }
-                    }
-                  </script>
-                  
-                <!-- <script>
-                    document.addEventListener("DOMContentLoaded", function () {
-                        const checkboxes = document.querySelectorAll(".item-checkbox");
 
-                        checkboxes.forEach((checkbox) => {
-                            checkbox.addEventListener("change", function () {
-                                if (this.checked) {
-                                    checkboxes.forEach((cb) => {
-                                        if (cb !== this) cb.checked = false;
-                                    });
-                                }
-                            });
+                    if (id) {
+                        getJeans().then((jeans) => {
+                            console.log("🟢 Jeans fetched:", jeans); // Debug: see all data
+                            const item = jeans.find(j => j.id === parseInt(id));
+                            console.log("🎯 Matched item:", item); // Debug: see selected item
+
+                            if (item) renderItem(item);
+                            else console.error('❌ Item not found');
                         });
-                    });
-                </script> -->
+                    }
+
+                    function renderItem(item) {
+                        const image = document.querySelector('.shop-image');
+                        const title = document.querySelector('.item-image-title-price h1');
+
+                        if (image) {
+                            image.src = item.image_link;
+                            image.alt = `${item.color}-jeans`;
+                        }
+
+                        if (title) {
+                            title.textContent = `${item.title} ($${item.price})`;
+                        }
+                    }
+                </script>
                 <script type="module">
                     import { loadGridImages } from './grid-images.js';
 
