@@ -78,8 +78,8 @@ body {
     display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 0 0 0;
-    gap: 70px;
+    padding: 10px;
+    gap: 30px;
 }
 
 .grid-image-1 {
@@ -194,7 +194,7 @@ h1 {
     color: black;
 }
 
-.item-color-selection label {
+/* .item-color-selection label {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -202,7 +202,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 25px;
-}
+} */
 
 input {
     width: 13px;
@@ -216,6 +216,10 @@ input {
     /* font-size: 50px; */
 }
 
+#searchInput {
+    width: 32px;
+}
+
 .item-waist {
     /* border: 3px solid white; */
     text-align: center;
@@ -227,7 +231,7 @@ input {
     color: black;
 }
 
-.item-waist label {
+/* .item-waist label {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -235,7 +239,7 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 25px;
-}
+} */
 
 .item-length {
     /* border: 3px solid white; */
@@ -248,7 +252,7 @@ input {
     color: black;
 }
 
-.item-length label {
+/* .item-length label {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -256,10 +260,39 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 25px;
-}
+} */
 
 h2 {
     padding-left: 20px;
+}
+
+.item-color-selection label,
+.item-waist label,
+.item-length label {
+  display: block;
+  padding: 5px 5px;
+  /* margin: 6px 0; */
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer; /*shows me the clicker turn into the finger pointer when hover over*/
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.item-color-selection label:hover,
+.item-waist label:hover,
+.item-length label:hover {
+  background-color: navy;
+  color: white;
+}
+
+.item-color-selection input[type="checkbox"],
+.item-waist input[type="checkbox"],
+.item-length input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: black; /* optional: style the checkbox */
 }
 
 .quanity-option {
@@ -336,8 +369,7 @@ h2 {
 .quanity-cart-button{
     display: flex;
     flex-direction: row;
-    align-items: center;
-
+    justify-content: center;
 }
 
 
