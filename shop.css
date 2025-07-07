@@ -108,19 +108,16 @@ input[type="checkbox"] {
     }
 }
 
-.shop-item {
-    margin-right: 30px;
-}
-
 .shop-item p {
     font-family: "Roboto", sans-serif;
     color: black;
+    font-size: 15px;
 }
 
 .shop-image {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
     display: block;
 }
 
