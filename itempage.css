@@ -231,15 +231,7 @@ input {
     color: black;
 }
 
-/* .item-waist label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-left: 25px;
-} */
+
 
 .item-length {
     /* border: 3px solid white; */
@@ -252,15 +244,6 @@ input {
     color: black;
 }
 
-/* .item-length label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-left: 25px;
-} */
 
 h2 {
     padding-left: 20px;
@@ -273,18 +256,18 @@ h2 {
   padding: 5px 5px;
   /* margin: 6px 0; */
   background-color: #f1f1f1;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 6px;
   cursor: pointer; /*shows me the clicker turn into the finger pointer when hover over*/
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease;
 }
 
 .item-color-selection label:hover,
 .item-waist label:hover,
 .item-length label:hover {
-  background-color: navy;
+  background-color: rgb(0, 0, 203);
   color: white;
 }
 
@@ -324,27 +307,12 @@ h2 {
     border-radius: 5px;
 }
 
-.add-to-cart:hover {
-    background-color: #ddd;
-    /* Optional: hover effect */
-}
-
 .add-to-cart -wrapper {
     display: flex;
     justify-content: center;
     padding-top: 5%;
 }
 
-.buy-now:hover {
-    background-color: #ddd;
-    /* Optional: hover effect */
-}
-
-.buy-now-wrapper {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-}
 
 .add-to-cart {
     display: inline-block;
@@ -358,12 +326,18 @@ h2 {
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: #272f90;
+    background-color:  rgb(0, 0, 203);
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
     border-radius: 4px;
+    transition: background-color 0.4s ease;
     /* Optional: rounded corners */
+}
+
+.add-to-cart:hover {
+    background-color: rgb(0, 0, 82);
+    /* Optional: hover effect */
 }
 
 .quanity-cart-button{
