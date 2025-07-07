@@ -9,7 +9,7 @@ from 0px to 760px apply these rules
 } */
 
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 @media (min-width: 70px) {
@@ -313,11 +313,10 @@ h2 {
     padding-top: 5%;
 }
 
-.buy-now,
 .add-to-cart {
     display: inline-block;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
     text-align: center;
     padding: 10px 10px;
     /* margin: 0 40%; */
@@ -326,13 +325,21 @@ h2 {
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: #eee;
+    background-color: #272f90;
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
     border-radius: 4px;
     /* Optional: rounded corners */
 }
+
+.quanity-cart-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
 
 .add-button,
 .buy-now-button {
