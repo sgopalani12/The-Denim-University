@@ -98,7 +98,6 @@ body {
 .grid-image-2 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid2.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -111,7 +110,6 @@ body {
 .grid-image-3 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid3.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -124,7 +122,6 @@ body {
 .grid-image-4 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid4.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -137,8 +134,7 @@ body {
 
 .grid-image-5 {
     /* border: 3px solid pink; */
-    display: flex;
-    /* background-image: url(/images/black-jeans-img-grid5.png); */
+    display: flex;/
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -152,7 +148,6 @@ body {
 .grid-image-6 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid6.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
