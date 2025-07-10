@@ -47,3 +47,8 @@ export async function loadGridImages() {
   //     `;
   //   row.appendChild(div);
   // });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const waistFilters = document.querySelectorAll('label [name="waist"]');
+    const lengthFilters = document.querySelectorAll('label [name="length"]');
+    const colorFilters = document.querySelectorAll('label [name="color"]');
