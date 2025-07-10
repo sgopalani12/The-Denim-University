@@ -288,11 +288,7 @@ h2 {
     font-size: 1.8rem;
 
 }
-@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
-    .quanity-option button {
-        padding-left: 30px;
-    }
-}
+
 
 .quanity-option button {
     padding: 10px 15px;
@@ -352,6 +348,11 @@ h2 {
     gap: 15px;
 }
 
+@media (max-width: 1100px) /*from 0px to 60px apply these rules */ {
+    .quanity-cart-button {
+        padding-left: 30px;
+    }
+}
 
 .add-button,
 .buy-now-button {
