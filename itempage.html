@@ -51,31 +51,31 @@
 
             <div class="item-color-selection">
                 <h2>Color</h2>
-                <label name="color">  Navy Blue</label>
-                <label name="color"> Black</label>
-                <label name="color"> Bleach Grey</label>
-                <label name="color"> Matte Black</label>
-                <label name="color"> Grey</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue">  Navy Blue</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Black"> Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Bleach Grey"> Bleach Grey</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Matte Black"> Matte Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Grey">Grey</label>
             </div>
 
             <div class="item-waist">
                 <h2>Waist</h2>
-                <label name="waist"> 30</label>
-                <label name="waist"> 32</label>
-                <label name="waist"> 34</label>
-                <label name="waist"> 36</label>
-                <label name="waist"> 38</label>
-                <label name="waist"> 40</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label>
             </div>
 
             <div class="item-length">
                 <h2>Length</h2>
-                <label name="length"> 30</label>
-                <label name="length"> 32</label>
-                <label name="length"> 34</label>
-                <label name="length"> 36</label>
-                <label name="length"> 38</label>
-                <label name="length"> 40</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label>
             </div>
             <!-- <div class="line-arrow">
                 <img class="line" src="/images/line.png">
@@ -259,6 +259,9 @@
                     document.addEventListener('DOMContentLoaded', () => {
                         loadGridImages();
                     });
+                </script>
+                <script type="module">
+                    import { checkbox } from './item-page-filters.js';
                 </script>
 
             </div>
