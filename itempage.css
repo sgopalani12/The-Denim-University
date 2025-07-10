@@ -174,9 +174,10 @@ h1 {
     height: 2px;
     background-color: black;
 }
+
 .line-arrow {
     /* border: 2px dashed red; */
-  }
+}
 
 .item-color-selection {
     /* border: 3px solid white; */
@@ -250,30 +251,32 @@ h2 {
 .item-color-selection label,
 .item-waist label,
 .item-length label {
-  display: block;
-  padding: 5px 5px;
-  /* margin: 6px 0; */
-  background-color: #f1f1f1;
-  border: 1px solid #000000;
-  border-radius: 6px;
-  cursor: pointer; /*shows me the clicker turn into the finger pointer when hover over*/
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  transition: background-color 0.4s ease;
+    display: block;
+    padding: 5px 5px;
+    /* margin: 6px 0; */
+    background-color: #f1f1f1;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    /*shows me the clicker turn into the finger pointer when hover over*/
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.4s ease;
 }
 
 .item-color-selection label:hover,
 .item-waist label:hover,
 .item-length label:hover {
-  background-color: rgb(0, 0, 203);
-  color: white;
+    background-color: rgb(0, 0, 203);
+    color: white;
 }
 
 .item-color-selection input[type="checkbox"],
 .item-waist input[type="checkbox"],
 .item-length input[type="checkbox"] {
-  margin-right: 10px;
-  accent-color: black; /* optional: style the checkbox */
+    margin-right: 10px;
+    accent-color: black;
+    /* optional: style the checkbox */
 }
 
 .quanity-option {
@@ -285,7 +288,11 @@ h2 {
     font-size: 1.8rem;
 
 }
-
+@media (max-width: 760px) /*from 0px to 760px apply these rules */ {
+    .quanity-option button {
+        padding-left: 30px;
+    }
+}
 
 .quanity-option button {
     padding: 10px 15px;
@@ -324,7 +331,7 @@ h2 {
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color:  rgb(0, 0, 203);
+    background-color: rgb(0, 0, 203);
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
@@ -338,7 +345,7 @@ h2 {
     /* Optional: hover effect */
 }
 
-.quanity-cart-button{
+.quanity-cart-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
