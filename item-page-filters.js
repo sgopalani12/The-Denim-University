@@ -1,3 +1,4 @@
+export async function clickCheckbox() {
 document.addEventListener("DOMContentLoaded", () => {
     const waistFilters = document.querySelectorAll('label [name="waist"]');
     const lengthFilters = document.querySelectorAll('label [name="length"]');
@@ -17,3 +18,4 @@ checkbox.addEventListener('change', function () {
         console.log("Checkbox is not checked..");
     }
 });
+}
