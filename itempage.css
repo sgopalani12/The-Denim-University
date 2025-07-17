@@ -287,7 +287,8 @@ h2 {
     /* optional: style the checkbox */
 }
 
-.color-option {
+.color-option,
+.waist-option {
     display: inline-block;
     padding: 8px 12px;
     border: 1px solid #aaa;
@@ -296,7 +297,8 @@ h2 {
     margin: 4px;
   }
   
-  .color-option.selected {
+  .color-option.selected,
+  .waist-option.selected {
     background-color: navy;
     color: white;
   }
