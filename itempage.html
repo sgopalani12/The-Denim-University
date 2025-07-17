@@ -83,12 +83,18 @@
 
             <div class="item-length">
                 <h2>Length</h2>
-                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
+                <div class="length-option" data-value="30">30</div>
+                <div class="length-option" data-value="32">32</div>
+                <div class="length-option" data-value="34">34</div>
+                <div class="length-option" data-value="36">36</div>
+                <div class="length-option" data-value="38">38</div>
+                <div class="length-option" data-value="40">40</div>
+                <!-- <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
                 <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
                 <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
                 <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
                 <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
-                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label> -->
             </div>
             <!-- <div class="line-arrow">
                 <img class="line" src="/images/line.png">
@@ -282,8 +288,25 @@
                             console.log('Selected:', color);
                         });
                     });
+                    document.querySelectorAll('.waist-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const color = option.dataset.value;
+                            console.log('Selected:', waist);
+                        });
+                    });
+                    document.querySelectorAll('.length-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const color = option.dataset.value;
+                            console.log('Selected:', length);
+                        });
+                    });
 
                 </script>
+
 
             </div>
         </div>

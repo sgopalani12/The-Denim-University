@@ -288,7 +288,8 @@ h2 {
 }
 
 .color-option,
-.waist-option {
+.waist-option,
+.length-option {
     display: inline-block;
     padding: 8px 12px;
     border: 1px solid #aaa;
@@ -298,7 +299,8 @@ h2 {
   }
   
   .color-option.selected,
-  .waist-option.selected {
+  .waist-option.selected,
+  .length-option.selected  {
     background-color: navy;
     color: white;
   }
