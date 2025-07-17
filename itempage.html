@@ -51,11 +51,18 @@
 
             <div class="item-color-selection">
                 <h2>Color</h2>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue">  Navy Blue</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Black"> Black</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Bleach Grey"> Bleach Grey</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Matte Black"> Matte Black</label>
-                <label><input type="checkbox" class="item-checkbox" name="color" value="Grey">Grey</label>
+                <!-- <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue">  Navy Blue</label> -->
+                <div class="color-option" data-value="Navy Blue">Navy Blue</div>
+                <div class="color-option" data-value="Navy Blue">Black</div>
+                <div class="color-option" data-value="Navy Blue">Bleach Grey</div>
+                <div class="color-option" data-value="Navy Blue">Matte Black</div>
+                <div class="color-option" data-value="Navy Blue">Grey</div>
+                <!-- <label><input type="checkbox" class="item-checkbox" name="color" value="Black"> Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Bleach Grey"> Bleach
+                    Grey</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Matte Black"> Matte
+                    Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Grey">Grey</label> -->
             </div>
 
             <div class="item-waist">
@@ -261,9 +268,15 @@
                     });
                 </script>
                 <script type="module">
-                    import { clickCheckbox } from './item-page-filters.js';
-                    console.log("Checkbox is checked.."); 
-                    console.log("Checkbox is not checked..");
+                    document.querySelectorAll('.color-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const color = option.dataset.value;
+                            console.log('Selected:', color);
+                        });
+                    });
+
                 </script>
 
             </div>

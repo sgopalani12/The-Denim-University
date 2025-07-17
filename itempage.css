@@ -50,6 +50,7 @@ body {
 }
 
 
+
 .shop-item-img-container {
     /* border: 3px solid green; */
     gap: column;
@@ -271,6 +272,13 @@ h2 {
     color: white;
 }
 
+/* .item-color-selection label:checked,
+.item-waist label:checked,
+.item-length label:checked {
+    background-color: rgb(0, 0, 203);
+    color: rgb(187, 60, 60);
+} */
+
 .item-color-selection input[type="checkbox"],
 .item-waist input[type="checkbox"],
 .item-length input[type="checkbox"] {
@@ -279,6 +287,21 @@ h2 {
     /* optional: style the checkbox */
 }
 
+.color-option {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 4px;
+  }
+  
+  .color-option.selected {
+    background-color: navy;
+    color: white;
+  }
+
+  
 .quanity-option {
     /* border: 3px solid aqua; */
     justify-content: center;
@@ -348,7 +371,9 @@ h2 {
     gap: 15px;
 }
 
-@media (max-width: 1100px) /*from 0px to 60px apply these rules */ {
+@media (max-width: 1100px)
+/*from 0px to 60px apply these rules */
+    {
     .quanity-cart-button {
         padding-left: 30px;
     }
