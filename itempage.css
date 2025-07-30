@@ -287,9 +287,7 @@ h2 {
     /* optional: style the checkbox */
 }
 
-.color-option,
-.waist-option,
-.length-option {
+.radio-button {
     display: inline-block;
     padding: 8px 12px;
     border: 1px solid #aaa;
@@ -297,6 +295,8 @@ h2 {
     cursor: pointer;
     margin: 4px;
   }
+  
+
   
   .color-option.selected,
   .waist-option.selected,
@@ -315,7 +315,6 @@ h2 {
     font-size: 1.8rem;
 
 }
-
 
 .quanity-option button {
     padding: 10px 15px;
