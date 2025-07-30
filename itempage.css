@@ -296,7 +296,10 @@ h2 {
     margin: 4px;
   }
   
-
+.radio-button:hover {
+    background-color: blue;
+    color: white;
+}
   
   .color-option.selected,
   .waist-option.selected,
