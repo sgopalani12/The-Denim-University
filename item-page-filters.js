@@ -21,4 +21,3 @@
 // }
 
 
-const boxes = document.querySelectorAll(`item-col`)

@@ -287,6 +287,10 @@ h2 {
     /* optional: style the checkbox */
 }
 
+input[type="radio"] {
+    display: none;
+  }
+
 .radio-button {
     display: inline-block;
     padding: 8px 12px;
