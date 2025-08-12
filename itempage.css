@@ -287,9 +287,23 @@ h2 {
     /* optional: style the checkbox */
 }
 
+.color-box {
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
 input[type="radio"] {
     display: none;
-  }
+}
+
+input[type="radio"]:checked+.color-box {
+    border-color: #007BFF;
+    background-color: #EAF2FF;
+    font-weight: bold;
+}
 
 .radio-button {
     display: inline-block;
@@ -298,21 +312,22 @@ input[type="radio"] {
     border-radius: 5px;
     cursor: pointer;
     margin: 4px;
-  }
-  
+}
+
 .radio-button:hover {
     background-color: blue;
     color: white;
 }
-  
-  .color-option.selected,
-  .waist-option.selected,
-  .length-option.selected  {
+
+.color-option.selected,
+.waist-option.selected,
+.length-option.selected {
     background-color: navy;
     color: white;
-  }
+}
 
-  
+
+
 .quanity-option {
     /* border: 3px solid aqua; */
     justify-content: center;
