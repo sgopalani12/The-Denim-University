@@ -87,27 +87,27 @@
 
             <div class="item-waist">
                 <h2>Waist</h2>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="30">
                     <span>30</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="32">
                     <span>32</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="34">
                     <span>34</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="36">
                     <span>36</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="38">
                     <span>38</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-waist">
                     <input type="radio" name="waist" id="waist-option" data-value="40">
                     <span>40</span>
                 </div>
@@ -121,27 +121,27 @@
 
             <form class="item-length">
                 <h2>Length</h2>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="30">
                     <span>30</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="32">
                     <span>32</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="34">
                     <span>34</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="36">
                     <span>36</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="38">
                     <span>38</span>
                 </div>
-                <div class="radio-button">
+                <div class="radio-button-length">
                     <input type="radio" name="length" id="length-option" data-value="40">
                     <span>40</span>
                 </div>
@@ -360,20 +360,27 @@
                             console.log('Selected:', length);
                         });
                     });
-                    const buttons = document.querySelectorAll('.radio-button');
+                    // Function to create independent button groups
+                    function createButtonGroup(selector) {
+                        const buttons = document.querySelectorAll(selector);
 
-                    // Add click event listener to each button
-                    buttons.forEach(button => {
-                        button.addEventListener('click', function () {
-                            // Remove 'active' class from all buttons
-                            buttons.forEach(btn => btn.classList.remove('active'));
+                        buttons.forEach(button => {
+                            button.addEventListener('click', function () {
+                                // Remove active from buttons in the SAME group only
+                                buttons.forEach(btn => btn.classList.remove('active'));
 
-                            // Add 'active' class to clicked button
-                            this.classList.add('active');
+                                // Add active to clicked button
+                                this.classList.add('active');
 
-                            // Update info display (optional)
+
+                            });
                         });
-                    });
+                    }
+
+                    // Create independent groups
+                    createButtonGroup('.radio-button');
+                    createButtonGroup('.radio-button-waist');
+                    createButtonGroup('.radio-button-length');
 
                 </script>
 

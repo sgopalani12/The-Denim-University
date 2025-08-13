@@ -305,7 +305,9 @@ input[type="radio"]:checked+.color-box {
     font-weight: bold;
 }
 
-.radio-button {
+.radio-button,
+.radio-button-length,
+.radio-button-waist {
     display: inline-block;
     padding: 8px 12px;
     border: 1px solid #aaa;
@@ -314,24 +316,22 @@ input[type="radio"]:checked+.color-box {
     margin: 4px;
 }
 
-.radio-button:hover {
+.radio-button:hover,
+.radio-button-length:hover,
+.radio-button-waist:hover{
     background-color: blue;
     color: white;
 }
 
-.radio-button.active .blue{
+.radio-button.active,
+.radio-button-length.active,
+.radio-button-waist.active{
     background: #007bff;
     color: white;
     border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
 }
 
-.radio-button.active {
-    background: #007bff;
-    color: white;
-    border-color: #0056b3;
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
-}
 
 .color-option.selected,
 .waist-option.selected,
