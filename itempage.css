@@ -326,7 +326,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button.active,
 .radio-button-length.active,
 .radio-button-waist.active{
-    background: #007bff;
+    background: blue;
     color: white;
     border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
