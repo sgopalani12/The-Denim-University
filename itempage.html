@@ -53,27 +53,27 @@
                 <h2>Color</h2>
                 <!-- <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue">  Navy Blue</label> -->
                 <div class="radio-button">
-                    <input type="radio" name="color" id="color-option" data-value="blue">
+                    <input type="radio" name="color" id="color-option" value="blue">
                     <span>Blue</span>
                 </div>
 
                 <div class="radio-button">
-                    <input type="radio" name="color" id="color-option" data-value="black">
+                    <input type="radio" name="color" id="color-option" value="black">
                     <span>Black</span>
                 </div>
 
                 <div class="radio-button">
-                    <input type="radio" name="color" id="color-option" data-value="bleach grey">
+                    <input type="radio" name="color" id="color-option" value="bleach grey">
                     <span>Bleach Grey</span>
                 </div>
 
                 <div class="radio-button">
-                    <input type="radio" name="color" id="color-option" data-value="matte black">
+                    <input type="radio" name="color" id="color-option" value="matte black">
                     <span>Matte Black</span>
                 </div>
 
                 <div class="radio-button">
-                    <input type="radio" name="color" id="color-option" data-value="grey">
+                    <input type="radio" name="color" id="color-option" value="grey">
                     <span>Grey</span>
                 </div>
 
@@ -360,9 +360,22 @@
                             console.log('Selected:', length);
                         });
                     });
+                    const buttons = document.querySelectorAll('.radio-button');
+
+                    // Add click event listener to each button
+                    buttons.forEach(button => {
+                        button.addEventListener('click', function () {
+                            // Remove 'active' class from all buttons
+                            buttons.forEach(btn => btn.classList.remove('active'));
+
+                            // Add 'active' class to clicked button
+                            this.classList.add('active');
+
+                            // Update info display (optional)
+                        });
+                    });
 
                 </script>
-
 
             </div>
         </div>

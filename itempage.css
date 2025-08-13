@@ -319,6 +319,20 @@ input[type="radio"]:checked+.color-box {
     color: white;
 }
 
+.radio-button.active .blue{
+    background: #007bff;
+    color: white;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
+}
+
+.radio-button.active {
+    background: #007bff;
+    color: white;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
 .color-option.selected,
 .waist-option.selected,
 .length-option.selected {
