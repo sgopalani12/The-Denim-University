@@ -32,3 +32,18 @@ export async function loadGridImages() {
       }
     });
   }
+
+  // jeans.slice(i, i + 3).forEach(item => {
+  //   const div = document.createElement('div');
+  //   const imagePath = item.image_link
+  //   div.className = 'shop-item';
+  //   div.innerHTML = `
+  //       <a href="itempage.html?id=${item.id}">
+  //         <img class="shop-image" src="${imagePath}" alt="${item.color}-jeans">
+  //         <p class="shop-item-title">${item.title}</p>
+  //         <p class="shop-item-size">Size: ${item.waist}x${item.length}</p>
+  //         <p class="shop-item-price">$${item.price}</p>
+  //       <a>
+  //     `;
+  //   row.appendChild(div);
+  // });

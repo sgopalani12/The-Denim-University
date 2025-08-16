@@ -9,7 +9,7 @@ from 0px to 760px apply these rules
 } */
 
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 @media (min-width: 70px) {
@@ -50,12 +50,13 @@ body {
 }
 
 
+
 .shop-item-img-container {
     /* border: 3px solid green; */
     gap: column;
     display: flex;
     color: black;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .content-right {
@@ -67,19 +68,19 @@ body {
 
 }
 
-.shop-image {
-    /* border: 2px solid blue; */
+/* .shop-image {
+    border: 2px solid blue;
     width: 630px;
     padding: 50px 0 50px 50px;
-}
+} */
 
 .grid-image-display {
     /* border: 3px solid yellow; */
     display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 0 0 0;
-    gap: 70px;
+    padding: 10px;
+    gap: 30px;
 }
 
 .grid-image-1 {
@@ -98,7 +99,6 @@ body {
 .grid-image-2 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid2.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -111,7 +111,6 @@ body {
 .grid-image-3 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid3.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -124,7 +123,6 @@ body {
 .grid-image-4 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid4.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -138,7 +136,6 @@ body {
 .grid-image-5 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid5.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -152,7 +149,6 @@ body {
 .grid-image-6 {
     /* border: 3px solid pink; */
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid6.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -179,9 +175,10 @@ h1 {
     height: 2px;
     background-color: black;
 }
+
 .line-arrow {
     /* border: 2px dashed red; */
-  }
+}
 
 .item-color-selection {
     /* border: 3px solid white; */
@@ -192,9 +189,10 @@ h1 {
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
+    gap: 10px;
 }
 
-.item-color-selection label {
+/* .item-color-selection label {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -202,7 +200,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 25px;
-}
+} */
 
 input {
     width: 13px;
@@ -216,6 +214,10 @@ input {
     /* font-size: 50px; */
 }
 
+#searchInput {
+    width: 32px;
+}
+
 .item-waist {
     /* border: 3px solid white; */
     text-align: center;
@@ -225,17 +227,10 @@ input {
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
+    gap: 10px;
 }
 
-.item-waist label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-left: 25px;
-}
+
 
 .item-length {
     /* border: 3px solid white; */
@@ -246,21 +241,106 @@ input {
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
+    gap: 10px;
 }
 
-.item-length label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-left: 25px;
-}
 
 h2 {
     padding-left: 20px;
 }
+
+.item-color-selection label,
+.item-waist label,
+.item-length label {
+    display: block;
+    padding: 5px 5px;
+    /* margin: 6px 0; */
+    background-color: #f1f1f1;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    /*shows me the clicker turn into the finger pointer when hover over*/
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.4s ease;
+}
+
+.item-color-selection label:hover,
+.item-waist label:hover,
+.item-length label:hover {
+    background-color: rgb(0, 0, 203);
+    color: white;
+}
+
+/* .item-color-selection label:checked,
+.item-waist label:checked,
+.item-length label:checked {
+    background-color: rgb(0, 0, 203);
+    color: rgb(187, 60, 60);
+} */
+
+.item-color-selection input[type="checkbox"],
+.item-waist input[type="checkbox"],
+.item-length input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: black;
+    /* optional: style the checkbox */
+}
+
+.color-box {
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked+.color-box {
+    border-color: #007BFF;
+    background-color: #EAF2FF;
+    font-weight: bold;
+}
+
+.radio-button,
+.radio-button-length,
+.radio-button-waist {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.radio-button:hover,
+.radio-button-length:hover,
+.radio-button-waist:hover{
+    background-color: blue;
+    color: white;
+}
+
+.radio-button.active,
+.radio-button-length.active,
+.radio-button-waist.active{
+    background: blue;
+    color: white;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
+}
+
+
+.color-option.selected,
+.waist-option.selected,
+.length-option.selected {
+    background-color: navy;
+    color: white;
+}
+
+
 
 .quanity-option {
     /* border: 3px solid aqua; */
@@ -271,7 +351,6 @@ h2 {
     font-size: 1.8rem;
 
 }
-
 
 .quanity-option button {
     padding: 10px 15px;
@@ -291,33 +370,17 @@ h2 {
     border-radius: 5px;
 }
 
-.add-to-cart:hover {
-    background-color: #ddd;
-    /* Optional: hover effect */
-}
-
 .add-to-cart -wrapper {
     display: flex;
     justify-content: center;
     padding-top: 5%;
 }
 
-.buy-now:hover {
-    background-color: #ddd;
-    /* Optional: hover effect */
-}
 
-.buy-now-wrapper {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-}
-
-.buy-now,
 .add-to-cart {
     display: inline-block;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
     text-align: center;
     padding: 10px 10px;
     /* margin: 0 40%; */
@@ -326,12 +389,33 @@ h2 {
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: #eee;
+    background-color: rgb(0, 0, 203);
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
     border-radius: 4px;
+    transition: background-color 0.4s ease;
     /* Optional: rounded corners */
+}
+
+.add-to-cart:hover {
+    background-color: rgb(0, 0, 82);
+    /* Optional: hover effect */
+}
+
+.quanity-cart-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 1100px)
+/*from 0px to 60px apply these rules */
+    {
+    .quanity-cart-button {
+        padding-left: 30px;
+    }
 }
 
 .add-button,

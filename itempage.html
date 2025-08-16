@@ -38,66 +38,136 @@
         <img class="shop-image" alt="jeans pic">
         <div class="content-right">
             <div class="grid-image-display">
-                <div class="grid-image-1"></div>
-                <div class="grid-image-2"></div>
-                <div class="grid-image-3"></div>
-                <div class="grid-image-4"></div>
-                <div class="grid-image-5"></div>
-                <div class="grid-image-6"></div>
+                <div class="grid-image-1"><img class="grid-image"></div>
+                <div class="grid-image-2"><img class="grid-image"></div>
+                <div class="grid-image-3"><img class="grid-image"></div>
+                <div class="grid-image-4"><img class="grid-image"></div>
+                <div class="grid-image-5"><img class="grid-image"></div>
+                <div class="grid-image-6"><img class="grid-image"></div>
             </div>
             <div class="item-image-title-price">
                 <h1></h1>
             </div>
-            <div class="line-arrow">
-                <img class="line" src="/images/line.png">
-            </div>
+
             <div class="item-color-selection">
-                <h2>Color:</h2>
-                <label><input type="checkbox" class="item-checkbox" value="Blue"> Blue</label>
-                <label><input type="checkbox" class="item-checkbox" value="Navy Blue"> Navy Blue</label>
-                <label><input type="checkbox" class="item-checkbox" value="Black"> Black</label>
-                <label><input type="checkbox" class="item-checkbox" value="Matte Black"> Matte Black</label>
-                <label><input type="checkbox" class="item-checkbox" value="Grey"> Grey</label>
-                <label><input type="checkbox" class="item-checkbox" value="Bleach Gray"> Bleach Grey</label>
+                <h2>Color</h2>
+                <!-- <label><input type="checkbox" class="item-checkbox" name="color" value="Navy Blue">  Navy Blue</label> -->
+                <div class="radio-button">
+                    <input type="radio" name="color" id="color-option" value="blue">
+                    <span>Blue</span>
+                </div>
+
+                <div class="radio-button">
+                    <input type="radio" name="color" id="color-option" value="black">
+                    <span>Black</span>
+                </div>
+
+                <div class="radio-button">
+                    <input type="radio" name="color" id="color-option" value="bleach grey">
+                    <span>Bleach Grey</span>
+                </div>
+
+                <div class="radio-button">
+                    <input type="radio" name="color" id="color-option" value="matte black">
+                    <span>Matte Black</span>
+                </div>
+
+                <div class="radio-button">
+                    <input type="radio" name="color" id="color-option" value="grey">
+                    <span>Grey</span>
+                </div>
+
+                <!-- <label><input type="checkbox" class="item-checkbox" name="color" value="Black"> Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Bleach Grey"> Bleach
+                    Grey</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Matte Black"> Matte
+                    Black</label>
+                <label><input type="checkbox" class="item-checkbox" name="color" value="Grey">Grey</label> -->
             </div>
-            <div class="line-arrow">
-                <img class="line" src="/images/line.png">
-            </div>
+
             <div class="item-waist">
-                <h2>Waist: </h2>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
-                <label><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label>
+                <h2>Waist</h2>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="30">
+                    <span>30</span>
+                </div>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="32">
+                    <span>32</span>
+                </div>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="34">
+                    <span>34</span>
+                </div>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="36">
+                    <span>36</span>
+                </div>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="38">
+                    <span>38</span>
+                </div>
+                <div class="radio-button-waist">
+                    <input type="radio" name="waist" id="waist-option" data-value="40">
+                    <span>40</span>
+                </div>
+                <!-- <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
+                <label name="waist"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label> -->
             </div>
-            <div class="line-arrow">
+
+            <form class="item-length">
+                <h2>Length</h2>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="30">
+                    <span>30</span>
+                </div>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="32">
+                    <span>32</span>
+                </div>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="34">
+                    <span>34</span>
+                </div>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="36">
+                    <span>36</span>
+                </div>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="38">
+                    <span>38</span>
+                </div>
+                <div class="radio-button-length">
+                    <input type="radio" name="length" id="length-option" data-value="40">
+                    <span>40</span>
+                </div>
+                <!-- <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="30"> 30</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="32"> 32</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="34"> 34</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="36"> 36</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="38"> 38</label>
+                <label name="length"><input type="checkbox" class="item-checkbox" name="waist" value="40"> 40</label> -->
+            </form>
+            <!-- <div class="line-arrow">
                 <img class="line" src="/images/line.png">
+            </div> -->
+            <div class="quanity-cart-button">
+                <div class="quanity-option">
+                    <button class="quanity-minus" data-action="minus" type="button">-</button>
+                    <input class="product-quanity" type="number" name="product-quanity" min="0" max="10" value="1">
+                    <button class="quanity-add" data-action="add" type="button">+</button>
+                </div>
+                <div class="add-button">
+                    <button class="add-to-cart" type="button">ADD TO SHOPPING CART</button>
+                </div>
             </div>
-            <div class="item-length">
-                <h2>Length: </h2>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="30"> 30</label>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="32"> 32</label>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="34"> 34</label>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="36"> 36</label>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="38"> 38</label>
-                <label><input type="checkbox" class="item-checkbox" name="length" value="40"> 40</label>
-            </div>
-            <div class="line-arrow">
-                <img class="line" src="/images/line.png">
-            </div>
-            <div class="quanity-option">
-                <button class="quanity-minus" data-action="minus" type="button">-</button>
-                <input class="product-quanity" type="number" name="product-quanity" min="0" max="10" value="1">
-                <button class="quanity-add" data-action="add" type="button">+</button>
-            </div>
-            <div class="add-button">
-                <button class="add-to-cart" type="button">ADD TO SHOPPING CART</button>
-            </div>
-            <div class="buy-now-button">
+            <!-- <div class="buy-now-button">
                 <button class="buy-now" type="button">BUY NOW</button>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="line-arrow">
@@ -144,7 +214,7 @@
                 <div class="customer-individual">
                     <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
                         alt="5star-rating" src="/images/customer-feedback-rating.png">
-                    <ol>gent1999: "I mean, it's allright, like... overrated"</ol>
+                    <ol>gent1999: "I mean, it's alright, like... overrated as f**k"</ol>
                 </div>
                 <div class="customer-individual">
                     <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
@@ -159,7 +229,7 @@
                 <div class="customer-individual">
                     <img class="id-photo" src="/images/customer-id-photo.png"><img class="customer-feeback-rating2"
                         alt="5star-rating" src="/images/customer-feedback-rating.png">
-                    <ol>simk209: "I mean, it's allright, like... overrated"</ol>
+                    <ol>simk209: "Bought a pair for my dad! loves it."</ol>
                 </div>
                 </p>
             </div>
@@ -264,6 +334,54 @@
                     document.addEventListener('DOMContentLoaded', () => {
                         loadGridImages();
                     });
+                </script>
+                <script type="module">
+                    document.querySelectorAll('.color-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const color = option.dataset.value;
+                            console.log('Selected:', color);
+                        });
+                    });
+                    document.querySelectorAll('.waist-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const waist = option.dataset.value;
+                            console.log('Selected:', waist);
+                        });
+                    });
+                    document.querySelectorAll('.length-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            option.classList.toggle('selected');
+                            // Optional: save the value
+                            const length = option.dataset.value;
+                            console.log('Selected:', length);
+                        });
+                    });
+                    // Function to create independent button groups
+                    function createButtonGroup(selector) {
+                        const buttons = document.querySelectorAll(selector);
+
+                        buttons.forEach(button => {
+                            button.addEventListener('click', function () {
+                                // Remove active from buttons in the SAME group only
+                                buttons.forEach(btn => btn.classList.remove('active'));
+
+                                // Add active to clicked button
+                                this.classList.add('active');
+
+
+                            });
+                        });
+                    }
+
+                    // Create independent groups
+                    createButtonGroup('.radio-button');
+                    createButtonGroup('.radio-button-waist');
+                    createButtonGroup('.radio-button-length');
+
                 </script>
 
             </div>
