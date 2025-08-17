@@ -5,13 +5,6 @@
     padding: 0;
 }
 
-.background-color {
-    border: 2px solid blue;
-    background-color: white;
-    color: black;
-
-}
-
 @media (max-width: 760px) {
     .background-color {
         width: 600px;
