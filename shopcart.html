@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="shopcart.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +12,12 @@
     rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Denim University</title>
-
-
 </head>
-
 <body>
   <div class="promo-container">
     <img class="email-icon" src="/images/email-icon.png">
     <div class="promo-code">SIGN UP FOR EMAIL & GET 10% OFF</div>
   </div>
-
   <div class="navbar">
     <a href="index.html" class="navbar-option">
       <img class="logo" src="/images/TDU_Logo.png">
@@ -32,12 +28,43 @@
         <img class="mag-logo" src="/images/magnify-pic.png">
       </button>
     </form>
-
     <div class="navbar-right">
       <a href="" class="navbar-option"><span>New</span></a>
       <a href="shop.html" class="navbar-option"><span>Shop</span></a>
       <a href="" class="navbar-option"><span>About</span></a>
       <img class="shopcart-icon" src="/images/shopcart-icon.png" href="shopcart.html">
+    </div>
+  </div>
+  <div class="background-color">
+    <div class="cart-header">
+      <h1>YOUR CART</h1>
+      <h2> "#" OF ITEMS</h2>
+    </div>
+    <!-- <div class="item-labels"> -->
+    <div class="style-info">
+      <h3>STYLE</h3>
+      <h5>RELAXED SLIM</h5>
+    </div>
+    <h3>COLOR</h3>
+    <h3>WAIST/ LENGTH </h3>
+    <h3>PRICE</h3>
+    <h3>QUANITY</h3>
+    <h3>TOTAL</h3>
+    <!-- </div> -->
+    <div class="sample-pic">
+      <img class="sample-pic" src="/images/black-denim-pic.png">
+      <p>RELAXED</p>
+      <p>BLACK</p>
+      <p>30/34</p>
+      <p>$49.99</p>
+      <p>2</p>
+      <p>$99.98</p>
+    </div>
+    <div class="pre-checkout-price">
+      <h3>SUBTOTAL: </h3>
+      <h3>SALES TAX: </h3>
+      <h3>COUPON CODE: </h3>
+      <h3>GRAND TOTAL: </h3>
     </div>
   </div>
   <div class=" footer">
@@ -85,7 +112,6 @@
         <a href="orderstatus.html" class="footer-option">Order Status</a>
         <a href="returns.html" class="footer-option">Returns</a>
         <a href="shipping.html" class="footer-option">Shipping</a>
-
       </div>
       <div class="company-descriptions3">
         <h2>TDU Cards & Rewards</h2>
@@ -106,7 +132,6 @@
         event.preventDefault();
         const query = document.getElementById('searchInput').value;
         console.log('Searching for:', query);
-
         // Replace this with actual search logic or navigation
         // e.g., window.location.href = `/search?q=${encodeURIComponent(query)}`
       }
