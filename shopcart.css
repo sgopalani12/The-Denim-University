@@ -32,6 +32,19 @@
     padding-right: 2%;
 }
 
+/* .item-labels2 {
+    border: 3px solid yellow;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+} */
+
 .sample-pic {
     border: 2px solid orange;
     width: 60%;
