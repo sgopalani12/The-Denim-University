@@ -62,24 +62,20 @@
     display: inline-block;
     color: white;
     font-size: 18px;
-    text-align: center;
+    text-align: center; 
     padding: 10px 10px;
-    /* margin: 0 40%; */
+    margin-left: 80%;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    /* Removes the underline */
     background-color: rgb(0, 0, 203);
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
-    /* Optional: button border */
     border-radius: 4px;
-    transition: background-color 0.4s ease;
-    /* Optional: rounded corners */
+    transition: background-color 0.3s ease;
 }
 
 .checkout-button:hover {
     background-color: rgb(0, 0, 82);
-    /* Optional: hover effect */
 }
