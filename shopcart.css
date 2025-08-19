@@ -56,6 +56,11 @@
     text-indent: 50px;
 }
 
+ins {
+    font-size: small;
+    color: green;
+
+}
 .pre-checkout-price {
     border: 3px solid green;
     font-family: "Roboto", sans-serif;
