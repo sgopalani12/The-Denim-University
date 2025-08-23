@@ -68,18 +68,13 @@ body {
 
 }
 
-/* .shop-image {
-    border: 2px solid blue;
-    width: 630px;
-    padding: 50px 0 50px 50px;
-} */
 
 .grid-image-display {
     /* border: 3px solid yellow; */
     display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10px;
+    padding-bottom: 52%;
     gap: 30px;
 }
 
@@ -192,16 +187,6 @@ h1 {
     gap: 10px;
 }
 
-/* .item-color-selection label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin-left: 25px;
-} */
-
 input {
     width: 13px;
     /* display: flex; */
@@ -272,13 +257,6 @@ h2 {
     color: white;
 }
 
-/* .item-color-selection label:checked,
-.item-waist label:checked,
-.item-length label:checked {
-    background-color: rgb(0, 0, 203);
-    color: rgb(187, 60, 60);
-} */
-
 .item-color-selection input[type="checkbox"],
 .item-waist input[type="checkbox"],
 .item-length input[type="checkbox"] {
@@ -318,14 +296,14 @@ input[type="radio"]:checked+.color-box {
 
 .radio-button:hover,
 .radio-button-length:hover,
-.radio-button-waist:hover{
+.radio-button-waist:hover {
     background-color: blue;
     color: white;
 }
 
 .radio-button.active,
 .radio-button-length.active,
-.radio-button-waist.active{
+.radio-button-waist.active {
     background: blue;
     color: white;
     border-color: #0056b3;
