@@ -99,7 +99,7 @@ body {
 /* Updated shop-image styling for consistent alignment */
 .shop-image {
     width: 630px;
-    padding: 50px 0 0 50px; /* Removed bottom padding, kept top and left */
+    padding: 50px 60px 0 100px; /* Removed bottom padding, kept top and left */
     margin-bottom: 0; /* Ensure no extra margin */
 }
 
@@ -111,10 +111,8 @@ body {
     margin-top: 0; /* Ensure no extra margin */
 }
 
-.grid-image-1 {
-    /* border: 3px solid pink; */
+.grid-image-1 {/
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid1.png); */
     width: 95%;
     height: 20vh;
     background-repeat: no-repeat;
@@ -125,7 +123,6 @@ body {
 }
 
 .grid-image-2 {
-    /* border: 3px solid pink; */
     display: flex;
     width: 95%;
     height: 20vh;
@@ -137,7 +134,6 @@ body {
 }
 
 .grid-image-3 {
-    /* border: 3px solid pink; */
     display: flex;
     width: 95%;
     height: 20vh;
@@ -149,7 +145,6 @@ body {
 }
 
 .grid-image-4 {
-    /* border: 3px solid pink; */
     display: flex;
     width: 95%;
     height: 20vh;
@@ -162,7 +157,6 @@ body {
 }
 
 .grid-image-5 {
-    /* border: 3px solid pink; */
     display: flex;
     width: 95%;
     height: 20vh;
@@ -175,7 +169,6 @@ body {
 }
 
 .grid-image-6 {
-    /* border: 3px solid pink; */
     display: flex;
     width: 95%;
     height: 20vh;
