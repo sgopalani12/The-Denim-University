@@ -51,22 +51,22 @@ body {
 
 
 
-.shop-item-img-container {
+/* .shop-item-img-container { */
     /* border: 3px solid green; */
-    gap: column;
+    /* gap: column;
     display: flex;
     color: black;
     align-items: center;
-}
+} */
 
-.content-right {
+/* .content-right { */
     /* border: 3px solid purple; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* justify-content: center; */
     /* align-items: center; */
 
-}
+/* } */
 
 /* .shop-image {
     border: 2px solid blue;
@@ -74,13 +74,41 @@ body {
     padding: 50px 0 50px 50px;
 } */
 
-.grid-image-display {
+/* .grid-image-display { */
     /* border: 3px solid yellow; */
-    display: grid;
+    /* display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     gap: 30px;
+} */
+
+.shop-item-img-container {
+    gap: column;
+    display: flex;
+    color: black;
+    align-items: flex-start; /* Changed from center to flex-start for top alignment */
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    /* Remove justify-content and align-items to prevent centering */
+}
+
+/* Updated shop-image styling for consistent alignment */
+.shop-image {
+    width: 630px;
+    padding: 50px 0 0 50px; /* Removed bottom padding, kept top and left */
+    margin-bottom: 0; /* Ensure no extra margin */
+}
+
+.grid-image-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 10px 10px 10px; /* Match top padding with main image */
+    gap: 30px;
+    margin-top: 0; /* Ensure no extra margin */
 }
 
 .grid-image-1 {
