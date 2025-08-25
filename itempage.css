@@ -52,19 +52,19 @@ body {
 
 
 /* .shop-item-img-container { */
-    /* border: 3px solid green; */
-    /* gap: column;
+/* border: 3px solid green; */
+/* gap: column;
     display: flex;
     color: black;
     align-items: center;
 } */
 
 /* .content-right { */
-    /* border: 3px solid purple; */
-    /* display: flex;
+/* border: 3px solid purple; */
+/* display: flex;
     flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
+/* justify-content: center; */
+/* align-items: center; */
 
 /* } */
 
@@ -75,8 +75,8 @@ body {
 } */
 
 /* .grid-image-display { */
-    /* border: 3px solid yellow; */
-    /* display: grid;
+/* border: 3px solid yellow; */
+/* display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
@@ -87,7 +87,8 @@ body {
     gap: column;
     display: flex;
     color: black;
-    align-items: flex-start; /* Changed from center to flex-start for top alignment */
+    align-items: flex-start;
+    /* Changed from center to flex-start for top alignment */
 }
 
 .content-right {
@@ -99,16 +100,20 @@ body {
 /* Updated shop-image styling for consistent alignment */
 .shop-image {
     width: 630px;
-    padding: 50px 60px 0 100px; /* Removed bottom padding, kept top and left */
-    margin-bottom: 0; /* Ensure no extra margin */
+    padding: 50px 60px 0 100px;
+    /* Removed bottom padding, kept top and left */
+    margin-bottom: 0;
+    /* Ensure no extra margin */
 }
 
 .grid-image-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 10px 10px 10px; /* Match top padding with main image */
+    padding: 50px 10px 10px 10px;
+    /* Match top padding with main image */
     gap: 30px;
-    margin-top: 0; /* Ensure no extra margin */
+    margin-top: 0;
+    /* Ensure no extra margin */
 }
 
 .grid-image-1 {
@@ -201,16 +206,18 @@ h1 {
     /* border: 2px dashed red; */
 }
 
-.item-color-selection {
-    /* border: 3px solid white; */
-    text-align: center;
+
+.item-color-selection,
+.item-waist,
+.item-length {
+    /* border: 3px solid blue; */
+    text-align: left;
     display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
+    flex-direction: column;
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
-    gap: 14
+    gap: 10px;
 }
 
 /* .item-color-selection label {
@@ -237,32 +244,6 @@ input {
 
 #searchInput {
     width: 32px;
-}
-
-.item-waist {
-    /* border: 3px solid white; */
-    text-align: center;
-    display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
-    padding: 20px 0px 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    gap: 10px;
-}
-
-
-
-.item-length {
-    /* border: 3px solid white; */
-    text-align: center;
-    display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
-    padding: 20px 0px 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    gap: 10px;
 }
 
 
@@ -339,14 +320,14 @@ input[type="radio"]:checked+.color-box {
 
 .radio-button:hover,
 .radio-button-length:hover,
-.radio-button-waist:hover{
+.radio-button-waist:hover {
     background-color: blue;
     color: white;
 }
 
 .radio-button.active,
 .radio-button-length.active,
-.radio-button-waist.active{
+.radio-button-waist.active {
     background: blue;
     color: white;
     border-color: #0056b3;
