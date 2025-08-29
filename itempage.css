@@ -89,6 +89,7 @@ body {
     display: flex;
     color: black;
     align-items: flex-start;
+    gap: 70px;
     /* Changed from center to flex-start for top alignment */
 }
 
@@ -434,8 +435,11 @@ input[type="radio"]:checked+.color-box {
 }
 
 .centering-page {
-    border: 2px solid yellow;
-    align-items: center;
+    /* border: 5px solid grey; */
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
 }
 .item-description {
     /* border: 3px solid red; */
