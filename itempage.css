@@ -20,6 +20,7 @@ body {
     .grid-image-4,
     .grid-image-5,
     .grid-image-6 {
+        border: 2px solid red;
         width: 95%;
         height: 20vh;
         background-repeat: no-repeat;
@@ -212,8 +213,8 @@ h1 {
 .item-length {
     /* border: 3px solid blue; */
     text-align: left;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -432,6 +433,10 @@ input[type="radio"]:checked+.color-box {
     font-family: "Roboto", sans-serif;
 }
 
+.centering-page {
+    border: 2px solid yellow;
+    align-items: center;
+}
 .item-description {
     /* border: 3px solid red; */
     font-family: "Roboto", sans-serif;
