@@ -212,14 +212,20 @@ h1 {
 .item-color-selection,
 .item-waist,
 .item-length {
-    /* border: 3px solid blue; */
-    text-align: left;
+    border: 2px solid blue;
+    /* text-align: left; */
     /* display: flex;
     flex-direction: column; */
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
-    gap: 10px;
+    /* gap: 10px; */
+}
+
+.align {
+    border: 2px solid green;
+    justify-content: left;
+    text-align: left;
 }
 
 /* .item-color-selection label {
