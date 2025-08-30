@@ -212,11 +212,11 @@ h1 {
 .item-color-selection,
 .item-waist,
 .item-length {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* text-align: left; */
     /* display: flex;
     flex-direction: column; */
-    padding: 20px 20px 20px 0px;
+    padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: black;
     gap: 10px;
@@ -315,7 +315,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button-length,
 .radio-button-waist {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 7px 22px;
     border: 1px solid #aaa;
     border-radius: 5px;
     cursor: pointer;
