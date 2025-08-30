@@ -216,6 +216,7 @@ h1 {
     /* text-align: left; */
     /* display: flex;
     flex-direction: column; */
+    padding-top: 10px;
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -332,7 +333,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button.active,
 .radio-button-length.active,
 .radio-button-waist.active {
-    background: blue;
+    background: navy;
     color: white;
     border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
@@ -395,7 +396,7 @@ input[type="radio"]:checked+.color-box {
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: rgb(0, 0, 203);
+    background-color: blue;
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
@@ -405,7 +406,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .add-to-cart:hover {
-    background-color: rgb(0, 0, 82);
+    background-color: navy;
     /* Optional: hover effect */
 }
 
