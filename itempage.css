@@ -20,7 +20,7 @@ body {
     .grid-image-4,
     .grid-image-5,
     .grid-image-6 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 95%;
         height: 20vh;
         background-repeat: no-repeat;
@@ -219,13 +219,13 @@ h1 {
     padding: 20px 20px 20px 0px;
     font-family: 'Roboto', sans-serif;
     color: black;
-    /* gap: 10px; */
+    gap: 10px;
 }
 
 .align {
-    border: 2px solid green;
-    justify-content: left;
+    /* border: 2px solid green; */
     text-align: left;
+    align-items: center;
 }
 
 /* .item-color-selection label {
@@ -254,10 +254,6 @@ input {
     width: 32px;
 }
 
-
-h2 {
-    padding-left: 20px;
-}
 
 .item-color-selection label,
 .item-waist label,
