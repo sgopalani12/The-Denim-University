@@ -47,8 +47,10 @@
                     <div class="grid-image-6"><img class="grid-image"></div>
                 </div>
                 <div class="item-image-title-price">
-                    <h1></h1>
+                    <h1 class="item-title"></h1>
+                    <h2 class="item-price"></h2>
                 </div>
+
 
                 <div class="item-color-selection">
                     <h2 class="align">COLOR</h2>
@@ -313,7 +315,12 @@
 
                     function renderItem(item) {
                         const image = document.querySelector('.shop-image');
-                        const title = document.querySelector('.item-image-title-price h1');
+                        const titleEl = document.querySelector('.item-title');
+                        const priceEl = document.querySelector('.item-price');
+
+                        if (titleEl) titleEl.textContent = item.title;
+                        if (priceEl) priceEl.textContent = `$${item.price}`;
+
 
                         if (image) {
                             image.src = item.image_link;

@@ -389,7 +389,7 @@ input[type="radio"]:checked+.color-box {
     color: white;
     font-size: 18px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px 15px;
     /* margin: 0 40%; */
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
@@ -491,4 +491,15 @@ ol {
     font-size: 22px;
     padding: 5px 0 5px 10px;
     color: black;
+}
+
+.item-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.item-price {
+    font-size: 1.5rem;
+    color: #333;
 }
