@@ -89,7 +89,7 @@ body {
     display: flex;
     color: black;
     align-items: flex-start;
-    gap: 70px;
+    /* gap: 70px; */
     /* Changed from center to flex-start for top alignment */
 }
 
@@ -101,7 +101,7 @@ body {
 
 /* Updated shop-image styling for consistent alignment */
 .shop-image {
-    width: 630px;
+    width: 400px;
     padding: 50px 60px 0 100px;
     /* Removed bottom padding, kept top and left */
     margin-bottom: 0;
@@ -111,73 +111,20 @@ body {
 .grid-image-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 10px 10px 10px;
+    padding: 50px 10px 10px 0;
     /* Match top padding with main image */
     gap: 30px;
     margin-top: 0;
     /* Ensure no extra margin */
 }
 
-.grid-image-1 {
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.grid-image-2 {
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.grid-image-3 {
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.grid-image-4 {
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-}
-
-.grid-image-5 {
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-}
-
+.grid-image-1,
+.grid-image-2,
+.grid-image-3,
+.grid-image-4,
+.grid-image-5,
 .grid-image-6 {
-    display: flex;
-    width: 95%;
+    width: 100%;
     height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,8 +163,8 @@ body {
     /* text-align: left; */
     /* display: flex;
     flex-direction: column; */
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     color: black;
     gap: 10px;
@@ -263,12 +210,12 @@ input {
     padding: 5px 5px;
     /* margin: 6px 0; */
     background-color: #f1f1f1;
-    border: 1px solid #000000;
+    border: 1px solid black;
     border-radius: 6px;
     cursor: pointer;
     /*shows me the clicker turn into the finger pointer when hover over*/
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     transition: background-color 0.4s ease;
 }
 
@@ -277,6 +224,7 @@ input {
 .item-length label:hover {
     background-color: rgb(0, 0, 203);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .item-color-selection label:checked,
@@ -291,6 +239,7 @@ input {
 .item-length input[type="checkbox"] {
     margin-right: 10px;
     accent-color: black;
+    font-family: 'Roboto', sans-serif;
     /* optional: style the checkbox */
 }
 
@@ -316,11 +265,12 @@ input[type="radio"]:checked+.color-box {
 .radio-button-length,
 .radio-button-waist {
     display: inline-block;
-    padding: 7px 22px;
-    border: 1px solid #aaa;
-    border-radius: 5px;
+    padding: 5px 18px;
+    border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
     margin: 4px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .radio-button:hover,
@@ -328,6 +278,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button-waist:hover {
     background-color: blue;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .radio-button.active,
@@ -337,8 +288,12 @@ input[type="radio"]:checked+.color-box {
     color: white;
     border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
+    font-family: 'Roboto', sans-serif;
 }
 
+.radio-text {
+    font-family: 'Roboto', sans-serif;
+}
 
 .color-option.selected,
 .waist-option.selected,
@@ -371,10 +326,12 @@ input[type="radio"]:checked+.color-box {
 .product-quanity {
     width: 60px;
     height: 45px;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
 }
 
 .add-to-cart -wrapper {
@@ -387,9 +344,9 @@ input[type="radio"]:checked+.color-box {
 .add-to-cart {
     display: inline-block;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 60px;
     /* margin: 0 40%; */
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
@@ -400,7 +357,7 @@ input[type="radio"]:checked+.color-box {
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
-    border-radius: 4px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
     /* Optional: rounded corners */
 }
