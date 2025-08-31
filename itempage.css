@@ -187,12 +187,12 @@ body {
     justify-content: center;
 }
 
-h1 {
+/* h1 { */
     /* border: 3px solid red; */
-    text-align: center;
+    /* text-align: center;
     padding: 15px 0px 15px 10px;
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .line {
     /* width: 120%;
@@ -502,4 +502,22 @@ ol {
 .item-price {
     font-size: 1.5rem;
     color: #333;
+}
+
+.item-image-title-price { /*parent is for more font-families and generic, not display flex */
+    /* border: 3px solid red; */
+    font-family: "Roboto", sans-serif;
+}
+
+.item-title {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+
+}
+
+.item-price {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
 }
