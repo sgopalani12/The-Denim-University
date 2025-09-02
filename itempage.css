@@ -276,7 +276,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button:hover,
 .radio-button-length:hover,
 .radio-button-waist:hover {
-    background-color: blue;
+    background-color: navy;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -284,9 +284,9 @@ input[type="radio"]:checked+.color-box {
 .radio-button.active,
 .radio-button-length.active,
 .radio-button-waist.active {
-    background: navy;
+    background: blue;;
     color: white;
-    border-color: #0056b3;
+    border-color: blue;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
     font-family: 'Roboto', sans-serif;
 }
@@ -298,7 +298,7 @@ input[type="radio"]:checked+.color-box {
 .color-option.selected,
 .waist-option.selected,
 .length-option.selected {
-    background-color: navy;
+    background-color: blue;
     color: white;
 }
 
