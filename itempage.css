@@ -316,46 +316,49 @@ input[type="radio"]:checked+.color-box {
 .quanity-option {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    border: 1px solid black;   /* thinner border */
+    border-radius: 4px;       /* less round */
     overflow: hidden;
     width: fit-content;
-  }
-  
-  .quanity-minus,
-  .quanity-add,
-  .product-quanity {
-    border: none;
-    background: white;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 8px 14px;
+    height: 35px;             /* set consistent height */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
   }
   
   .quanity-minus,
   .quanity-add {
+    border: none;
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 32px;              /* fixed width for equal sizing */
+    height: 100%;
     cursor: pointer;
-  }
-
-.quanity-option button {
-    padding: 10px 15px;
-    font-size: 1.7rem;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-}
-
-.product-quanity {
-    width: 60px;
-    height: 45px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .product-quanity {
+    border: none;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    
-}
+    width: 40px;              /* middle section slightly wider */
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    -moz-appearance: textfield;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  .product-quanity::-webkit-outer-spin-button,
+  .product-quanity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  
 
 .add-to-cart -wrapper {
     display: flex;
@@ -392,10 +395,10 @@ input[type="radio"]:checked+.color-box {
 }
 
 .quanity-cart-button {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 @media (max-width: 1100px)
