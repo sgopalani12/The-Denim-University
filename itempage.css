@@ -276,7 +276,7 @@ input[type="radio"]:checked+.color-box {
 .radio-button:hover,
 .radio-button-length:hover,
 .radio-button-waist:hover {
-    background-color: navy;
+    background-color: blue;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -304,15 +304,38 @@ input[type="radio"]:checked+.color-box {
 
 
 
-.quanity-option {
+/* .quanity-option { */
     /* border: 3px solid aqua; */
-    justify-content: center;
+    /* justify-content: center;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 1.8rem;
 
-}
+} */
+.quanity-option {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .quanity-minus,
+  .quanity-add,
+  .product-quanity {
+    border: none;
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 14px;
+  }
+  
+  .quanity-minus,
+  .quanity-add {
+    cursor: pointer;
+  }
 
 .quanity-option button {
     padding: 10px 15px;
@@ -363,7 +386,8 @@ input[type="radio"]:checked+.color-box {
 }
 
 .add-to-cart:hover {
-    background-color: navy;
+    /* background-color: navy; */
+    cursor: pointer;
     /* Optional: hover effect */
 }
 
