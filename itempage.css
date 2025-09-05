@@ -135,8 +135,8 @@ body {
 }
 
 /* h1 { */
-    /* border: 3px solid red; */
-    /* text-align: center;
+/* border: 3px solid red; */
+/* text-align: center;
     padding: 15px 0px 15px 10px;
     font-family: 'Roboto', sans-serif;
 } */
@@ -284,7 +284,8 @@ input[type="radio"]:checked+.color-box {
 .radio-button.active,
 .radio-button-length.active,
 .radio-button-waist.active {
-    background: blue;;
+    background: blue;
+    ;
     color: white;
     border-color: blue;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
@@ -305,43 +306,58 @@ input[type="radio"]:checked+.color-box {
 
 
 /* .quanity-option { */
-    /* border: 3px solid aqua; */
-    /* justify-content: center;
+/* border: 3px solid aqua; */
+/* justify-content: center;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 1.8rem;
 
 } */
+
+.quanity-cart-button {
+    /* border: 3px solid red; */
+    /* display: flex; */
+    align-items: center;
+}
+
 .quanity-option {
     display: flex;
     align-items: center;
-    border: 1px solid black;   /* thinner border */
-    border-radius: 4px;       /* less round */
+    border: 1px solid black;
+    border-radius: 4px;
     overflow: hidden;
+    min-width: 180px;
     width: fit-content;
-    height: 35px;             /* set consistent height */
+    height: 40px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-  }
-  
-  .quanity-minus,
-  .quanity-add {
+    /* margin-right: 40px; */
+    justify-content: space-between;
+
+}
+
+.quanity-minus,
+.quanity-add {
     border: none;
     background: white;
     font-size: 1rem;
     font-weight: 500;
-    width: 32px;              /* fixed width for equal sizing */
+    width: 32px;
+    /* fixed width for equal sizing */
     height: 100%;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-  }
-  
-  .product-quanity {
+    
+}
+
+
+.product-quanity {
     border: none;
     text-align: center;
-    width: 40px;              /* middle section slightly wider */
+    width: 40px;
+    /* middle section slightly wider */
     height: 100%;
     font-size: 1rem;
     font-weight: 500;
@@ -350,15 +366,15 @@ input[type="radio"]:checked+.color-box {
     -moz-appearance: textfield;
     font-family: 'Roboto', sans-serif;
 
-  }
-  
-  .product-quanity::-webkit-outer-spin-button,
-  .product-quanity::-webkit-inner-spin-button {
+}
+
+.product-quanity::-webkit-outer-spin-button,
+.product-quanity::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  
-  
+}
+
+
 
 .add-to-cart -wrapper {
     display: flex;
@@ -426,8 +442,9 @@ input[type="radio"]:checked+.color-box {
     display: flex;
     justify-content: center;
     gap: 10%;
-    
+
 }
+
 .item-description {
     /* border: 3px solid red; */
     font-family: "Roboto", sans-serif;
@@ -488,7 +505,8 @@ ol {
     color: #333;
 }
 
-.item-image-title-price { /*parent is for more font-families and generic, not display flex */
+.item-image-title-price {
+    /*parent is for more font-families and generic, not display flex */
     /* border: 3px solid red; */
     font-family: "Roboto", sans-serif;
 }
