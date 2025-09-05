@@ -327,7 +327,7 @@ input[type="radio"]:checked+.color-box {
     border: 1px solid black;
     border-radius: 4px;
     overflow: hidden;
-    min-width: 180px;
+    min-width: 170px;
     width: fit-content;
     height: 40px;
     font-family: 'Roboto', sans-serif;
@@ -356,7 +356,7 @@ input[type="radio"]:checked+.color-box {
 .product-quanity {
     border: none;
     text-align: center;
-    width: 40px;
+    width: 95px;
     /* middle section slightly wider */
     height: 100%;
     font-size: 1rem;
