@@ -1,0 +1,117 @@
+* {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 950px) {
+    body {
+        width: 100%;
+    }
+}
+
+.cart-header {
+    border: 2px solid red;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.item-labels {
+    border: 3px solid yellow;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+/* .item-labels2 {
+    border: 3px solid yellow;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2%;
+    padding-right: 2%;
+} */
+
+.sample-pic {
+    border: 2px solid orange;
+    width: 60%;
+    height: 25vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    text-indent: 50px;
+}
+
+ins {
+    font-size: small;
+    color: green;
+
+}
+.pre-checkout-price {
+    border: 3px solid green;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    margin: 30px 40px 10px 20px;
+    padding-right: 120px;
+}
+
+.checkout-button -wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+.checkout-button {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-align: center; 
+    padding: 10px 10px;
+    margin-left: 80%;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(0, 0, 203);
+    /* Optional: gives button look */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: rgb(0, 0, 82);
+}
+
+.similar-items {
+    text-align: center;
+}
+
+.similar-item1 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-pic1 {
+    border: 3px solid blue;
+    width: 10%;
+    height: 25vh;
+    font-family: "Roboto", sans-serif;
+}

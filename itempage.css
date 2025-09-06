@@ -20,6 +20,7 @@ body {
     .grid-image-4,
     .grid-image-5,
     .grid-image-6 {
+        /* border: 2px solid red; */
         width: 95%;
         height: 20vh;
         background-repeat: no-repeat;
@@ -51,22 +52,22 @@ body {
 
 
 
-.shop-item-img-container {
-    /* border: 3px solid green; */
-    gap: column;
+/* .shop-item-img-container { */
+/* border: 3px solid green; */
+/* gap: column;
     display: flex;
     color: black;
     align-items: center;
-}
+} */
 
-.content-right {
-    /* border: 3px solid purple; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+/* .content-right { */
+/* border: 3px solid purple; */
+/* display: flex;
+    flex-direction: column; */
+/* justify-content: center; */
+/* align-items: center; */
 
-}
+/* } */
 
 /* .shop-image {
     border: 2px solid blue;
@@ -74,82 +75,56 @@ body {
     padding: 50px 0 50px 50px;
 } */
 
-.grid-image-display {
-    /* border: 3px solid yellow; */
-    display: grid;
+/* .grid-image-display { */
+/* border: 3px solid yellow; */
+/* display: grid;
     left: 5rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     gap: 30px;
+} */
+
+.shop-item-img-container {
+    gap: column;
+    display: flex;
+    color: black;
+    align-items: flex-start;
+    /* gap: 70px; */
+    /* Changed from center to flex-start for top alignment */
 }
 
-.grid-image-1 {
-    /* border: 3px solid pink; */
+.content-right {
     display: flex;
-    /* background-image: url(/images/black-jeans-img-grid1.png); */
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    /* Remove justify-content and align-items to prevent centering */
 }
 
-.grid-image-2 {
-    /* border: 3px solid pink; */
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
+/* Updated shop-image styling for consistent alignment */
+.shop-image {
+    width: 400px;
+    padding: 50px 60px 0 100px;
+    /* Removed bottom padding, kept top and left */
+    margin-bottom: 0;
+    /* Ensure no extra margin */
 }
 
-.grid-image-3 {
-    /* border: 3px solid pink; */
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.grid-image-4 {
-    /* border: 3px solid pink; */
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
+.grid-image-display {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    padding: 50px 10px 10px 0;
+    /* Match top padding with main image */
+    gap: 30px;
+    margin-top: 0;
+    /* Ensure no extra margin */
 }
 
-.grid-image-5 {
-    /* border: 3px solid pink; */
-    display: flex;
-    width: 95%;
-    height: 20vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex-direction: row;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-}
-
+.grid-image-1,
+.grid-image-2,
+.grid-image-3,
+.grid-image-4,
+.grid-image-5,
 .grid-image-6 {
-    /* border: 3px solid pink; */
-    display: flex;
-    width: 95%;
+    width: 100%;
     height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,12 +134,12 @@ body {
     justify-content: center;
 }
 
-h1 {
-    /* border: 3px solid red; */
-    text-align: center;
+/* h1 { */
+/* border: 3px solid red; */
+/* text-align: center;
     padding: 15px 0px 15px 10px;
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .line {
     /* width: 120%;
@@ -180,16 +155,26 @@ h1 {
     /* border: 2px dashed red; */
 }
 
-.item-color-selection {
-    /* border: 3px solid white; */
-    text-align: center;
-    display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
-    padding: 20px 0px 20px 0px;
+
+.item-color-selection,
+.item-waist,
+.item-length {
+    /* border: 2px solid blue; */
+    /* text-align: left; */
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     color: black;
     gap: 10px;
+}
+
+.align {
+    /* border: 2px solid green; */
+    text-align: left;
+    align-items: center;
+    font-size: 22px;
 }
 
 /* .item-color-selection label {
@@ -215,39 +200,9 @@ input {
 }
 
 #searchInput {
-    width: 32px;
+    width: 300px;
 }
 
-.item-waist {
-    /* border: 3px solid white; */
-    text-align: center;
-    display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
-    padding: 20px 0px 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    gap: 10px;
-}
-
-
-
-.item-length {
-    /* border: 3px solid white; */
-    text-align: center;
-    display: flex;
-    /*this prevents it from stretching out the color option*/
-    /* gap: 5px; */
-    padding: 20px 0px 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    gap: 10px;
-}
-
-
-h2 {
-    padding-left: 20px;
-}
 
 .item-color-selection label,
 .item-waist label,
@@ -256,12 +211,12 @@ h2 {
     padding: 5px 5px;
     /* margin: 6px 0; */
     background-color: #f1f1f1;
-    border: 1px solid #000000;
+    border: 1px solid black;
     border-radius: 6px;
     cursor: pointer;
     /*shows me the clicker turn into the finger pointer when hover over*/
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     transition: background-color 0.4s ease;
 }
 
@@ -270,6 +225,7 @@ h2 {
 .item-length label:hover {
     background-color: rgb(0, 0, 203);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .item-color-selection label:checked,
@@ -284,6 +240,7 @@ h2 {
 .item-length input[type="checkbox"] {
     margin-right: 10px;
     accent-color: black;
+    font-family: 'Roboto', sans-serif;
     /* optional: style the checkbox */
 }
 
@@ -309,66 +266,115 @@ input[type="radio"]:checked+.color-box {
 .radio-button-length,
 .radio-button-waist {
     display: inline-block;
-    padding: 8px 12px;
-    border: 1px solid #aaa;
-    border-radius: 5px;
+    padding: 5px 18px;
+    border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
     margin: 4px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .radio-button:hover,
 .radio-button-length:hover,
-.radio-button-waist:hover{
-    background-color: blue;
+.radio-button-waist:hover {
+    background-color: rgb(10, 10, 96);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .radio-button.active,
 .radio-button-length.active,
-.radio-button-waist.active{
-    background: blue;
+.radio-button-waist.active {
+    background: rgb(10, 10, 96);
+    background-color: rgb(10, 10, 96);;
     color: white;
-    border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
+    font-family: 'Roboto', sans-serif;
 }
 
+.radio-text {
+    font-family: 'Roboto', sans-serif;
+}
 
 .color-option.selected,
 .waist-option.selected,
 .length-option.selected {
-    background-color: navy;
+    background-color: rgb(10, 10, 96);;
     color: white;
 }
 
 
 
-.quanity-option {
-    /* border: 3px solid aqua; */
-    justify-content: center;
+/* .quanity-option { */
+/* border: 3px solid aqua; */
+/* justify-content: center;
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 1.8rem;
 
+} */
+
+.quanity-cart-button {
+    /* border: 3px solid red; */
+    /* display: flex; */
+    align-items: center;
 }
 
-.quanity-option button {
-    padding: 10px 15px;
-    font-size: 1.7rem;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f5f5f5;
-    border-radius: 5px;
+.quanity-option {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 170px;
+    width: fit-content;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    /* margin-right: 40px; */
+    justify-content: space-between;
+
 }
+
+.quanity-minus,
+.quanity-add {
+    border: none;
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 32px;
+    /* fixed width for equal sizing */
+    height: 100%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    
+}
+
 
 .product-quanity {
-    width: 60px;
-    height: 45px;
-    font-size: 1.5rem;
+    border: none;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 95px;
+    /* middle section slightly wider */
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    -moz-appearance: textfield;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+.product-quanity::-webkit-outer-spin-button,
+.product-quanity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
 
 .add-to-cart -wrapper {
     display: flex;
@@ -380,34 +386,35 @@ input[type="radio"]:checked+.color-box {
 .add-to-cart {
     display: inline-block;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px 60px;
     /* margin: 0 40%; */
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-decoration: none;
     /* Removes the underline */
-    background-color: rgb(0, 0, 203);
+    background-color: rgb(10, 10, 96);
     /* Optional: gives button look */
     /* border: 1px solid #ccc; */
     /* Optional: button border */
-    border-radius: 4px;
-    transition: background-color 0.4s ease;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
     /* Optional: rounded corners */
 }
 
 .add-to-cart:hover {
-    background-color: rgb(0, 0, 82);
+    /* background-color: navy; */
+    cursor: pointer;
     /* Optional: hover effect */
 }
 
 .quanity-cart-button {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 @media (max-width: 1100px)
@@ -428,6 +435,14 @@ input[type="radio"]:checked+.color-box {
     /* this causes the two buttons to be centered */
     padding: 5px;
     font-family: "Roboto", sans-serif;
+}
+
+.centering-page {
+    /* border: 5px solid grey; */
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
 }
 
 .item-description {
@@ -477,4 +492,35 @@ ol {
     font-size: 22px;
     padding: 5px 0 5px 10px;
     color: black;
+}
+
+.item-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.item-price {
+    font-size: 1.4rem;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.item-image-title-price {
+    /*parent is for more font-families and generic, not display flex */
+    /* border: 3px solid red; */
+    font-family: "Roboto", sans-serif;
+}
+
+.item-title {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+
+}
+
+.item-price {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
 }
