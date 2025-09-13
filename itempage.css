@@ -152,8 +152,9 @@ body {
 }
 
 .line-arrow {
-    border: 2px dashed red;
-    flex-direction: row;
+    /* border: 2px dashed red; */
+    flex-direction: column;
+    display: flex;
 }
 
 .customer-review {
