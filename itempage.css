@@ -530,3 +530,9 @@ ol {
     font-family: "Roboto", sans-serif;
     flex-direction: column;
 }
+
+.desc-logo {
+    width: 30px;
+    height: 25px;
+    padding-right:5px;
+}
