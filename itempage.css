@@ -155,6 +155,8 @@ body {
     /* border: 2px dashed red; */
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    gap: 10%;
 }
 
 .customer-review {
@@ -462,6 +464,9 @@ input[type="radio"]:checked+.color-box {
     /* border: 3px solid red; */
     font-family: "Roboto", sans-serif;
     color: black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
 }
 
 .id-photo {
