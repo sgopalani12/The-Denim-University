@@ -151,15 +151,26 @@ body {
     background-color: black;
 }
 
+.description-header {
+    font-family: "Roboto", sans-serif;
+}
+
 .line-arrow {
+    border: 2px solid red;
     /* border: 2px dashed red; */
-    flex-direction: row;
-    display: flex;
+    /* flex-direction: row; */
+    /* display: flex; */
     justify-content: center;
     gap: 10%;
+    font-family: "Roboto", sans-serif;
     
 }
 
+.description-bullet{
+    display: 2px solid yellow;
+    list-style-type: circle;
+
+}
 .customer-review {
     /* border: 3px solid green; */
     padding-top: 30px;
