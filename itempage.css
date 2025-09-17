@@ -153,10 +153,11 @@ body {
 
 .line-arrow {
     /* border: 2px dashed red; */
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     justify-content: center;
     gap: 10%;
+    
 }
 
 .customer-review {
@@ -165,8 +166,8 @@ body {
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 
