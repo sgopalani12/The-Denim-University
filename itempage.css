@@ -167,10 +167,10 @@ body {
 }
 
 .description-bullet{
-    display: 2px solid yellow;
+    border: 2px solid yellow;
     list-style-type: circle;
-
 }
+
 .customer-review {
     /* border: 3px solid green; */
     padding-top: 30px;
