@@ -157,7 +157,6 @@ body {
 
 .line-arrow {
     border: 2px solid red;
-    /* border: 2px dashed red; */
     /* flex-direction: row; */
     /* display: flex; */
     justify-content: center;
@@ -169,6 +168,7 @@ body {
 .description-bullet{
     border: 2px solid yellow;
     list-style-type: circle;
+    font-family: "Roboto", sans-serif;
 }
 
 .customer-review {
@@ -180,8 +180,6 @@ body {
     /* display: flex; */
     /* flex-direction: row; */
 }
-
-
 
 .item-color-selection,
 .item-waist,
