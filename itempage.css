@@ -165,11 +165,10 @@ body {
     
 }
 
-.description-bullet{
-    border: 2px solid yellow;
-    list-style-type: circle;
-    font-family: "Roboto", sans-serif;
-}
+.description-bullet {
+    list-style-type: disc;
+    padding-left: 30px; /* ensures bullets don’t get cut off */
+  }
 
 .customer-review {
     /* border: 3px solid green; */
