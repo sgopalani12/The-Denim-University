@@ -155,13 +155,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.line-arrow {
-    border: 2px solid red;
-    /* flex-direction: row; */
-    /* display: flex; */
-    justify-content: center;
-    gap: 10%;
-    font-family: "Roboto", sans-serif;
+.product-layout {
+    display: flex;
+    gap: 20px;           /* space between columns */
+    align-items: flex-start;
     
 }
 
@@ -170,7 +167,7 @@ body {
     padding-left: 30px; /* ensures bullets don’t get cut off */
   }
 
-.customer-review {
+.product-reviews {
     /* border: 3px solid green; */
     padding-top: 30px;
     padding-bottom: 30px;
@@ -178,6 +175,8 @@ body {
     font-family: "Roboto", sans-serif;
     /* display: flex; */
     /* flex-direction: row; */
+    flex: 1;
+    max-width: 400px;
 }
 
 .item-color-selection,
@@ -469,12 +468,12 @@ input[type="radio"]:checked+.color-box {
 
 }
 
-.item-description {
-    /* border: 3px solid red; */
+.product-description {
+    border: 3px solid yellow;
     font-family: "Roboto", sans-serif;
     color: black;
     display: flex;
-    flex-direction: column;
+    flex: 2;
     margin-right: 40px;
 }
 
