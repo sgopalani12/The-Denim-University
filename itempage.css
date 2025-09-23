@@ -156,10 +156,12 @@ body {
 }
 
 .product-layout {
+    border: 3px solid red;
     display: flex;
-    gap: 20px;           /* space between columns */
+    justify-content: space-between; 
     align-items: flex-start;
-    
+    gap: 40px; 
+    margin: 50px 0;
 }
 
 .description-bullet {
@@ -168,15 +170,12 @@ body {
   }
 
 .product-reviews {
-    /* border: 3px solid green; */
-    padding-top: 30px;
+    border: 3px solid green;
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
-    /* display: flex; */
-    /* flex-direction: row; */
-    flex: 1;
-    max-width: 400px;
+    display: flex;
+    max-width: 30%;
 }
 
 .item-color-selection,
@@ -475,6 +474,7 @@ input[type="radio"]:checked+.color-box {
     display: flex;
     flex: 2;
     margin-right: 40px;
+    max-width: 65%;
 }
 
 .id-photo {
