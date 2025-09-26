@@ -165,6 +165,9 @@ body {
 }
 
 .description-bullet {
+    margin: 0.5rem 0;
+  list-style: disc;
+  margin-left: 1.25rem;
     list-style-type: disc;
     padding-left: 30px; /* ensures bullets don’t get cut off */
   }
