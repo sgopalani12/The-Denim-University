@@ -181,6 +181,12 @@ body {
     flex-direction: column;
     max-width: 30%;
     margin-top: 30px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex: 2; */
+    margin-right: 50px;
+    margin-top: 30px;
+    max-width: 65%;
 }
 
 .item-color-selection,
