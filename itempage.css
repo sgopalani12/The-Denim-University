@@ -156,7 +156,7 @@ body {
 }
 
 .product-layout {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     justify-content: center; 
     align-items: flex-start;
@@ -173,20 +173,18 @@ body {
   }
 
 .product-reviews {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    /* max-width: 30%; */
     margin-top: 30px;
     /* display: flex; */
     /* flex-direction: row; */
     /* flex: 2; */
     margin-right: 50px;
-    margin-top: 30px;
-    max-width: 65%;
 }
 
 .item-color-selection,
@@ -479,7 +477,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .product-description {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     font-family: "Roboto", sans-serif;
     color: black;
     /* display: flex; */
