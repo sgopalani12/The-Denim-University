@@ -173,6 +173,16 @@ body {
     padding-left: 30px;
     /* ensures bullets don’t get cut off */
 }
+.review-button{
+    /* border: 3px solid pink; */
+    align-items: center;
+    /*this allows the button to not be stretched out */
+    display: flex;
+    flex-direction: column;
+    /* this causes the two buttons to be centered */
+    padding: 5px 0px 20px 20px;
+    font-family: "Roboto", sans-serif;
+}
 
 .product-reviews {
     /* border: 3px solid green; */
@@ -189,6 +199,7 @@ body {
     /* flex: 2; */
     /* margin-right: 50px;
 }
+
 
 .item-color-selection,
 .item-waist,
@@ -510,7 +521,7 @@ input[type="radio"]:checked+.color-box {
 
 .customer-individual {
     border: 1px solid #0A0A60;
-    padding: 10px 0px 25px 25px;
+    padding: 5px 0px 20px 20px;
     color: black;
 }
 
