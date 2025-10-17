@@ -156,7 +156,7 @@ body {
 }
 
 .product-layout {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     order: 2;
     justify-content: center;
@@ -175,7 +175,7 @@ body {
 }
 
 .product-reviews {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -509,7 +509,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .customer-individual {
-    /* border: 3px solid red; */
+    border: 1px solid #0A0A60;
     padding: 10px 0px 25px 25px;
     color: black;
 }
