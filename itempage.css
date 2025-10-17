@@ -42,14 +42,14 @@ body {
         gap: 30px;
         margin-bottom: 40px;
         /* border: 3px solid yellow; */
-    /* } */
+/* } */
 
-    /* .shop-image {
+/* .shop-image {
         width: 630px;
         padding: 50px 0 50px 50px; */
-    /* }
+/* }
 } */
- /* */
+/* */
 
 
 /* .shop-item-img-container { */
@@ -156,35 +156,38 @@ body {
 }
 
 .product-layout {
-    /* border: 3px solid red; */
+    border: 3px solid red;
     display: flex;
-    justify-content: center; 
+    order: 2;
+    justify-content: center;
     align-items: flex-start;
-    gap: 40px; 
-    margin: 50px 0;
+    gap: 40px;
+    padding: 15px 50px;
 }
 
 .description-bullet {
     margin: 0.5rem 0;
-  list-style: disc;
-  margin-left: 1.25rem;
+    list-style: disc;
+    margin-left: 1.25rem;
     list-style-type: disc;
-    padding-left: 30px; /* ensures bullets don’t get cut off */
-  }
+    padding-left: 30px;
+    /* ensures bullets don’t get cut off */
+}
 
 .product-reviews {
-    /* border: 3px solid green; */
+    border: 3px solid green;
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
     display: flex;
+    margin: 50px 0;
     flex-direction: column;
     /* max-width: 30%; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* display: flex; */
     /* flex-direction: row; */
     /* flex: 2; */
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .item-color-selection,
@@ -317,7 +320,8 @@ input[type="radio"]:checked+.color-box {
 .radio-button-length.active,
 .radio-button-waist.active {
     background: rgb(10, 10, 96);
-    background-color: rgb(10, 10, 96);;
+    background-color: rgb(10, 10, 96);
+    ;
     color: white;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
     font-family: 'Roboto', sans-serif;
@@ -330,7 +334,8 @@ input[type="radio"]:checked+.color-box {
 .color-option.selected,
 .waist-option.selected,
 .length-option.selected {
-    background-color: rgb(10, 10, 96);;
+    background-color: rgb(10, 10, 96);
+    ;
     color: white;
 }
 
@@ -380,7 +385,7 @@ input[type="radio"]:checked+.color-box {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    
+
 }
 
 
@@ -558,5 +563,5 @@ ol {
 .desc-logo {
     width: 30px;
     height: 25px;
-    padding-right:5px;
+    padding-right: 5px;
 }
