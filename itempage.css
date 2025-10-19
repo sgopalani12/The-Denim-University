@@ -153,6 +153,7 @@ body {
 
 .description-header {
     font-family: "Roboto", sans-serif;
+    font-size: 25px;
 }
 
 .product-layout {
@@ -173,6 +174,13 @@ body {
     padding-left: 30px;
     /* ensures bullets don’t get cut off */
 }
+
+.description-layout {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+
+}
+
 .review-button{
     /* border: 3px solid pink; */
     align-items: center;
@@ -185,7 +193,7 @@ body {
 }
 
 .product-reviews {
-    /* border: 3px solid green; */
+    border: 3px solid green;
     padding-bottom: 30px;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -493,7 +501,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .product-description {
-    /* border: 3px solid yellow; */
+    border: 3px solid yellow;
     font-family: "Roboto", sans-serif;
     color: black;
     /* display: flex; */
@@ -501,7 +509,7 @@ input[type="radio"]:checked+.color-box {
     /* flex: 2; */
     margin-right: 50px;
     margin-top: 30px;
-    max-width: 65%;
+    max-width: 40%;
 }
 
 .id-photo {
