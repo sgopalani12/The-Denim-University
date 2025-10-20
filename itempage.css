@@ -513,18 +513,22 @@ input[type="radio"]:checked+.color-box {
 }
 
 .id-photo {
-    height: 3vh;
+    height: 4vh;
 }
 
 
 .customer-feeback-rating {
     height: 12vh;
     padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
 }
 
 .customer-feeback-rating2 {
     height: 4vh;
     padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
 }
 
 .customer-individual {
@@ -543,7 +547,7 @@ li {
 
 ol {
     font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     padding: 5px 0 5px 10px;
     color: black;
 }
