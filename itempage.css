@@ -539,6 +539,28 @@ input[type="radio"]:checked+.color-box {
     color: black;
 }
 
+.see-reviews {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 125px;
+    /* margin: 0 40%; */
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: rgb(10, 10, 96);
+    /* Optional: gives button look */
+    /* border: 1px solid #ccc; */
+    /* Optional: button border */
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease;
+    /* Optional: rounded corners */
+}
+
 
 li {
     font-family: "Roboto", sans-serif;
