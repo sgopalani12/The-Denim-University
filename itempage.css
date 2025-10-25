@@ -556,7 +556,6 @@ input[type="radio"]:checked+.color-box {
     /* border: 1px solid #ccc; */
     /* Optional: button border */
     border-radius: 10px;
-    
     transition: background-color 0.3s ease;
     /* Optional: rounded corners */
 }
