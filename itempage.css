@@ -183,31 +183,27 @@ body {
 
 }
 
-.review-button{
+.review-button {
     /* border: 3px solid pink; */
     align-items: center;
     /*this allows the button to not be stretched out */
     display: flex;
     flex-direction: column;
     /* this causes the two buttons to be centered */
-    padding: 5px 0px 20px 20px;
+    padding: 5px 20px 0 20px;
     font-family: "Roboto", sans-serif;
 }
 
 .product-reviews {
     border: 3px solid green;
-    padding-bottom: 30px;
+    padding-bottom: 2px;
     color: black;
     font-family: "Roboto", sans-serif;
     display: flex;
-    margin: 50px 0;
+    margin: 50px 10 10px 30px;
     flex-direction: column;
-    max-width: 30%; 
-    /* margin-top: 30px; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex: 2; */
-    /* margin-right: 50px;
+    /* max-width: 30%; */
+    margin-top: 30px;
 }
 
 
@@ -506,9 +502,6 @@ input[type="radio"]:checked+.color-box {
     border: 3px solid yellow;
     font-family: "Roboto", sans-serif;
     color: black;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex: 2; */
     margin-right: 50px;
     margin-top: 30px;
     max-width: 40%;
@@ -517,7 +510,6 @@ input[type="radio"]:checked+.color-box {
 .id-photo {
     height: 4vh;
 }
-
 
 .customer-feeback-rating {
     height: 12vh;
@@ -541,13 +533,13 @@ input[type="radio"]:checked+.color-box {
     font-family: "Roboto", sans-serif;
 }
 
-.review-font{
+.review-font {
     font-family: "Roboto", sans-serif;
     font-size: small;
 }
 
 .see-reviews {
-    display: inline-block;
+    /* display: inline-block; */
     color: white;
     font-size: 15px;
     text-align: center;
