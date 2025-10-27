@@ -1,37 +1,39 @@
 export async function getJeans() {
   try {
-    const response = await fetch('https://tdu-backend.vercel.app/jeans/all-jeans');
+    const response = await fetch(
+      "https://tdu-backend.vercel.app/jeans/all-jeans"
+    );
     const jeans = await response.json();
-    return jeans
+    return jeans;
   } catch (error) {
-    console.error('❌ Failed to fetch jeans:', error);
+    console.error("❌ Failed to fetch jeans:", error);
     return [];
   }
 } /*this whole function is 'fetching' the data & everything from line 12 -> will take data and put it in the correct classes, 
 start with hardcode, then you create the backend, then fetch from backend*/
 
 export function renderShopItems(jeans) {
-  const container = document.querySelector('.shop-item-container');
-  const noResults = document.getElementById('no-results');
-  const existingRows = container.querySelectorAll('.shop-item-row');
-  existingRows.forEach(row => row.remove()); // Clear previous items
+  const container = document.querySelector(".shop-item-container");
+  const noResults = document.getElementById("no-results");
+  const existingRows = container.querySelectorAll(".shop-item-row");
+  existingRows.forEach((row) => row.remove()); // Clear previous items
 
   if (jeans.length === 0) {
-    noResults.style.display = 'block';
+    noResults.style.display = "block";
     return;
   }
 
-  noResults.style.display = 'none';
+  noResults.style.display = "none";
 
   // Chunk jeans into rows of 3
   for (let i = 0; i < jeans.length; i += 3) {
-    const row = document.createElement('div');
-    row.className = 'shop-item-row';
+    const row = document.createElement("div");
+    row.className = "shop-item-row";
 
-    jeans.slice(i, i + 3).forEach(item => {
-      const div = document.createElement('div');
-      const imagePath = item.image_link
-      div.className = 'shop-item';
+    jeans.slice(i, i + 3).forEach((item) => {
+      const div = document.createElement("div");
+      const imagePath = item.image_link;
+      div.className = "shop-item";
       div.innerHTML = `
           <a href="itempage.html?id=${item.id}">
             <img class="shop-image" src="${imagePath}" alt="${item.color}-jeans">
