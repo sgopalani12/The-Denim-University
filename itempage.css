@@ -619,3 +619,7 @@ ol {
 .hero1 {
     border: 2px solid yellow;
 }
+
+.hero1-layer {
+    border: 2px solid purple;
+}
