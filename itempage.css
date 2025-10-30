@@ -508,7 +508,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .id-photo {
-    height: 7vh;
+    height: 6vh;
 }
 
 .customer-feeback-rating {
@@ -519,8 +519,8 @@ input[type="radio"]:checked+.color-box {
 }
 
 .customer-feeback-rating2 {
-    height: 4vh;
-    padding-left: 20px;
+    height: 2vh;
+    padding: 0 0 0 0;
     font-family: "Roboto", sans-serif;
     font-size: 10px;
 }
@@ -612,14 +612,20 @@ ol {
 }
 .user-name {
     font-family: "Roboto", sans-serif;
+    font-size: 12px;
+
     /* border: 1px solid blue; */
 
 }
 
 .hero1 {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    display: flex;
 }
 
 .hero1-layer {
-    border: 2px solid purple;
+    text-align: left;
+    /* border: 2px solid purple; */
+    font-size: 15px;
+    margin-left: 5px;
 }
