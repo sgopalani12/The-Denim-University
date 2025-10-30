@@ -161,7 +161,7 @@ body {
 }
 
 .product-layout {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -195,7 +195,7 @@ body {
 }
 
 .product-reviews {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding-bottom: 2px;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -499,7 +499,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .product-description {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     font-family: "Roboto", sans-serif;
     color: black;
     margin-right: 50px;
@@ -575,7 +575,7 @@ ol {
 }
 
 .review-font {
-    padding: 5px 0 0 0;
+    padding: 5px 0 0 0; 
 }
 
 .item-title {
