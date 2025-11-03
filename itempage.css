@@ -526,7 +526,7 @@ input[type="radio"]:checked+.color-box {
 }
 
 .customer-individual {
-    border: 1px solid #0A0A60;
+    border: 1px solid #9f9f9f;
     padding: 5px 60px 20px 20px;
     margin: 7px 0px 7px 0px;
     color: black;
