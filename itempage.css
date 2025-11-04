@@ -574,6 +574,12 @@ ol {
     color: black;
 }
 
+.item-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+
 .review-font {
     padding: 5px 0 0 0; 
 }
