@@ -102,19 +102,22 @@ body {
 /* Updated shop-image styling for consistent alignment */
 .shop-image {
     width: 400px;
-    padding: 50px 60px 0 100px;
+    /* padding: 50px 60px 0 100px; */
     /* Removed bottom padding, kept top and left */
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    margin-right: 30px;
+    margin-top: 40px;
     /* Ensure no extra margin */
 }
 
 .grid-image-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 10px 10px 0;
+
     /* Match top padding with main image */
     gap: 30px;
-    margin-top: 0;
+    margin-right: 30px;
+    margin-top: 40px;
     /* Ensure no extra margin */
 }
 
@@ -140,16 +143,14 @@ body {
     padding: 15px 0px 15px 10px;
     font-family: 'Roboto', sans-serif;
 } */
-
 .line {
-    /* width: 120%;
-    height: 80%; */
-    /* color: white; */
-    /* background-color: white;; */
-    width: 100%;
-    height: 4px;
-    background-color: black;
-}
+    width: 95%;
+    height: 3px;
+    background-color: grey;
+    margin: 40px; /* centers it horizontally */
+    display: block; /* ensures margin auto works */
+  }
+  
 
 .description-header {
     font-family: "Roboto", sans-serif;
@@ -493,8 +494,9 @@ input[type="radio"]:checked+.color-box {
 .centering-page {
     /* border: 5px solid grey; */
     display: flex;
-    justify-content: center;
-    gap: 10%;
+    justify-content: center; 
+    align-items: center;
+    gap: 10%; 
 
 }
 
