@@ -32,9 +32,9 @@ body {
     }
 }
 
-@media only screen and (min-width: 480px) {
+/* @media only screen and (min-width: 480px) {
 
-    .body {
+    body {
         font-family: "Roboto", sans-serif;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -42,14 +42,14 @@ body {
         gap: 30px;
         margin-bottom: 40px;
         /* border: 3px solid yellow; */
-    }
+/* } */
 
-    .shop-image {
+/* .shop-image {
         width: 630px;
-        padding: 50px 0 50px 50px;
-    }
-}
-
+        padding: 50px 0 50px 50px; */
+/* }
+} */
+/* */
 
 
 /* .shop-item-img-container { */
@@ -102,19 +102,22 @@ body {
 /* Updated shop-image styling for consistent alignment */
 .shop-image {
     width: 400px;
-    padding: 50px 60px 0 100px;
+    /* padding: 50px 60px 0 100px; */
     /* Removed bottom padding, kept top and left */
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    margin-right: 30px;
+    margin-top: 40px;
     /* Ensure no extra margin */
 }
 
 .grid-image-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px 10px 10px 0;
+
     /* Match top padding with main image */
     gap: 30px;
-    margin-top: 0;
+    margin-right: 30px;
+    margin-top: 40px;
     /* Ensure no extra margin */
 }
 
@@ -140,19 +143,68 @@ body {
     padding: 15px 0px 15px 10px;
     font-family: 'Roboto', sans-serif;
 } */
-
 .line {
-    /* width: 120%;
-    height: 80%; */
-    /* color: white; */
-    /* background-color: white;; */
-    width: 100%;
-    height: 2px;
-    background-color: black;
+    width: 95%;
+    height: 3px;
+    background-color: grey;
+    margin: 40px; /* centers it horizontally */
+    display: block; /* ensures margin auto works */
+  }
+  
+
+.description-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
 }
 
-.line-arrow {
-    /* border: 2px dashed red; */
+.number-of_reviews {
+    font-family: "Roboto", sans-serif;
+}
+
+.product-layout {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px 50px;
+}
+
+.description-bullet {
+    margin: 0.5rem 0;
+    list-style: disc;
+    margin-left: 1.25rem;
+    list-style-type: disc;
+    padding-left: 30px;
+    /* ensures bullets don’t get cut off */
+}
+
+.description-layout {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+
+}
+
+.review-button {
+    /* border: 3px solid pink; */
+    align-items: center;
+    /*this allows the button to not be stretched out */
+    display: flex;
+    flex-direction: column;
+    /* this causes the two buttons to be centered */
+    padding: 5px 20px 0 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.product-reviews {
+    /* border: 3px solid green; */
+    padding-bottom: 2px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin: 50px 10 10px 30px;
+    flex-direction: column;
+    /* max-width: 30%; */
+    margin-top: 30px;
 }
 
 
@@ -286,7 +338,8 @@ input[type="radio"]:checked+.color-box {
 .radio-button-length.active,
 .radio-button-waist.active {
     background: rgb(10, 10, 96);
-    background-color: rgb(10, 10, 96);;
+    background-color: rgb(10, 10, 96);
+    ;
     color: white;
     box-shadow: 0 4px 8px rgba(180, 200, 221, 0.3);
     font-family: 'Roboto', sans-serif;
@@ -299,7 +352,8 @@ input[type="radio"]:checked+.color-box {
 .color-option.selected,
 .waist-option.selected,
 .length-option.selected {
-    background-color: rgb(10, 10, 96);;
+    background-color: rgb(10, 10, 96);
+    ;
     color: white;
 }
 
@@ -349,7 +403,7 @@ input[type="radio"]:checked+.color-box {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    
+
 }
 
 
@@ -440,43 +494,71 @@ input[type="radio"]:checked+.color-box {
 .centering-page {
     /* border: 5px solid grey; */
     display: flex;
-    justify-content: center;
-    gap: 10%;
+    justify-content: center; 
+    align-items: center;
+    gap: 10%; 
 
 }
 
-.item-description {
-    /* border: 3px solid red; */
+.product-description {
+    /* border: 3px solid yellow; */
     font-family: "Roboto", sans-serif;
     color: black;
+    margin-right: 50px;
+    margin-top: 30px;
+    max-width: 40%;
 }
 
 .id-photo {
-    height: 3vh;
-}
-
-.customer-review {
-    /* border: 3px solid green; */
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: black;
-    font-family: "Roboto", sans-serif;
+    height: 6vh;
 }
 
 .customer-feeback-rating {
     height: 12vh;
     padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
 }
 
 .customer-feeback-rating2 {
-    height: 4vh;
-    padding-left: 20px;
+    height: 2vh;
+    padding: 0 0 0 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
 }
 
 .customer-individual {
-    /* border: 3px solid red; */
-    padding: 10px 0px 25px 25px;
+    border: 1px solid #9f9f9f;
+    padding: 5px 60px 20px 20px;
+    margin: 7px 0px 7px 0px;
     color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.review-font {
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+}
+
+.see-reviews {
+    /* display: inline-block; */
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 145px;
+    /* margin: 0 40%; */
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* Removes the underline */
+    background-color: rgb(10, 10, 96);
+    /* Optional: gives button look */
+    /* border: 1px solid #ccc; */
+    /* Optional: button border */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    /* Optional: rounded corners */
 }
 
 
@@ -489,9 +571,19 @@ li {
 
 ol {
     font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     padding: 5px 0 5px 10px;
     color: black;
+}
+
+.item-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    /* border: 2px solid red; */
+}
+
+.review-font {
+    padding: 5px 0 0 0; 
 }
 
 .item-title {
@@ -523,4 +615,29 @@ ol {
     display: flex;
     font-family: "Roboto", sans-serif;
     flex-direction: column;
+}
+
+.desc-logo {
+    width: 30px;
+    height: 25px;
+    padding-right: 5px;
+}
+.user-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+
+    /* border: 1px solid blue; */
+
+}
+
+.hero1 {
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+
+.hero1-layer {
+    text-align: left;
+    /* border: 2px solid purple; */
+    font-size: 15px;
+    margin-left: 5px;
 }
