@@ -147,8 +147,8 @@ body {
     width: 95%;
     height: 3px;
     background-color: grey;
-    margin: 40px; /* centers it horizontally */
-    display: block; /* ensures margin auto works */
+    margin: 40px; 
+    display: block;
   }
   
 
@@ -640,4 +640,10 @@ ol {
     /* border: 2px solid purple; */
     font-size: 15px;
     margin-left: 5px;
+}
+
+.more-jeans-title {
+    /* border: 2px solid yellow; */
+    color: black;
+    text-align: center;
 }
