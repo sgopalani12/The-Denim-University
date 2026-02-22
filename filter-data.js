@@ -3,8 +3,8 @@ export async function getJeans() {
     const response = await fetch(
       "https://tdu-backend.vercel.app/jeans/all-jeans"
     );
-    const jeans = await response.json();
-    return jeans;
+    const jeans = await response.json(); //peopel in factory stitching//
+    return jeans; //jeans go to retail stores, they are in trucks currently//
   } catch (error) {
     console.error("❌ Failed to fetch jeans:", error);
     return [];
@@ -47,4 +47,8 @@ export function renderShopItems(jeans) {
 
     container.appendChild(row);
   }
+}
+
+export function renderThreeShopItems(jeans) {
+  //NEXT TASK: FIND OUT HOW TO GET ONLY 3 JEANS TO SHOW... //
 }
