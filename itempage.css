@@ -10,6 +10,7 @@ from 0px to 760px apply these rules
 
 body {
     background-color: white;
+    /* display: flex; */
 }
 
 @media (min-width: 70px) {
