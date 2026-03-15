@@ -122,3 +122,8 @@ ins {
     height: 25vh;
     font-family: "Roboto", sans-serif;
 }
+
+.remove-option {
+    border: 2px solid green;
+    text-decoration: underline;
+}
