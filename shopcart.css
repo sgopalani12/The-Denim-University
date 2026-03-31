@@ -20,7 +20,7 @@ body {
 .cart-header {
     border: 2px solid red;
     font-family: "Roboto", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     padding-left: 5%;
 }
 
@@ -30,8 +30,8 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 25px;
+    width: 80%;
+    padding: 15px;
     background-color: lightgray;
 }
 
@@ -127,7 +127,7 @@ ins {
 .color-info2 {
     border: 3px solid orange;
     background-color: lightgray;
-
+    align-items: flex-start;
     margin: 4px 0;
 }
 
