@@ -149,4 +149,42 @@ ins {
     border:2px solid pink;
     display: flex;
     flex-direction: column;
+    font-size: 1.3em;
 }
+
+
+.line {
+    width: 220px;
+    min-width: 50px;
+}
+
+.checkout-button {
+    display: inline-block;
+    /* Makes it look like a button */
+    color: rgb(255, 255, 255);
+    /* Ensures the font is black */
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: bold; */
+    /* text-decoration: none; */
+    /* Removes the underline */
+    background-color: #000000;
+    /* Optional: gives button look */
+    border: 1px solid #ccc;
+    /* Optional: button border */
+    border-radius: 4px;
+    /* Optional: rounded corners */
+}
+
+.checkout-button:hover {
+    background-color: #8d85e4;
+    /* Optional: hover effect */
+}
+
+/* .checkout-button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+} */
