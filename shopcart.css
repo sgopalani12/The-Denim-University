@@ -121,6 +121,8 @@ ins {
 .color-info {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    padding-right: 45%;
 }
 
 
