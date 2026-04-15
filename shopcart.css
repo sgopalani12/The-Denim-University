@@ -9,7 +9,7 @@ body {
     body {
         width: 100%;
     }
-}/
+}
 
 .background-color {
     border: 2px solid green;
@@ -193,9 +193,10 @@ ins {
 }
 
 .checkout-button-wrapper {
-    border: 2px solid red; 
+    border: 2px solid red;
+    text-align: center;
     /* display: flex; */
     /* justify-content: center; */
-    /* padding-top: 5%; */
+    padding-top: 5%;
 }
 
