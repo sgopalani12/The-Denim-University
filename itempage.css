@@ -418,7 +418,6 @@ input[type="radio"]:checked+.color-box {
     font-weight: 500;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    -moz-appearance: textfield;
     font-family: 'Roboto', sans-serif;
 
 }

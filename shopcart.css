@@ -159,6 +159,18 @@ ins {
 .cart-item-quantity {
     /* border: 10px solid purple; */
     font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    /* border-radius: 4px; */
+    /* overflow: hidden; */
+    min-width: 40px;
+    /* width: fit-content; */
+    /* height: 30px; */
+    font-family: 'Roboto', sans-serif;
+    /* margin-right: 40px; */
+    justify-content: space-between;
+
 
 }
 
@@ -167,6 +179,7 @@ ins {
     /* border: 10px solid green; */
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
+    padding-top: 240px;
 }
 
 .order-summary {
@@ -223,6 +236,7 @@ ins {
 
 .checkout-button:hover {
     background-color: #f5e901;
+        cursor: pointer;
     /* Optional: hover effect */
 }
 
