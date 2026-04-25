@@ -157,23 +157,31 @@ ins {
 }
 
 .cart-item-quantity {
-    /* border: 10px solid purple; */
+    border: 1px solid purple;
     font-family: "Roboto", sans-serif;
     display: flex;
-    align-items: center;
-    border: 2px solid black;
-    /* border-radius: 4px; */
-    /* overflow: hidden; */
-    min-width: 40px;
-    /* width: fit-content; */
+    background-color: white;
+
+    width: 50px;
     /* height: 30px; */
     font-family: 'Roboto', sans-serif;
     /* margin-right: 40px; */
     justify-content: space-between;
-
-
 }
 
+.quanity-minus,
+.quanity-add {
+    border: 2px solid red;
+    display: flex;
+    /* background: white; */
+    font-size: 1rem;
+    font-weight: 500;
+    width: 50px;
+    /* height: 100%; */
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+}
 
 .cart-item-remove {
     /* border: 10px solid green; */
