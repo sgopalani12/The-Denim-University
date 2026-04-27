@@ -94,13 +94,17 @@ ins {
 
 }
 
+.cart-item-column {
+border: 5px solid red;
+}
+
 .cart-item-container {
     /* border: 10px solid yellow; */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 50%;
     padding: 15px;
     margin-right: 18%;
     background-color: lightgray;
@@ -194,7 +198,7 @@ ins {
     font-size: 1.2em;
     width: 20%;
     /* align-items: right; */
-    position: absolute;
+    /* position: absolute; it's STUCK in the spot, other blocks can't push it... no other styles can affect this */
     /* display: grid; */
     /* grid-template-columns: 10px 10px 10px 10px; */
     margin-left: 83%;
@@ -206,6 +210,9 @@ ins {
 .os-title {
     border: 3px solid yellow;
     font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    /* background-color: lightgray; */
 
 }
 
