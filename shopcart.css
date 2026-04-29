@@ -139,6 +139,7 @@ gap:20px;
 .cart-item-color{
     /* border: 10px solid orange; */
     font-family: "Roboto", sans-serif;
+    font-size: 27px;
     background-color: lightgray;
     align-items: flex-start;
     margin: 4px 0;
@@ -254,9 +255,9 @@ justify-content: space-between;
 
 .line {
     display: block;
-    margin: 15px auto;
+    /* margin: 15px auto; */
     width: 90%;
-    padding-top: 2px;
+    /* padding-top: 2px; */
     /* width: 220p;
     min-width: 5px; */
 }
