@@ -85,17 +85,19 @@ ins {
 
 .cart-container {
     /* border: 10px solid blue; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* flex-direction: column; */
+    align-items: flex-start;
     gap: 20px;
-    padding: 10px 0 10px 0;
-    
-
+    padding: 20px 5%; 
 }
 
 .cart-item-column {
 border: 5px solid red;
+display: flex;
+flex-direction: column;
+gap:20px;
 }
 
 .cart-item-container {
@@ -104,9 +106,10 @@ border: 5px solid red;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     padding: 15px;
-    margin-right: 18%;
+    margin-right: 0;
+    box-sizing: border-box;
     background-color: lightgray;
     
 }
@@ -192,19 +195,19 @@ border: 5px solid red;
 }
 
 .order-summary-container {
-    border: 2px solid rgb(180, 152, 144);
+    border: 2px solid rgb(36, 14, 230);
     /* display: flex; */
     /* flex-direction: column; */
     font-size: 1.2em;
-    width: 20%;
+    width: 75%;
     /* align-items: right; */
     /* position: absolute; it's STUCK in the spot, other blocks can't push it... no other styles can affect this */
-    /* display: grid; */
-    /* grid-template-columns: 10px 10px 10px 10px; */
-    margin-left: 83%;
     display: grid;
+    box-sizing: border-box;
     background-color: lightgray;
     font-family: "Roboto", sans-serif;
+    padding-right: 15px;
+    padding-left:15px;
 }
 
 .os-title {
@@ -216,9 +219,21 @@ border: 5px solid red;
 
 }
 
+.os-subtotal-container{
+/* border: 5px solid black; */
+display: flex;
+justify-content: space-between;
+}
+
 .os-subtotal {
     border: 3px solid lightgreen;
     font-family: "Roboto", sans-serif;
+}
+
+.os-shipping-container {
+/* border: 5px solid blue; */
+display: flex;
+justify-content: space-between;
 }
 
 .os-shipping {
@@ -226,14 +241,23 @@ border: 5px solid red;
     font-family: "Roboto", sans-serif;
 }
 
+.os-total-container {
+    display: flex;
+    justify-content: space-between;
+}
 .os-total {
     border: 5px solid white;
     font-family: "Roboto", sans-serif;
+    margin-right: 10px;
 }
 
 .line {
-    width: 220px;
-    min-width: 5px;
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    padding-top: 2px;
+    /* width: 220p;
+    min-width: 5px; */
 }
 
 .checkout-button {
