@@ -294,7 +294,7 @@ justify-content: space-between;
 } */
 
 .checkout-button:hover {
-    background-color: #f5e901;
+    background-color: gray;
         cursor: pointer;
     /* Optional: hover effect */
 }
