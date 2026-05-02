@@ -95,6 +95,7 @@ ins {
     padding-left: 10%;
     padding-top:2%;
     /* padding: 20px 5%;  */
+    font-family: "Roboto", sans-serif;
 }
 
 .cart-item-column {
@@ -239,6 +240,7 @@ justify-content: space-between;
 /* border: 5px solid blue; */
 display: flex;
 justify-content: space-between;
+font-family: "Roboto", sans-serif;
 }
 
 .os-shipping {
@@ -249,6 +251,7 @@ justify-content: space-between;
 .os-total-container {
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
 }
 .os-total {
     /* border: 5px solid white; */
@@ -308,6 +311,7 @@ justify-content: space-between;
     /* display: flex; */
     /* justify-content: center; */
     padding-top: 5%;
+    font-family: "Roboto", sans-serif;
     padding-bottom: 5%;
 }
 
