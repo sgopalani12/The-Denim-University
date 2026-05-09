@@ -198,16 +198,16 @@ gap:20px;
 /*copied from itempage.css */
 .quanity-add,
 .quanity-minus {
-    display: flex;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 4px;
+    /* display: flex; */ /*caused plus and minus sign to be shifted to the left */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    /* border-radius: 4px; */
     overflow: hidden;
-    min-width: 25px;
-    width: fit-content;
-    height: 40px;
+    min-width: 30px;
+    /* width: fit-content; */
+    height: 35px;
     font-family: 'Roboto', sans-serif;
-    /* border-radius: 10px; */
+
     /* margin-right: 40px; */
     justify-content: space-between;
 }
@@ -352,4 +352,3 @@ font-family: "Roboto", sans-serif;
     padding-bottom: 10px;
 
 }
-
