@@ -28,7 +28,7 @@ body {
 
 
 .left {
-    border: 3px solid white;
+    border////////////: 3px solid white;
 }
 /* .item-labels2 {
     border: 3px solid yellow;
@@ -172,14 +172,14 @@ gap:20px;
 }
 
 .cart-item-quantity {
-    /* border: 5px solid purple; */
+    border: 5px solid purple;
     font-family: "Roboto", sans-serif;
     display: flex;
     background-color: white;
-    width: 65px;
-    /* height: 30px; */
+    position: 5px;
+    width: 70px;
     font-family: 'Roboto', sans-serif;
-    justify-content: space-between;
+    /* margin-left: 100px; */
 }
 
 /* .quanity-minus,
@@ -203,7 +203,7 @@ gap:20px;
     /* border: 2px solid black; */
     /* border-radius: 4px; */
     overflow: hidden;
-    min-width: 30px;
+    min-width: 25px;
     /* width: fit-content; */
     height: 35px;
     font-family: 'Roboto', sans-serif;
