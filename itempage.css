@@ -419,7 +419,8 @@ input[type="radio"]:checked+.color-box {
     border-left: 1px solid black;
     border-right: 1px solid black;
     font-family: 'Roboto', sans-serif;
-
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 .product-quanity::-webkit-outer-spin-button,

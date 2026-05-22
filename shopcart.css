@@ -28,7 +28,7 @@ body {
 
 
 .left {
-    border////////////: 3px solid white;
+    border: 3px solid white;
 }
 /* .item-labels2 {
     border: 3px solid yellow;
@@ -177,10 +177,17 @@ gap:20px;
     display: flex;
     background-color: white;
     position: 5px;
-    width: 70px;
+    width: 50px;
     font-family: 'Roboto', sans-serif;
     /* margin-left: 100px; */
 }
+
+.product-quantity::-webkit-outer-spin-button,
+.product-quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 
 /* .quanity-minus,
 .quanity-add {
@@ -196,20 +203,17 @@ gap:20px;
 } */ 
 
 /*copied from itempage.css */
-.quanity-add,
-.quanity-minus {
-    /* display: flex; */ /*caused plus and minus sign to be shifted to the left */
-    /* align-items: center; */
-    /* border: 2px solid black; */
-    /* border-radius: 4px; */
-    overflow: hidden;
-    min-width: 25px;
-    /* width: fit-content; */
-    height: 35px;
+.quantity-add,
+.quantity-minus {
+    border: none;
+    text-align: center;
+    /* middle section slightly wider */
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     font-family: 'Roboto', sans-serif;
-
-    /* margin-right: 40px; */
-    justify-content: space-between;
 }
 
 .cart-item-remove {
