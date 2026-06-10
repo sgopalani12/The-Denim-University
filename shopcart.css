@@ -177,16 +177,21 @@ gap:20px;
     display: flex;
     background-color: white;
     /* position: 5px; */
-    width: 60px;
+    /* width: 60px; */
     font-family: 'Roboto', sans-serif;
     margin-top:10px;
-    padding-right:25px;
+    /* padding-right:25px; */
+    align-items: center;
 }
 
 .product-quantity{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 10px 0 10px;
+    padding: 0;
+    width: 38px;
+    height: 28px;
+    margin:0;
+    box-sizing: border-box;
 }
 
 .product-quantity::-webkit-outer-spin-button,
@@ -212,18 +217,20 @@ gap:20px;
 /*copied from itempage.css */
 .quantity-add,
 .quantity-minus {
-    border: none;
+    border: 1px solid #bfbfbf;
     text-align: center;
-    /* width: 15%; */
-    height: 100%;
+    width: 28px;
+    height: 28px;
     font-size: 1.2rem;
     font-weight: 500;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black;
     border-right: 1px solid black;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; */
     font-family: 'Roboto', sans-serif;
     padding: 0 7px 0 7px;
+    background-color: #f5f1eb;
+    cursor: pointer;
 }
 
 .cart-item-remove {
@@ -231,6 +238,7 @@ gap:20px;
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
     padding-top: 200px;
+    
 }
 
 .order-summary-container {
