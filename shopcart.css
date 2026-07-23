@@ -1,8 +1,8 @@
-* {
-    font-family: "Roboto", sans-serif;
-    position: relative;
-    margin: 0;
-    padding: 0;
+
+body {
+    background-color: white;
+    color: black;
+
 }
 
 @media (max-width: 950px) {
@@ -11,27 +11,29 @@
     }
 }
 
-.cart-header {
-    border: 2px solid red;
-    font-family: "Roboto", sans-serif;
-    font-size: 35px;
-    text-align: center;
-
-}
-
-.item-labels {
-    border: 3px solid yellow;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
+/* .background-color {
+    border: 2px solid green;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+
+} */
+
+.cart-header {
+    /* border: 2px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 10%;
+    /* text-align: center; */
     padding-top: 2%;
     padding-right: 2%;
+    
 }
 
+
+.left {
+    border: 3px solid white;
+}
 /* .item-labels2 {
     border: 3px solid yellow;
     font-family: "Roboto", sans-serif;
@@ -45,55 +47,24 @@
     padding-right: 2%;
 } */
 
-.sample-pic {
-    border: 2px solid orange;
-    width: 60%;
-    height: 25vh;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    text-indent: 50px;
-}
+
 
 ins {
     font-size: small;
     color: green;
 
 }
-.pre-checkout-price {
+/* .pre-checkout-price {
     border: 3px solid green;
     font-family: "Roboto", sans-serif;
     text-align: right;
     margin: 30px 40px 10px 20px;
     padding-right: 120px;
-}
-
-.checkout-button -wrapper {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-}
+} */
 
 
-.checkout-button {
-    display: inline-block;
-    color: white;
-    font-size: 18px;
-    text-align: center; 
-    padding: 10px 10px;
-    margin-left: 80%;
-    position: relative;
-    text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: rgb(0, 0, 203);
-    /* Optional: gives button look */
-    /* border: 1px solid #ccc; */
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
+
+
 
 .checkout-button:hover {
     background-color: rgb(0, 0, 82);
@@ -114,4 +85,323 @@ ins {
     width: 10%;
     height: 25vh;
     font-family: "Roboto", sans-serif;
+}
+
+
+.cart-container {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: 2%;
+    padding-left: 10%;
+    padding-top:2%;
+    /* padding: 20px 5%;  */
+    font-family: "Roboto", sans-serif;
+}
+
+.cart-item-column {
+/* border: 5px solid red; */
+display: flex;
+flex-direction: column;
+gap:20px;
+}
+
+.cart-items-container {
+    /* border: solid 2px green; */
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+.cart-item-container {
+    /* border: 10px solid yellow; */
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 15px 15px 10px 15px;
+    margin-right: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    /* gap: 5px; */
+    margin-bottom: 15px;
+    
+}
+
+.cart-item-image {
+    /* border: 10px solid orange; */
+    font-family: "Roboto", sans-serif;
+    height: 36vh;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    text-indent: 50px;
+    color: black;
+    object-fit: cover;
+}
+
+.cart-item-info {
+    /* border: 10px solid red; */
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: left;
+    width: 80%;
+}
+
+.cart-item-color{
+    /* border: 10px solid orange; */
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    background-color: lightgray;
+    align-items: flex-start;
+    margin: 4px 0 0 10px;
+    width: 100%;
+    /* width: 100%;
+    height: auto;
+    object-fit: cover; */
+    font-weight: bold;
+}
+
+
+.cart-item-size{
+    /* border: 10px solid orange; */
+    font-family: "Roboto", sans-serif;
+    background-color: lightgray;
+    align-items: flex-start;
+    margin: 4px 0 0 10px;
+    /* width: 100%;
+    height: auto;
+    object-fit: cover; */
+    padding-top: 8px;
+}
+
+.cart-item-price {
+    /* border: 5px solid green; */
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.cart-item-right-container{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: right;
+}
+
+.cart-item-quantity {
+    /* border: 5px solid purple; */
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    background-color: white;
+    /* position: 5px; */
+    /* width: 60px; */
+    font-family: 'Roboto', sans-serif;
+    margin-top:10px;
+    /* padding-right:25px; */
+    align-items: center;
+}
+
+
+.product-quantity{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    width: 38px;
+    height: 28px;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.product-quantity::-webkit-outer-spin-button,
+.product-quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* .quanity-minus,
+.quanity-add {
+    /* border: 2px solid red; */
+    /* display: flex; */
+    /* font-size: 1.1rem; */
+    /* font-weight: 350;
+    padding-right:5px;
+    padding-left: 5px; */
+    /* cursor: pointer;
+    font-family: 'Roboto', sans-serif; */
+/* 
+} */ 
+
+/*copied from itempage.css */
+.quantity-add,
+.quantity-minus {
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    font-family: 'Roboto', sans-serif;
+    padding: 0 7px 0 7px;
+    background-color: #f5f1eb;
+    cursor: pointer;
+}
+
+.cart-item-remove {
+    /* border: 10px solid green; */
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+    padding-top: 0;
+    margin-top: auto;
+    
+}
+
+.order-summary-container {
+    /* border: 10px solid red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 1.2em;
+    width: 65%;
+    /* align-items: right; */
+    /* position: absolute; it's STUCK in the spot, other blocks can't push it... no other styles can affect this */
+    display: grid;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: "Roboto", sans-serif;
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom: 10px;
+}
+
+.os-title {
+    /* border: 3px solid yellow; */
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    /* background-color: lightgray; */
+
+}
+
+.os-subtotal-container{
+/* border: 5px solid black; */
+display: flex;
+justify-content: space-between;
+font-family: "Roboto", sans-serif;
+}
+
+.os-subtotal {
+    /* border: 3px solid lightgreen; */
+    font-family: "Roboto", sans-serif;
+}
+
+.os-subtotal-price {
+    /* border: 5px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.os-shipping-container {
+/* border: 5px solid blue; */
+display: flex;
+justify-content: space-between;
+font-family: "Roboto", sans-serif;
+}
+
+.os-shipping {
+    /* border: 4px solid lightblue; */
+    font-family: "Roboto", sans-serif;
+}
+
+.os-shipping-price {
+    /* border: 5px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+.os-total-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+}
+.os-total {
+    /* border: 5px solid white; */
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.os-total-price {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+}
+.line {
+    display: block;
+    /* margin: 15px auto; */
+    width: 90%;
+    /* padding-top: 2px; */
+    /* width: 220p;
+    min-width: 5px; */
+}
+
+.checkout-button {
+    display: block;
+    color: white;
+    font-size: 13px;
+    text-align: center; 
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #111;
+    /* background: linear-gradient(to bottom, #2b2b2b, #000000); */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    /* width: 90%; */
+    /* height: 60%; */
+
+}
+
+/* .checkout-button {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+
+.checkout-button:hover {
+    background: #333;
+    cursor: pointer;
+    /* Optional: hover effect */
+}
+
+.checkout-button-wrapper {
+    /* border: 2px solid red; */
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
 }

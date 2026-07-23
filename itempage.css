@@ -10,6 +10,7 @@ from 0px to 760px apply these rules
 
 body {
     background-color: white;
+    /* display: flex; */
 }
 
 @media (min-width: 70px) {
@@ -147,8 +148,8 @@ body {
     width: 95%;
     height: 3px;
     background-color: grey;
-    margin: 40px; /* centers it horizontally */
-    display: block; /* ensures margin auto works */
+    margin: 40px; 
+    display: block;
   }
   
 
@@ -417,9 +418,10 @@ input[type="radio"]:checked+.color-box {
     font-weight: 500;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    -moz-appearance: textfield;
     font-family: 'Roboto', sans-serif;
-
+    -moz-appearance: textfield;
+    appearance: textfield;
+    gap: 10px;
 }
 
 .product-quanity::-webkit-outer-spin-button,
@@ -640,4 +642,10 @@ ol {
     /* border: 2px solid purple; */
     font-size: 15px;
     margin-left: 5px;
+}
+
+.more-jeans-title {
+    border: 2px solid rgb(138, 138, 26);
+    color: black;
+    margin-left: 40px;
 }
